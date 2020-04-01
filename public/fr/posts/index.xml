@@ -1,0 +1,119 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Emerson M. Del Ponte</title>
+        <link>/fr/posts/</link>
+        <description>Recent content in Posts on Emerson M. Del Ponte</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
+        <atom:link href="/fr/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Débuter avec Hugo</title>
+            <link>/fr/posts/2014/04/d%C3%A9buter-avec-hugo/</link>
+            <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+            
+            <guid>/fr/posts/2014/04/d%C3%A9buter-avec-hugo/</guid>
+            <description>&lt;h2 id=&#34;étape-1-installer-hugo&#34;&gt;Étape 1. Installer Hugo&lt;/h2&gt;
+
+&lt;p&gt;Allez sur la page de téléchargements de
+&lt;a href=&#34;https://github.com/spf13/hugo/releases&#34; target=&#34;_blank&#34;&gt;hugo&lt;/a&gt; et téléchargez la version
+appropriée à votre système d&amp;rsquo;exploitation et votre architecture.&lt;/p&gt;
+
+&lt;p&gt;Sauvegardez le fichier téléchargé à un endroit précis, afin de l&amp;rsquo;utiliser dans
+l&amp;rsquo;étape suivante.&lt;/p&gt;
+
+&lt;p&gt;Des informations plus complètes sont disponibles sur la page
+&lt;a href=&#34;/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<h2 id="étape-1-installer-hugo">Étape 1. Installer Hugo</h2>
+
+<p>Allez sur la page de téléchargements de
+<a href="https://github.com/spf13/hugo/releases" target="_blank">hugo</a> et téléchargez la version
+appropriée à votre système d&rsquo;exploitation et votre architecture.</p>
+
+<p>Sauvegardez le fichier téléchargé à un endroit précis, afin de l&rsquo;utiliser dans
+l&rsquo;étape suivante.</p>
+
+<p>Des informations plus complètes sont disponibles sur la page
+<a href="/overview/installing/">installing hugo</a></p>
+
+<h2 id="étape-2-compilez-la-documentation">Étape 2. Compilez la documentation</h2>
+
+<p>Hugo possède son propre site d&rsquo;exemple qui se trouve être également le site que
+vous lisez actuellement.</p>
+
+<p>Suivez les instructions suivante :</p>
+
+<ol>
+<li>Clonez le <a href="http://github.com/spf13/hugo" target="_blank">dépôt de hugo</a></li>
+<li>Allez dans ce dépôt</li>
+<li>Lancez Hugo en mode serveur et compilez la documentation</li>
+<li>Ouvrez votre navigateur sur <a href="http://localhost:1313" target="_blank">http://localhost:1313</a></li>
+</ol>
+
+<p>Voici les commandes génériques correspondantes :</p>
+
+<pre><code>git clone https://github.com/spf13/hugo
+cd hugo
+/chemin/ou/vous/avez/installe/hugo server --source=./docs
+&gt; 29 pages created
+&gt; 0 tags index created
+&gt; in 27 ms
+&gt; Web Server is available at http://localhost:1313
+&gt; Press ctrl+c to stop
+</code></pre>
+
+<p>Lorsque vous avez cela, continuez le reste de ce guide sur votre version locale.</p>
+
+<h2 id="étape-3-changer-le-site-de-documentation">Étape 3. Changer le site de documentation</h2>
+
+<p>Arrêtez le processus de Hugo en pressant ctrl+c.</p>
+
+<p>Maintenant, nous allons relancer hugo, mais cette fois avec Hugo en mode de
+surveillance.</p>
+
+<pre><code>/chemin/vers/hugo/de/l-etape/1/hugo server --source=./docs --watch
+&gt; 29 pages created
+&gt; 0 tags index created
+&gt; in 27 ms
+&gt; Web Server is available at http://localhost:1313
+&gt; Watching for changes in /Users/spf13/Code/hugo/docs/content
+&gt; Press ctrl+c to stop
+</code></pre>
+
+<p>Ouvrez votre <a href="https://vim.spf13.com" target="_blank">éditeur favori</a> et changer l&rsquo;une des
+sources des pages de contenu.
+Open your <a href="http://vim.spf13.com" target="_blank">favorite editor</a> and change one of the source
+content pages. Que diriez-vous de modifier ce fichier pour <em>résoudre une faute
+de typo</em>.</p>
+
+<p>Les fichiers de contenu peuvent être trouvés dans <code>docs/content/</code>. Sauf
+indication contraire, les fichiers sont situés au même emplacement relatif que
+l&rsquo;URL, dans notre cas <code>docs/content/overview/quickstart.md</code>.</p>
+
+<p>Modifiez et sauvegardez ce fichier. Notez ce qu&rsquo;il se passe dans le terminal.</p>
+
+<pre><code>&gt; Change detected, rebuilding site
+
+&gt; 29 pages created
+&gt; 0 tags index created
+&gt; in 26 ms
+</code></pre>
+
+<p>Rechargez la page dans votre navigateur et voyez que le problème de typo est
+maintenant résolu.</p>
+
+<p>Notez à quel point cela a été rapide. Essayez de recharger le site avant qu&rsquo;il
+soit fini de compiler.
+Notice how quick that was. Try to refresh the site before it&rsquo;s finished
+building. Je paris que vous n&rsquo;y arrivez pas.
+Le fait d&rsquo;avoir des réactions presque instantanées vous permet d&rsquo;avoir votre
+créativité fluide sans avoir à attendre de longues compilations.</p>
+
+<h2 id="step-4-amusez-vous">Step 4. Amusez-vous</h2>
+
+<p>Le meilleur moyen d&rsquo;apprendre quelque chose est de s&rsquo;amuser avec.</p>]]></content>
+        </item>
+        
+    </channel>
+</rss>
