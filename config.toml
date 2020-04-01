@@ -90,7 +90,7 @@ disableHugoGeneratorInject = false
     theme = "#252627"
 
   [params.logo]
-    logoText     = "$ cd /home/"
+    logoText     = "Del Ponte EM"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -147,5 +147,5 @@ disableHugoGeneratorInject = false
  
   [[menu.main]]
     identifier = "cv"
-    name       = "CV"
-    url        = "cv/cv-emerson-delponte.pdf"
+    name       = "CV and pubs"
+    url        = "cv/"

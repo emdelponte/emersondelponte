@@ -9,6 +9,8 @@ date: "2020/04/01"
 title: About
 ---
 
+<img src = "/img/about/emerson-delponte.jpg" style = "border-radius: 50%; border: 4px solid lightgrey;" align = right width=230>
+
 I am plant pathologist specialising in quantitative epidemiology and disease management. Currently, I am Associate Professor in the [Departmento de Fitopatologia](http://www.dfp.ufv.br) at the Universidade Federal de Viçosa (UFV) since February 2014. My primary responsibilities include **teaching** (plant diease epidemiology and data analysis) and **mentoring** graduate students of the [Graduate Program in Plant Pathology](http://www.dfp.ufv.br/graduate).
 
 **Research** in my Lab includes both computational/data science (dry lab) and experimental/observational bench/field science (wet lab). Students working in the "dry lab" develop skills in disease and loss assessment methods; modeling temporal progress and spatial spread; risk assessment and prediction; yield loss and economic modeling. The "wet lab" research includes genotyping and phenotyping of plant pathogens for a range of  traits related with reproduction, pathogenicity, aggressiveness, toxigenic potential and fungicide resistance. The currently studied pathogens include mycotoxigenic __*Fusarium*__ that cause blights or rots in winter and summer crops and __*Pyricularia*__ blast of rice, wheat and grasses.

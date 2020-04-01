@@ -42,5 +42,14 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
 Research in my Lab includes both computational/data science (dry lab) and experimental/observational bench/field science (wet lab). Students working in the &amp;ldquo;dry lab&amp;rdquo; develop skills in disease and loss assessment methods; modeling temporal progress and spatial spread; risk assessment and prediction; yield loss and economic modeling.</description>
     </item>
     
+    <item>
+      <title>Resumé</title>
+      <link>/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cv/</guid>
+      <description>I hold a DSc in Plant Pathology (Univ. Federal de Pelotas, 2004) with 2-year PostDoc training in risk assessment and prediction (Yang Lab, Iowa State University). Currently, I am Associate Professor at the Universidade Federal de Viçosa (UFV) where I have both teaching and mentoring (masters and doctorate) responsibilities. I currently lead a research Lab and chair the Graduate Program in Plant Pathology at UFV. Also, I serve the Brazilian Phytopathological Society as Editor in Chief of Tropical Plant Pathology (2017 to 2021) and the global plant pathology community by co-leading the Open Plant Pathology initiative.</description>
+    </item>
+    
   </channel>
 </rss>
