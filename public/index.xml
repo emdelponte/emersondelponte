@@ -48,7 +48,7 @@ Research in my Lab includes both simulation and data-driven modeling approaches 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/cv/</guid>
-      <description>I hold a DSc in Plant Pathology (Univ. Federal de Pelotas, 2004) with 2-year PostDoc training in risk assessment and prediction (Yang Lab, Iowa State University). Currently, I am Associate Professor at the Universidade Federal de Viçosa (UFV) where I have both teaching and mentoring (masters and doctorate) responsibilities. I currently lead a research Lab and chair the Graduate Program in Plant Pathology at UFV. Also, I serve the Brazilian Phytopathological Society as Editor in Chief of Tropical Plant Pathology (2017 to 2021) and the global plant pathology community by co-leading the Open Plant Pathology initiative.</description>
+      <description>a.tooltip { position: relative; } a.tooltip span { display: none; } a.tooltip:hover span, a.tooltip:focus span { display:block; position:absolute; top:1em; left:1.5em; padding: 0.2em 0.6em; border:1px solid #996633; background-color:#FFFF66; color:#000; }  I hold a DSc in Plant Pathology (Univ. Federal de Pelotas, 2004) with 2-year PostDoc training in risk assessment and prediction (Yang Lab, Iowa State University). Currently, I am Associate Professor at the Universidade Federal de Viçosa (UFV) where I have both teaching and mentoring (masters and doctorate) responsibilities.</description>
     </item>
     
   </channel>
