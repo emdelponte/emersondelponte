@@ -80,7 +80,7 @@ disableHugoGeneratorInject = false
   contentTypeName = "posts"
 
   # Default theme "light" or "dark"
-  defaultTheme = "light"
+  defaultTheme = "dark"
   themeColor = "#252627"
 
   # Colors for favicons
@@ -95,9 +95,9 @@ disableHugoGeneratorInject = false
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
     # Set to a valid CSS color to change the cursor in the logo.
-    logoCursorColor    = "#000000"
+    logoCursorColor    = "#ffffff"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    logoCursorAnimate  = "5s"
+    logoCursorAnimate  = "3s"
 
   # Social icons
 
