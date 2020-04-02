@@ -38,8 +38,16 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>I am plant pathologist specializing in quantitative epidemiology and disease management (CV. Currently, I am Associate Professor in the Departmento de Fitopatologia at the Universidade Federal de Viçosa(UFV). I am responsible for teaching (plant disease epidemiology and data analysis) and mentoring graduate students of the Graduate Program in Plant Pathology.
-Research in my Lab includes both simulation and data-driven modeling approaches (dry lab) and experimental/observational bench/field work (wet lab). The &amp;ldquo;dry lab&amp;rdquo; projects involve quantitative approaches for measuring disease and assessing crop loss assessment methods; modeling temporal progress and spatial spread across scales; assessing and predicting disease risk and using meta-analytic models.</description>
+      <description>I am plant pathologist specializing in quantitative epidemiology and disease management (See CV). I lead a Research Lab that focus on using both simulation and data-driven modeling approaches and experimental/observational bench/field work). The computational work involves methods for measuring disease and assessing crop loss assessment methods; modeling temporal progress and spatial spread across scales; assessing and predicting disease risk and using meta-analytic models. The wet lab research includes genotyping and phenotyping of plant pathogens (reproduction, pathogenicity, aggressiveness, toxigenic potential and fungicide resistance).</description>
+    </item>
+    
+    <item>
+      <title>Data, codes and preprints</title>
+      <link>/code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code/</guid>
+      <description>a.tooltip { position: relative; } a.tooltip span { display: none; } a.tooltip:hover span, a.tooltip:focus span { display:block; position:absolute; top:1em; left:1.5em; padding: 0.2em 0.6em; border:1px solid #996633; background-color:#FFFF66; color:#000; }  I strongly advocate for an open and reproducible research model and culture that may ultimate contribute to a more accessible, transparent and reliable science. This led me to co-found Open Plant Pathology Initiative. Here in the Lab we are users and developers of R language and Tidyverse for data science.</description>
     </item>
     
     <item>
@@ -48,7 +56,7 @@ Research in my Lab includes both simulation and data-driven modeling approaches 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/cv/</guid>
-      <description>a.tooltip { position: relative; } a.tooltip span { display: none; } a.tooltip:hover span, a.tooltip:focus span { display:block; position:absolute; top:1em; left:1.5em; padding: 0.2em 0.6em; border:1px solid #996633; background-color:#FFFF66; color:#000; }  I hold a DSc in Plant Pathology (Univ. Federal de Pelotas, 2004) with 2-year PostDoc training in risk assessment and prediction (Yang Lab, Iowa State University). Currently, I am Associate Professor at the Universidade Federal de Viçosa (UFV) where I have both teaching and mentoring (masters and doctorate) responsibilities.</description>
+      <description>a.tooltip { position: relative; } a.tooltip span { display: none; } a.tooltip:hover span, a.tooltip:focus span { display:block; position:absolute; top:1em; left:1.5em; padding: 0.2em 0.6em; border:1px solid #996633; background-color:#FFFF66; color:#000; }  I hold a DSc in Plant Pathology (Univ. Federal de Pelotas, 2004) with 2-year PostDoc training in risk assessment and prediction (Yang Lab, Iowa State University) (CV). Currently, I am Associate Professor at the Universidade Federal de Viçosa (UFV) where I have both teaching and mentoring (masters and doctorate) responsibilities.</description>
     </item>
     
   </channel>
