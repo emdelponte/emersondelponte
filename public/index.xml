@@ -38,7 +38,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>I am plant pathologist specialized in the epidemiology and management of plant diseases (CV). I lead a science Lab where people can be trained in and conduct two major types of work. A more quantitative and computational (simulation and statistical models) and/or experimental or observational bench or field work (aka wet lab). The computational works covers a broad range of areas in plant disease epidemiology, and is not pathogen-specific, including:</description>
+      <description>I am plant pathologist specialized in epidemiology and management of plant diseases (CV). I lead a research Lab where two major kinds of work are conducted. One that is focused on computational approaches (simulation and statistical models) and another that is based on observational or experimental research associated with bench work (wet lab). The computational work is non pathogen-specific and covers a broader range of topics in plant disease epidemiology, including:</description>
     </item>
     
     <item>
@@ -57,6 +57,15 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       
       <guid>/cv/</guid>
       <description>a.tooltip { position: relative; } a.tooltip span { display: none; } a.tooltip:hover span, a.tooltip:focus span { display:block; position:absolute; top:1em; left:1.5em; padding: 0.2em 0.6em; border:1px solid #996633; background-color:#FFFF66; color:#000; }  I hold a DSc in Plant Pathology (Univ. Federal de Pelotas, 2004) with 2-year PostDoc training in risk assessment and prediction (Yang Lab, Iowa State University) (CV). Currently, I am Associate Professor at the Universidade Federal de Viçosa (UFV) where I have both teaching and mentoring (masters and doctorate) responsibilities.</description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/talks/</guid>
+      <description>a.tooltip { position: relative; } a.tooltip span { display: none; } a.tooltip:hover span, a.tooltip:focus span { display:block; position:absolute; top:1em; left:1.5em; padding: 0.2em 0.6em; border:1px solid #996633; background-color:#FFFF66; color:#000; }  I&amp;rsquo;ve attended at least one big conference annually where I usually give a talk about my most recent research or related activities, but also offer workshops or short courses. More recently I have given a few webinars. The slides of the most of my recent talks are available for visualization or download at SpeakerDeck (SD).</description>
     </item>
     
   </channel>

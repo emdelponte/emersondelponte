@@ -1,6 +1,8 @@
 baseURL = "https://emersondelponte.netlify.com"
 title   = "Emerson M. Del Ponte"
 
+ignoreFiles = ["_files$", "_cache$"]
+
 DefaultContentLanguage = "en"
 
 theme = "hugo-theme-hello-friend-ng"
@@ -153,3 +155,10 @@ disableHugoGeneratorInject = false
     identifier = "cv"
     name       = "CV & Pubs"
     url        = "cv/"
+
+  [[menu.main]]
+    identifier = "talks"
+    name       = "Talks"
+    url        = "talks/"
+    
+    

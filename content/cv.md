@@ -29,7 +29,8 @@ a.tooltip:hover span, a.tooltip:focus span {
 }
 </style>
 
-<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="/font-awesome/css/all.css">
+
 I hold a DSc in Plant Pathology (Univ. Federal de Pelotas, 2004) with 2-year PostDoc training in risk assessment and prediction (Yang Lab, Iowa State University) ([CV](/cv/cv-emerson-delponte.pdf)). Currently, I am Associate Professor at the Universidade Federal de Viçosa (UFV) where I have both teaching and mentoring (masters and doctorate) responsibilities. Click on the icons below to download my home-made CV or to get access to the Brazilian Lattes CV.
 
 <a class = "tooltip" href="/cv/cv-emerson-delponte.pdf" title ="Full CV in PDF"><i class="ai ai-cv ai-2x">
