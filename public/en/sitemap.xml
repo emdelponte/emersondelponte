@@ -43,12 +43,12 @@
   </url>
   
   <url>
-    <loc>/tags/meetings/</loc>
+    <loc>/categories/meetings/</loc>
     <lastmod>2018-06-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/meetings/</loc>
+    <loc>/tags/meetings/</loc>
     <lastmod>2018-06-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -75,6 +75,11 @@
   <url>
     <loc>/categories/travel/</loc>
     <lastmod>2018-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2018/05/from-reproducible-research-reports-to-open-plant-pathology/</loc>
+    <lastmod>2018-05-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>

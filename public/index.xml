@@ -22,6 +22,16 @@
     </item>
     
     <item>
+      <title>From reproducible research reports to Open Plant Pathology</title>
+      <link>/posts/2018/05/from-reproducible-research-reports-to-open-plant-pathology/</link>
+      <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2018/05/from-reproducible-research-reports-to-open-plant-pathology/</guid>
+      <description>During the last two years I became interested in embracing open science practices - open data, codes and access aiming at improving reproducibility of the research conducted in the lab. Since then, I decide that:
+ All data and R scripts from our Lab&amp;rsquo;s papers should be made available on GitHub and permanently stored somewhere The analytical procedures should be documented as much as possible and capable of being fully reproduced by others Pre-prints should be posted in advance of manuscript submission for enhanced visibility, feedback and open accessibility  First steps My first reproducible report using a single R Markdown file was published by late 2016.</description>
+    </item>
+    
+    <item>
       <title>Hello R Markdown</title>
       <link>/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
