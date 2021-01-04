@@ -1,3 +1,25 @@
 ---
-site: blogdown:::blogdown_site
+title: "Emerson Del Ponte"
+image: "delponte.png"
+links:
+
+  - label: Publications
+    url: "https://scholar.google.com.br/citations?hl=en&user=LgNDabAAAAAJ"
+  - label: R codes
+    url: "https://github.com/emdelponte"
+  - label: Preprints 
+    url: "https://osf.io/jb6yd/"
+  - label: Social
+    url: "https://twitter.com/edelponte"
+  - label: Videos
+    url: "https://www.youtube.com/channel/UC3fmW_hoXOY_YR23EtlYvZg"
+  - label: Photos
+    url: "https://www.instagram.com/emdelponte/"    
+  - label: Email
+    url: "mailto:emerson.delpont@ufv.br"
+output:
+  postcards::jolla
+site: distill::distill_website
 ---
+
+is a University Professor who works hard to study and teach about plant disease epidemics, communicate research findings, and prepare future professionals and leaders. Know more about me <a href = "about.html" style = "color: #000000; text-decoration: underline"> here</a> and get access to academic and personal web spaces listed below:

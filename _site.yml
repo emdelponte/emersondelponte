@@ -1,0 +1,18 @@
+name: "."
+title: "Emerson Del Ponte"
+description: |
+  Emerson Del Ponte
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About me"
+      href: about.html
+  source_url: TRUE
+output: 
+  distill::distill_article:
+    highlight: rstudio
+    toc: true
+theme: postcards.css
+repository_url: https://github.com/emdelponte/emersondelponte
