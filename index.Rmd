@@ -1,5 +1,5 @@
 ---
-title: "Emerson Del Ponte"
+title: "Emerson M. Del Ponte"
 image: "delponte.png"
 links:
 
@@ -22,4 +22,4 @@ output:
 site: distill::distill_website
 ---
 
-is a University Professor who works hard to study and teach about plant disease epidemics, communicate research findings, and prepare future professionals and leaders. Know more about me <a href = "about.html" style = "color: #000000; text-decoration: underline"> here</a> and get access to academic and personal web spaces listed below:
+is a University Professor who loves teaching about plant disease epidemics, write and communicate his research findings via several different media, and prepare future professionals and leaders. Learn more about him <a href = "about.html" style = "color: #000000; text-decoration: underline"> here</a> and get access to his academic and personal web spaces listed below:

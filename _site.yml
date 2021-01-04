@@ -1,12 +1,12 @@
 name: "."
-title: "Emerson Del Ponte"
+title: "My pages"
 description: |
-  Emerson Del Ponte
+  
 output_dir: "docs"
 navbar:
-  right:
-    - text: "Home"
-      href: index.html
+  logo:
+    image: logo.png
+  left:
     - text: "About me"
       href: about.html
   source_url: TRUE

@@ -5,11 +5,11 @@ description: |
 
 ## Resumé
 
-I hold a DSc in Plant Pathology (Univ. Federal de Pelotas, 2004) with 2-year PostDoc training in risk assessment and prediction (Yang Lab, Iowa State University). Currently, I am Associate Professor at the Universidade Federal de Viçosa (UFV) where I have both teaching and mentoring (masters and doctorate) responsibilities. You can get access to my peer-reviewed publications in my academic profiles: [ORCID, publons, Google Scholar, ResearchGate](https://orcid.org/0000-0003-4398-409Xhttps://www.researchgate.net/profile/Emerson_Del_Ponte).
+I hold a DSc in Plant Pathology (Univ. Federal de Pelotas, 2004) with 2-year PostDoc training in risk assessment and prediction (Yang Lab, Iowa State University). Currently, I am Associate Professor at the Universidade Federal de Viçosa (UFV) where I have both teaching and mentoring (masters and doctorate) responsibilities. You can get access to my peer-reviewed publications in my academic profiles: ORCID, publons, Google Scholar, ResearchGate.
 
 ## Research
 
-I am associate Professor leading a research Laboratory focused on thestudy of plant disease epidemics. We make use of statistical and mathematical models as well as field, greenhouse and laboratory experimental work.
+I am associate Professor leading a research Laboratory focused on the study of plant disease epidemics. We make use of statistical and mathematical models as well as field, greenhouse and laboratory experimental work.
 
 The **computational work** is non pathogen-specific and covers a broader range of topics in plant disease epidemiology, including: 1) assessment of disease intensity and crop loss; 2) modeling temporal progress and spatial spread across scales; 3) assessment and prediction of disease risk, and 3) conducting systematic reviews and meta-analysis.
 
