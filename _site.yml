@@ -9,6 +9,8 @@ navbar:
   left:
     - text: "About me"
       href: about.html
+    - text: "My Lab"
+      href: lab.html
   source_url: TRUE
 output: 
   distill::distill_article:

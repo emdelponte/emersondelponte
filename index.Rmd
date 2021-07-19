@@ -22,4 +22,4 @@ output:
 site: distill::distill_website
 ---
 
-is a University Professor who loves to teach about plant disease epidemics, write and communicate his research findings via various media, and prepare future professionals and leaders. Learn more about him <a href = "about.html" style = "color: #000000; text-decoration: underline"> here</a> and get access to his academic and personal web spaces listed below:
+is an Associate Professor at [UFV](http://www.ufv.br) who loves to teach about plant disease epidemics, write and communicate his research findings via various media, and prepare future professionals and leaders. Learn more about him <a href = "about.html" style = "color: #000000; text-decoration: underline"> here</a> and get access to his academic and personal web spaces listed below:
