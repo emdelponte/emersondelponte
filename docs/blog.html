@@ -83,26 +83,26 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>My pages: My Lab</title>
+  <title>My pages: My blog</title>
 
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="My pages: My Lab"/>
+  <meta property="og:title" content="My pages: My blog"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="My pages"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="My pages: My Lab"/>
+  <meta property="twitter:title" content="My pages: My blog"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["My Lab"]},{"type":"NULL"}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["My blog"]},{"type":"NULL"},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["posts"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2367,12 +2367,12 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
 </head>
 
-<body>
+<body class="layout-listing">
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"My Lab","authors":[]}
+{"title":"My blog","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2400,9 +2400,167 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
+<!--radix_placeholder_article_listing-->
+
+
+<script type="application/javascript">
+
+function init_posts_list() {
+
+  function load_image(img) {
+    var src = $(img).attr('data-src');
+    if (src) {
+      $(img).attr('src', src);
+      $(img).load(function() {
+        img.removeAttribute('data-src');
+      });
+    }
+  }
+
+  function set_posts_visible(posts, visible) {
+    if (visible) {
+
+      // show bottom border by default
+      $(posts).removeClass('post-preview-last');
+
+      // apply limits if need be
+      var max_posts = 25;
+      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
+      if (apply_limits && posts.length > max_posts) {
+        posts = $(posts).slice(0, max_posts);
+      } else {
+        $('.posts-more a').addClass('hidden');
+      }
+
+      // apply last style
+      $(posts.slice(-1)[0]).addClass('post-preview-last');
+
+      $(posts).removeClass('hidden');
+      $(posts).find('img[data-src]').each(function(i, img) {
+        load_image(img);
+      });
+    } else {
+      $(posts).addClass('hidden');
+    }
+  }
+
+  function apply_hash_filter() {
+
+    // clear active state
+    $('.categories .active').removeClass('active');
+
+    // mark all posts invisible to start
+    set_posts_visible($('.posts-list').children('a'), false);
+
+    // if we have a hash filter
+    if (window.location.hash && window.location.hash.startsWith("#category:")) {
+
+      // mark posts that match the category visible
+      var page_category = window.location.hash.replace(/^#category:/, "");
+      var posts = $('.post-metadata').map(function(idx, script) {
+        var metadata = $.parseJSON($(script).html());
+        var post = null;
+        $.each(metadata.categories, function(idx, category) {
+          category = category.replace(/ /g,"_");
+          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
+            post = $(script).parent().get();
+            return false;
+          }
+        });
+        return post;
+      });
+      set_posts_visible(posts, true);
+
+      // mark the hash active
+      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
+
+      // update the list_caption
+      var list_caption = $('.posts-list-caption');
+      var caption = (page_category || '').toLowerCase() === "articles"
+        ? list_caption.attr('data-caption')
+        : ('Category: ' + page_category.replace(/_/g," "));
+      list_caption.text(caption);
+
+    } else {
+
+      // no hash filter, make all posts visible (subject to max display)
+      set_posts_visible($('.posts-list').children(), true);
+
+      // reset list caption
+      var list_caption = $('.posts-list-caption');
+      list_caption.text(list_caption.attr('data-caption'));
+
+
+    }
+  }
+
+  // more articles
+  function apply_post_limits(apply) {
+    if (apply) {
+      $('.posts-container').addClass('posts-apply-limit');
+      $('.posts-more a').removeClass('hidden');
+    } else {
+      $('.posts-container').removeClass('posts-apply-limit');
+      $('.posts-more a').addClass('hidden');
+    }
+  }
+
+  // click handling for tags
+  $('.dt-tag').click(function(ev) {
+    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
+    return false;
+  })
+
+  // hash filter handling
+  apply_hash_filter();
+  $(window).on('hashchange',function() {
+    apply_post_limits(true);
+    apply_hash_filter();
+  });
+
+  // more articles link
+  $('.posts-more a').click(function(e) {
+    e.preventDefault();
+    apply_post_limits(false);
+    apply_hash_filter();
+    return false;
+  });
+
+}
+
+</script>
+
+
+
+<div class="posts-container posts-apply-limit l-page">
+<div class="posts-list">
+<h1 class="posts-list-caption" data-caption="My blog">My blog</h1>
+<a href="posts/2021-07-19-new-post/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">July 19, 2021</div>
+<div class="dt-authors">
+<div class="dt-author">Emerson</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>New post</h2>
+<div class="dt-tags"></div>
+<p>A short description of the post.</p>
+</div>
+</a>
+</div>
+<div class="posts-more">
+<a href="#">More articles &raquo;</a>
+</div>
+</div>
+<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>My Lab</h1>
+<h1>My blog</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
@@ -2410,52 +2568,6 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
 
 <div class="d-article">
-<div class="d-contents d-contents-float">
-<nav class="l-text toc figcaption" id="TOC">
-<h3>Contents</h3>
-<ul>
-<li><a href="#our-research">Our Research</a></li>
-<li><a href="#members">Members</a></li>
-<li><a href="#former-members">Former members</a>
-<ul>
-<li><a href="#ufv">UFV</a></li>
-<li><a href="#ufrgs">UFRGS</a></li>
-</ul></li>
-</ul>
-</nav>
-</div>
-<h2 id="our-research">Our Research</h2>
-<p>We make use of statistical and mathematical models as well as field, greenhouse and laboratory experimental work to measure, understand, compare and predict plant disease epidemics.</p>
-<p>The <strong>computational work</strong> is non pathogen-specific and covers a broad range of topics in plant disease epidemiology, including:</p>
-<ul>
-<li><p>Assessment of disease intensity and crop loss</p></li>
-<li><p>Modeling temporal progress and spatial spread across scales</p></li>
-<li><p>Assessment and prediction of disease risk</p></li>
-<li><p>Conducting systematic reviews and meta-analysis</p></li>
-</ul>
-<p>The <strong>experimental researc</strong>h is focused on genotyping and phenotyping of fungal pathogen populations. These include assessment of several traits such as: reproduction, pathogenicity, aggressiveness, toxigenic potential and fungicide resistance. Currently, we study two of the most dangerous plant pathogens worldwide: mycotoxigenic <em>Fusarium</em> that cause head blights or ear rots in winter and summer crops and <em>Pyricularia</em> blast of rice, wheat and grasses.</p>
-<h2 id="members">Members</h2>
-<p><a href="https://www.linkedin.com/in/gustavo-bilibio-dos-santos-a85206140/?originalSubdomain=br">Gustavo B. dos Santos</a> (M)<br />
-<a href="https://twitter.com/AlvesKS_">Kaíque dos Santos Alves</a> (M, D)<br />
-<a href="https://twitter.com/jhonatan_barro">Jhonatan Paulo Barro</a> (M, D)<br />
-<a href="https://twitter.com/Joao_P_Ascari">João Paulo Ascari</a> (D)<br />
-<a href="https://twitter.com/li_cazon">Ignácio Cazón</a> (D)</p>
-<h2 id="former-members">Former members</h2>
-<h3 id="ufv">UFV</h3>
-<p><a href="https://twitter.com/sheilaandrade46">Sheila M. P. Andrade</a> (M)<br />
-<a href="https://twitter.com/MahDuffeck">Maíra R. Duffeck</a> (M, D)<br />
-<a href="http://www.dfp.ufv.br/departamento/docentes/franklin-jackson-machado/">Franklin J. Machado</a> (M, D)<br />
-Caroline F. Ávila (M)</p>
-<h3 id="ufrgs">UFRGS</h3>
-<p><a href="https://www.linkedin.com/in/paulo-roberto-kuhnem-junior-81871b7a/?originalSubdomain=br">Paulo R. Kuhnem</a> (D)<br />
-Larissa B. Gomes (M)<br />
-<a href="https://scholar.google.com/citations?hl=en&amp;user=oRAnEDgAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Camila P. Nicolli</a> (M)<br />
-<a href="https://scholar.google.com.br/citations?hl=pt-BR&amp;user=SX5_arwAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Leilane S. D’Ávila</a> (M)<br />
-<a href="https://twitter.com/felipedallalana?lang=en">Felipe Dalla Lana</a> (M)<br />
-André A. Schwanck (M)<br />
-Raquel Stumpf (M)<br />
-<a href="https://www.linkedin.com/in/paula-astolfi-a0540330/?originalSubdomain=br">Paula Astolfi</a> (M)<br />
-<a href="https://twitter.com/SpoltiPierri?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Piérri Spolti</a>(M, D)</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
