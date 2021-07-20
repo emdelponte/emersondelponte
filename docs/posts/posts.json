@@ -1,8 +1,8 @@
 [
   {
-    "path": "posts/2021-07-19-new-post/",
-    "title": "New post",
-    "description": "A short description of the post.",
+    "path": "posts/2021-07-19-Measuring-plant-disease-severity-using-the-pliman-R-package/",
+    "title": "Measuring plant disease severity using the pliman R package",
+    "description": "pliman (PLant IMage ANalysis) is an R package for the analysis of images of plants, mainly leaves, that offers a function for measuring plant disease severity. In this post I will demonstrate the use of pliman for measuring severity on leaves affected by soybean rust as a case study.",
     "author": [
       {
         "name": "Emerson",
@@ -11,9 +11,9 @@
     ],
     "date": "2021-07-19",
     "categories": [],
-    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
+    "contents": "\nPost published at Open Plant Pathology:https://openplantpathology.org/posts/2021-05-31-measuring-plant-disease-severity-using-the-pliman-r-package/\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-07-19T14:44:26-03:00",
+    "last_modified": "2021-07-19T15:37:02-03:00",
     "input_file": {}
   }
 ]
