@@ -82,6 +82,7 @@ code span.vs { color: #008080; } /* VerbatimString */
 code span.wa { color: #008000; font-weight: bold; } /* Warning */
 </style>
 
+
   <!--radix_placeholder_meta_tags-->
   <title>My pages: About me</title>
 
@@ -449,7 +450,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
   </style>
 
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
   <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -1856,7 +1857,10 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2352,7 +2356,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2421,11 +2425,11 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 </nav>
 </div>
 <h2 id="resumé">Resumé</h2>
-<p>I hold a DSc in Plant Pathology (Univ. Federal de Pelotas, 2004) with a 2-year PostDoc training in risk assessment and prediction (Yang Lab, Iowa State University). Currently, I am Associate Professor at the Universidade Federal de Viçosa (UFV) where I have both teaching and <a href="lab.html">mentoring</a> (masters and doctorate) responsibilities. You can get access to my peer-reviewed publications in my academic profile websites: <a href="https://orcid.org/0000-0003-4398-409X">ORCID</a>, <a href="https://publons.com/researcher/2740078/emerson-m-del-ponte/">publons</a>, <a href="https://scholar.google.com.br/citations?user=LgNDabAAAAAJ&amp;hl=en">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Emerson-Del-Ponte/research">ResearchGate</a>.</p>
+<p>I hold a DSc in Plant Pathology (Universidade Federal de Pelotas, 2004) with a 2-year PostDoc training in risk assessment and prediction (Yang Lab, Iowa State University). Currently, I am Associate Professor at the Universidade Federal de Viçosa (UFV) where I have both teaching and <a href="lab.html">mentoring</a> (masters and doctorate) responsibilities. You can get access to my peer-reviewed publications in my academic profile websites: <a href="https://orcid.org/0000-0003-4398-409X">ORCID</a>, <a href="https://publons.com/researcher/2740078/emerson-m-del-ponte/">publons</a>, <a href="https://scholar.google.com.br/citations?user=LgNDabAAAAAJ&amp;hl=en">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Emerson-Del-Ponte/research">ResearchGate</a>, or <a href="http://lattes.cnpq.br/9460309107496381">Lattes</a>.</p>
 <h2 id="services">Services</h2>
-<p>I’ve been involved in scholarly peer-review since early in my career. I’ve served as Associate Editor for a few journals, including Plant Disease. Currently, I am Editor in Chief for <a href="www.sbfitopatologia.org.br/tpp">Tropical Plant Pathology</a>, the journal of the <a href="www.sbfitopatologia.org.br">Brazilian Phytopathological Society</a>.</p>
+<p>I’ve been involved in scholarly peer-review since early in my career. I’ve served as Associate Editor for a few journals, including Plant Disease. Currently, I am Editor in Chief for <a href="www.sbfitopatologia.org.br/tpp">Tropical Plant Pathology</a>, the journal of the <a href="www.sbfitopatologia.org.br">Brazilian Phytopathological Society</a> Since 2022, I am serving as Associate Editor for <a href="https://cabiagbio.biomedcentral.com/about/editorial-board">CABI Agriculture &amp; Bioscience</a> (Plant Pathology Section) and <a href="https://www.springer.com/journal/10658/editors">European Journal of Plant Pathology</a>.</p>
 <h2 id="open-science">Open Science</h2>
-<p>I strongly advocate for an open and reproducible research model and culture that may ultimate contribute to a more accessible, transparent and reliable science. This led me to co-found <a href="http://www.openplantpathology.org/">Open Plant Pathology</a> Initiative together with <a href="http://adamhsparks.com">Adam Sparks</a>. In my Lab, we make use of <a href="https://www.r-project.org/">R language</a> for all statistical and data science related activities. All data and computational codes produced during our research are made available ahead of peer-review. You can find our code on <a href="https://github.com/emdelponte">GitHub</a>. The research outcomes are organized and shared as a <a href="https://research-compendium.science/">research compendium</a> and <a href="https://publicationethics.org/resources/discussion-documents/preprints">preprints</a> of manuscripts are archived in Open Science Framework (<a href="https://osf.io/jb6yd">OSF</a>).</p>
+<p>I strongly advocate for an open and reproducible research model and culture that may ultimate contribute to a more accessible, transparent and reliable science. This led me to co-found <a href="http://www.openplantpathology.org/">Open Plant Pathology</a> initiative together with <a href="http://adamhsparks.com">Adam Sparks</a>. In my Lab, we make use of <a href="https://www.r-project.org/">R language</a> for all statistical and data science related activities. All data and computational codes produced during our research are made available ahead of peer-review. You can find our code on <a href="https://github.com/emdelponte">GitHub</a>. The research outcomes are organized and shared as a <a href="https://research-compendium.science/">research compendium</a> and <a href="https://publicationethics.org/resources/discussion-documents/preprints">preprints</a> of manuscripts are archived in Open Science Framework (<a href="https://osf.io/jb6yd">OSF</a>).</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

@@ -1,6 +1,6 @@
 ---
 title: "Emerson M. Del Ponte"
-image: "delponte.png"
+image: "delponte2.png"
 links:
 
   - label: Publications

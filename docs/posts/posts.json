@@ -14,7 +14,7 @@
     "contents": "\nPost published at Open Plant Pathology:https://openplantpathology.org/posts/2021-05-31-measuring-plant-disease-severity-using-the-pliman-r-package/\n\n\n\n",
     "preview": {},
     "last_modified": "2021-07-20T16:51:33-03:00",
-    "input_file": "new-post.knit.md"
+    "input_file": {}
   },
   {
     "path": "posts/2021-07-20-network-meta-analysis-in-r/",
@@ -31,7 +31,7 @@
     "contents": "\nPost published at Open Plant Pathology:https://openplantpathology.org/posts/2021-02-28-network-meta-analysis-in-r/\n\n\n\n",
     "preview": {},
     "last_modified": "2021-07-20T16:56:16-03:00",
-    "input_file": "network-meta-analysis-in-r.knit.md"
+    "input_file": {}
   },
   {
     "path": "posts/2021-02-10-a-multi-panel-figure-for-coffee-leaf-rust/",
@@ -47,8 +47,8 @@
     "categories": [],
     "contents": "\nPost published at Open Plant Pathology:https://openplantpathology.org/posts/2021-02-05-multiple-plot-figure/\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-07-20T17:01:17-03:00",
-    "input_file": "a-multi-panel-figure-for-coffee-leaf-rust.knit.md"
+    "last_modified": "2021-07-20T17:01:18-03:00",
+    "input_file": {}
   },
   {
     "path": "posts/NA-what-are-brazilian-plant-pathologists-doing-a-text-analysis-of-scientific-poster-titles/",
@@ -65,7 +65,7 @@
     "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
     "preview": {},
     "last_modified": "2021-07-20T17:00:37-03:00",
-    "input_file": "what-are-brazilian-plant-pathologists-doing-a-text-analysis-of-scientific-poster-titles.knit.md"
+    "input_file": {}
   },
   {
     "path": "posts/2018-05-25-the-fall-of-an-empire/",
@@ -82,6 +82,6 @@
     "contents": "\nPost published at Open Plant Pathology:https://openplantpathology.org/posts/2018-05-25-the-fall-of-an-empire/\n\n\n\n",
     "preview": {},
     "last_modified": "2021-07-20T17:03:17-03:00",
-    "input_file": "the-fall-of-an-empire.knit.md"
+    "input_file": {}
   }
 ]
