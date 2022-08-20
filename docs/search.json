@@ -1,40 +1,5 @@
 [
   {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Emerson M. Del Ponte",
-    "section": "Welcome!",
-    "text": "Welcome!\nMy name is Emerson Del Ponte. I am an associate professor at UFV who loves teaching about plant disease epidemics and data science, write and communicate his research findings via various media, and prepare future professionals and leaders."
-  },
-  {
-    "objectID": "index.html#resumé",
-    "href": "index.html#resumé",
-    "title": "Emerson M. Del Ponte",
-    "section": "Resumé",
-    "text": "Resumé\nI hold a DSc in Plant Pathology (Universidade Federal de Pelotas, 2004) with a 2-year postdoc training in risk assessment and prediction (Yang Lab, Iowa State University). Currently, I am Associate Professor at the Universidade Federal de Viçosa (UFV) where I have both teaching and mentoring (masters and doctorate) responsibilities. You can get access to my peer-reviewed publications in my academic profile websites: ORCID, publons, Google Scholar, ResearchGate, or Lattes."
-  },
-  {
-    "objectID": "index.html#services",
-    "href": "index.html#services",
-    "title": "Emerson M. Del Ponte",
-    "section": "Services",
-    "text": "Services\nI’ve been involved in scholarly peer-review since early in my career. I’ve served as Associate Editor for a few journals, including Plant Disease. Currently, I am Editor in Chief for Tropical Plant Pathology, the journal of the Brazilian Phytopathological Society Since 2022, I am serving as Associate Editor for CABI Agriculture & Bioscience (Plant Pathology Section) and European Journal of Plant Pathology."
-  },
-  {
-    "objectID": "index.html#open-science",
-    "href": "index.html#open-science",
-    "title": "Emerson M. Del Ponte",
-    "section": "Open Science",
-    "text": "Open Science\nI strongly advocate for an open and reproducible research model and culture that may ultimate contribute to a more accessible, transparent and reliable science. This led me to co-found Open Plant Pathology initiative together with Adam Sparks. In my Lab, we make use of R language for all statistical and data science related activities. All data and computational codes produced during our research are made available ahead of peer-review. You can find our code on GitHub. The research outcomes are organized and shared as a research compendium and preprints of manuscripts are archived in Open Science Framework (OSF)."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "lab.html#our-research",
     "href": "lab.html#our-research",
     "title": "Emerson M. Del Ponte",
@@ -54,5 +19,33 @@
     "title": "Emerson M. Del Ponte",
     "section": "Former members",
     "text": "Former members\n\nUFV\nGustavo B. dos Santos (M)\nIgnácio Cazón (D)\nJoão Paulo Ascari (D)\nSheila M. P. Andrade (M)\nMaíra R. Duffeck (M, D)\nFranklin J. Machado (M, D)\nCaroline F. Ávila (M)\n\n\n\nUFRGS\nPaulo R. Kuhnem (D)\nLarissa B. Gomes (M)\nCamila P. Nicolli (M)\nLeilane S. D’Ávila (M)\nFelipe Dalla Lana (M)\nAndré A. Schwanck (M)\nRaquel Stumpf (M)\nPaula Astolfi (M)\nPiérri Spolti(M, D)"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Emerson M. Del Ponte",
+    "section": "Welcome!",
+    "text": "Welcome!\nMy name is Emerson Del Ponte. I am an associate professor at UFV who loves teaching plant disease epidemiology and data science, write and communicate my research findings via various media, and prepare future professionals and leaders."
+  },
+  {
+    "objectID": "index.html#resumé",
+    "href": "index.html#resumé",
+    "title": "Emerson M. Del Ponte",
+    "section": "Resumé",
+    "text": "Resumé\nI hold a DSc in Plant Pathology (Universidade Federal de Pelotas, 2004) with a one-year visit to Cornell University (Bergstrom Lab). I worked two years as as a postdoc associate in a project involving disease risk assessment and prediction (Yang Lab, Iowa State University). Currently, I am Associate Professor at the Universidade Federal de Viçosa (UFV) where I have both teaching and mentoring (masters and doctorate) responsibilities.\nYou can get access to my peer-reviewed publications in my academic profile websites: ORCID, publons, Google Scholar, ResearchGate, or Lattes."
+  },
+  {
+    "objectID": "index.html#services",
+    "href": "index.html#services",
+    "title": "Emerson M. Del Ponte",
+    "section": "Services",
+    "text": "Services\nI’ve been involved in scholarly peer-review since early in my career. I’ve served as associate editor for a few journals, including Plant Disease. Currently, I am Editor in Chief for Tropical Plant Pathology, the journal of the Brazilian Phytopathological Society Since 2022, I am also serving as associate editor for the CABI Agriculture & Bioscience journa (Plant Pathology Section) and the European Journal of Plant Pathology journal."
+  },
+  {
+    "objectID": "index.html#open-science",
+    "href": "index.html#open-science",
+    "title": "Emerson M. Del Ponte",
+    "section": "Open Science",
+    "text": "Open Science\nI strongly advocate for an open and reproducible research model and culture that may ultimate contribute to a more accessible, transparent and reliable science. This led me to co-found Open Plant Pathology initiative together with Adam Sparks. In my Lab, we make use of R language for all statistical and data science related activities. All data and computational codes produced during our research are made available ahead of peer-review. You can find our code on GitHub. The research outcomes are organized and shared as a research compendium and preprints of manuscripts are archived in Open Science Framework (OSF)."
   }
 ]
