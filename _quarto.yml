@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Emerson M. Del Ponte"
+  page-navigation: true
+  open-graph: true
+  twitter-card: true
+  navbar:
+    collapse-below: lg
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: lab.qmd
+        text: The lab
+
+    right:
+      - icon: twitter
+        href: https://twitter.com/edelponte
+        aria-label: My Twitter
+      - icon: github
+        href: https://github.com/emdelponte
+        aria-label: My GitHub
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: true
+    
+
+
+
+
