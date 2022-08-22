@@ -6,13 +6,11 @@ title: ""
 
 ## Welcome!
 
-My name is Emerson Del Ponte. I am an associate professor at [UFV](http://www.ufv.br) who loves teaching plant disease epidemiology and data science, write and communicate my research findings via various media, and prepare future professionals and leaders.
+My name is Emerson Medeiros Del Ponte. I am associate professor at [UFV](http://www.ufv.br) where I teach plant disease epidemiology and data science, write and communicate my research findings via various media, and prepare future professionals and leaders.
 
 ## Resumé
 
-I hold a DSc in Plant Pathology (Universidade Federal de Pelotas, 2004) with a one-year visit to Cornell University (Bergstrom Lab). I worked two years as as a postdoc associate in a project involving disease risk assessment and prediction (Yang Lab, Iowa State University). Currently, I am Associate Professor at the Universidade Federal de Viçosa (UFV) where I have both teaching and [mentoring](lab.html) (masters and doctorate) responsibilities.
-
-You can get access to my peer-reviewed publications in my academic profile websites: [ORCID](https://orcid.org/0000-0003-4398-409X), [publons](https://publons.com/researcher/2740078/emerson-m-del-ponte/), [Google Scholar](https://scholar.google.com.br/citations?user=LgNDabAAAAAJ&hl=en), [ResearchGate](https://www.researchgate.net/profile/Emerson-Del-Ponte/research), or [Lattes](http://lattes.cnpq.br/9460309107496381).
+I hold a DSc in Plant Pathology (Universidade Federal de Pelotas, 2004) with a one-year visit to Cornell University (Bergstrom Lab). I worked two years as as a postdoc associate in a project involving disease risk assessment and prediction (Yang Lab, Iowa State University). Currently, I work at the Universidade Federal de Viçosa (UFV) where I have both teaching and student [mentoring](lab.html) (masters and doctorate) responsibilities. You can get access to my peer-reviewed **publications** in my academic profile websites: [ORCID](https://orcid.org/0000-0003-4398-409X), [publons](https://publons.com/researcher/2740078/emerson-m-del-ponte/), [Google Scholar](https://scholar.google.com.br/citations?user=LgNDabAAAAAJ&hl=en), [ResearchGate](https://www.researchgate.net/profile/Emerson-Del-Ponte/research), or [Lattes](http://lattes.cnpq.br/9460309107496381).
 
 ## Services
 
