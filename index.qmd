@@ -2,11 +2,10 @@
 title: ""
 ---
 
-![](figs/delponte4.jpg)
 
 ## Welcome!
 
-My name is Emerson Medeiros Del Ponte. I teach plant disease epidemiology and data science, conduct scientific research that is communicated via various media, and prepare future professionals and leaders.
+<img src = "figs/delponte2.png" style = "border-radius: 50%; margin-right:30px" width = 180px align = left> My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. There, I teach plant disease epidemiology and data science, conduct scientific research in the field of plant pathology, develop apps for supporting research and teaching and prepare future professionals and leaders.<br><br><br>
 
 ## Resumé
 
@@ -18,4 +17,4 @@ I've been involved in scholarly peer-review since early in my career. I've serve
 
 ## Open Science
 
-I strongly advocate for an open and reproducible research model and culture that may ultimately contribute to a more accessible, transparent and reliable science. This led me to co-found [Open Plant Pathology](http://www.openplantpathology.org/) initiative together with [Adam Sparks](http://adamhsparks.com). In my Lab, we make use of [R language](https://www.r-project.org/) for all statistical and data science related activities. All data and computational codes produced during our research are made available ahead of peer-review. You can find our code on [GitHub](https://github.com/emdelponte). The research outcomes are organized and shared as a [research compendium](https://research-compendium.science/) and [preprints](https://publicationethics.org/resources/discussion-documents/preprints) of manuscripts are archived in Open Science Framework ([OSF](https://osf.io/jb6yd)).
+I strongly advocate for an open and reproducible research model and culture that may ultimately contribute to a more accessible, transparent and reliable science. This led me to co-found [Open Plant Pathology](http://www.openplantpathology.org/) initiative together with [Adam Sparks](https://adamhsparks.netlify.app/). In my Lab, we make use of [R language](https://www.r-project.org/) for all statistical and data science related activities. All data and computational codes produced during our research are made available ahead of peer-review. You can find our code on [GitHub](https://github.com/emdelponte). The research outcomes are organized and shared as a [research compendium](https://research-compendium.science/) and [preprints](https://publicationethics.org/resources/discussion-documents/preprints) of manuscripts are archived in Open Science Framework ([OSF](https://osf.io/jb6yd)).

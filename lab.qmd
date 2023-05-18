@@ -3,8 +3,6 @@ title: ""
 editor: visual
 ---
 
-![](figs/lab1.jpg)
-
 ## Our Research
 
 We make use of statistical and mathematical models as well as field, greenhouse and laboratory experimental work to measure, understand, compare and predict plant disease epidemics.
@@ -25,8 +23,6 @@ The **experimental researc**h is focused on genotyping and phenotyping of fungal
 
 [Monalisa De Cól](https://twitter.com/monalisacdc) (M)\
 [Lila Soares Lima](https://twitter.com/LilaSoaresLima) (M)\
-[Chinedu Emmanuel Eze](https://www.linkedin.com/in/chinedu-eze-a8298463/?originalSubdomain=pa) (M)\
-\
 
 ## Former students
 
