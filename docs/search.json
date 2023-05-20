@@ -77,17 +77,17 @@
     "text": "R for Plant Disease Epidemiology (R4PDE) is a book under development, which is based on the teaching notes from my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the Graduate Program in Plant Pathology of the Universidade Federal de Viçosa.\nThis book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a minimum level of knowledge in R to run the examples."
   },
   {
-    "objectID": "apps.html#apps",
-    "href": "apps.html#apps",
-    "title": "EM Del Ponte",
-    "section": "Apps",
-    "text": "Apps\nI have developed, myself or in collaboration, web applications to support research and teaching. Most of them are made with R + shiny.\n\n\n\nTrainer\nSADBank\nFGSCdb\n\n\n\n\n\n\n\n\n\nA training tool for increasing the accuracy of visual assessments of plant disease severity (percent diseased area).\nA curated database of Standard Area Diagramas (SADs) for aiding visual assessments of disease severity.\nA georeferenced database of isolates of the Fusarium graminearum clade. Shiny development by by Kaique S. Alves\n\n\nEphemBrazil\nEpidemics\n\n\n\n\n\n\n\n\nDatabase of distribution and basic taxonomic information on species of Ephemeroptera (Insecta) recorded in Brazil\nSimulation of plant disease progress curves by setting parameters for four populations dynamics models"
-  },
-  {
     "objectID": "apps.html#book",
     "href": "apps.html#book",
     "title": "EM Del Ponte",
     "section": "",
     "text": "R for Plant Disease Epidemiology (R4PDE) is a book under development, which is based on the teaching notes from my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the Graduate Program in Plant Pathology of the Universidade Federal de Viçosa.\nThis book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a minimum level of knowledge in R to run the examples."
+  },
+  {
+    "objectID": "apps.html#apps",
+    "href": "apps.html#apps",
+    "title": "EM Del Ponte",
+    "section": "Apps",
+    "text": "Apps\nI have developed, myself or in collaboration, web applications to support research and teaching. Most of them are made with R + shiny.\n\n\n\nTrainer\nSADBank\nFGSCdb\n\n\n\n\n\n\n\n\n\nA training tool for increasing the accuracy of visual assessments of plant disease severity (percent diseased area).\nA curated database of Standard Area Diagramas (SADs) for aiding visual assessments of disease severity.\nA georeferenced database of isolates of the Fusarium graminearum clade. Shiny development by by Kaique S. Alves\n\n\nEphemBrazil\nEpidemics\n\n\n\n\n\n\n\n\nDatabase of distribution and basic taxonomic information on species of Ephemeroptera (Insecta) recorded in Brazil\nSimulation of plant disease progress curves by setting parameters for four populations dynamics models"
   }
 ]
