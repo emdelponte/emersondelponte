@@ -11,10 +11,15 @@ website:
     collapse-below: lg
     search: true
     left:
-      - href: index.qmd
+      - icon: house 
+        href: index.qmd
         text: Home
-      - href: lab.qmd
+      - icon: people
+        href: lab.qmd
         text: The lab
+      - icon: tools
+        href: apps.qmd
+        text: My book & apps
 
     right:
       - icon: twitter
