@@ -19,7 +19,7 @@ website:
         text: The lab
       - icon: tools
         href: apps.qmd
-        text: My book & apps
+        text: Books & apps
 
     right:
       - icon: twitter
