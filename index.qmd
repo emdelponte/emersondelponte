@@ -17,3 +17,7 @@ I've been involved in scholarly peer-review since early in my career. I've serve
 ## Open Science
 
 I strongly advocate for an open and reproducible research model and culture that may ultimately contribute to a more accessible, transparent and reliable science. This led me to co-found [Open Plant Pathology](http://www.openplantpathology.org/) initiative together with [Adam Sparks](https://adamhsparks.netlify.app/). In my Lab, we make use of [R language](https://www.r-project.org/) for all statistical and data science related activities. All data and computational codes produced during our research are made available ahead of peer-review. You can find our code on [GitHub](https://github.com/emdelponte). The research outcomes are organized and shared as a [research compendium](https://research-compendium.science/) and [preprints](https://publicationethics.org/resources/discussion-documents/preprints) of manuscripts are archived in Open Science Framework ([OSF](https://osf.io/jb6yd)).
+
+## Talks and videos
+
+Slides of some of my talks are hosted in my [Speakerdeck](https://speakerdeck.com/emdelponte) account and full videos of talks and lectures can be found on my [YouTube](https://www.youtube.com/channel/UC3fmW_hoXOY_YR23EtlYvZg) channel.
