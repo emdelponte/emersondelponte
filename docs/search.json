@@ -70,6 +70,13 @@
     "text": "Open Science\nI strongly advocate for an open and reproducible research model and culture that may ultimately contribute to a more accessible, transparent and reliable science. This led me to co-found Open Plant Pathology initiative together with Adam Sparks. In my Lab, we make use of R language for all statistical and data science related activities. All data and computational codes produced during our research are made available ahead of peer-review. You can find our code on GitHub. The research outcomes are organized and shared as a research compendium and preprints of manuscripts are archived in Open Science Framework (OSF)."
   },
   {
+    "objectID": "index.html#talks-and-videos",
+    "href": "index.html#talks-and-videos",
+    "title": "EM Del Ponte",
+    "section": "Talks and videos",
+    "text": "Talks and videos\nSlides of some of my talks are hosted in my Speakerdeck account and full videos of talks and lectures can be found on my YouTube channel."
+  },
+  {
     "objectID": "apps.html",
     "href": "apps.html",
     "title": "EM Del Ponte",
@@ -89,12 +96,5 @@
     "title": "EM Del Ponte",
     "section": "Apps",
     "text": "Apps\nI have developed, myself or in collaboration with students, web applications to support research and teaching. These are made with R + shiny.\n\n\n\nTrainer\nSADBank\nFGSCdb\n\n\n\n\n\n\n\n\n\nA training tool for increasing the accuracy of visual assessments of plant disease severity (percent diseased area).\nA curated database of Standard Area Diagrams (SADs) for aiding visual assessments of disease severity.\nA georeferenced database of isolates of the Fusarium graminearum clade. Shiny app developed by by Kaique S. Alves\n\n\nEphemBrazil\nEpidemics\nRusty profits\n\n\n\n\n\n\n\nDatabase of distribution and basic taxonomic information on species of Ephemeroptera (Insecta) recorded in Brazil\nSimulation of plant disease progress curves by setting parameters for four populations dynamics models\nRusty profits is a shiny app calculator of the probability of break-even on the costs of fungicides for managing soybean rust in Brazil. App developed by Kaique S. Alves"
-  },
-  {
-    "objectID": "index.html#talks-and-videos",
-    "href": "index.html#talks-and-videos",
-    "title": "EM Del Ponte",
-    "section": "Talks and videos",
-    "text": "Talks and videos\nSlides of some of my talks are hosted in my Speakerdeck account and full videos of talks and lectures can be found on my YouTube channel."
   }
 ]
