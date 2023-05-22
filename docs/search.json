@@ -4,14 +4,14 @@
     "href": "lab.html",
     "title": "EM Del Ponte",
     "section": "",
-    "text": "We make use of statistical and mathematical models as well as conduction of field, greenhouse and laboratory experimental work to measure, understand, compare and predict plant disease epidemics.\nThe modeling work is non pathogen-specific and covers a broad range of topics in plant disease epidemiology, including: assessment of disease intensity and crop loss; modeling temporal progress and spatial spread across scale; assessment and prediction of disease risk and conducting systematic reviews and meta-analysis.\nThe experimental research is focused on genotyping and phenotyping of fungal pathogen populations. These include assessment of several traits such as: reproduction, pathogenicity, aggressiveness, toxigenic potential and fungicide resistance. Currently, we study two of the most dangerous plant pathogens worldwide: mycotoxigenic Fusarium that cause head blights or ear rots in winter and summer crops and Pyricularia blast of rice, wheat and grasses."
+    "text": "We make use of statistical and mathematical models as well as conduct field, greenhouse and laboratory experimental work to measure, understand, compare and predict plant disease epidemics.\nThe modeling work is non disease-specific and covers a broad range of topics in plant disease epidemiology, including: assessment of disease intensity and crop loss; modeling temporal progress and spatial spread across scale; assessment and prediction of disease risk and conducting systematic reviews and meta-analysis.\nThe experimental research is focused on genotyping and phenotyping of fungal pathogen populations. These include assessment of several traits such as: reproduction, pathogenicity, aggressiveness, toxigenic potential and fungicide resistance. Currently, we study two of the most dangerous plant pathogens worldwide: mycotoxigenic Fusarium that cause head blights or ear rots in winter and summer crops and Pyricularia blast of rice, wheat and grasses."
   },
   {
     "objectID": "lab.html#our-research",
     "href": "lab.html#our-research",
     "title": "EM Del Ponte",
     "section": "",
-    "text": "We make use of statistical and mathematical models as well as conduction of field, greenhouse and laboratory experimental work to measure, understand, compare and predict plant disease epidemics.\nThe modeling work is non pathogen-specific and covers a broad range of topics in plant disease epidemiology, including: assessment of disease intensity and crop loss; modeling temporal progress and spatial spread across scale; assessment and prediction of disease risk and conducting systematic reviews and meta-analysis.\nThe experimental research is focused on genotyping and phenotyping of fungal pathogen populations. These include assessment of several traits such as: reproduction, pathogenicity, aggressiveness, toxigenic potential and fungicide resistance. Currently, we study two of the most dangerous plant pathogens worldwide: mycotoxigenic Fusarium that cause head blights or ear rots in winter and summer crops and Pyricularia blast of rice, wheat and grasses."
+    "text": "We make use of statistical and mathematical models as well as conduct field, greenhouse and laboratory experimental work to measure, understand, compare and predict plant disease epidemics.\nThe modeling work is non disease-specific and covers a broad range of topics in plant disease epidemiology, including: assessment of disease intensity and crop loss; modeling temporal progress and spatial spread across scale; assessment and prediction of disease risk and conducting systematic reviews and meta-analysis.\nThe experimental research is focused on genotyping and phenotyping of fungal pathogen populations. These include assessment of several traits such as: reproduction, pathogenicity, aggressiveness, toxigenic potential and fungicide resistance. Currently, we study two of the most dangerous plant pathogens worldwide: mycotoxigenic Fusarium that cause head blights or ear rots in winter and summer crops and Pyricularia blast of rice, wheat and grasses."
   },
   {
     "objectID": "lab.html#current-students",
@@ -39,14 +39,14 @@
     "href": "index.html",
     "title": "EM Del Ponte",
     "section": "",
-    "text": "My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. There, I teach plant disease epidemiology and data science, conduct scientific research in the field of plant pathology, develop apps for supporting research and teaching and prepare future professionals and leaders."
+    "text": "My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. I teach plant pathology/epidemiology and data science, conduct scientific research in the field of plant pathology, develop apps for supporting research and teaching,and prepare future professionals and leaders."
   },
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
     "title": "EM Del Ponte",
     "section": "",
-    "text": "My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. There, I teach plant disease epidemiology and data science, conduct scientific research in the field of plant pathology, develop apps for supporting research and teaching and prepare future professionals and leaders."
+    "text": "My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. I teach plant pathology/epidemiology and data science, conduct scientific research in the field of plant pathology, develop apps for supporting research and teaching,and prepare future professionals and leaders."
   },
   {
     "objectID": "index.html#resumé",
@@ -74,21 +74,21 @@
     "href": "apps.html",
     "title": "EM Del Ponte",
     "section": "",
-    "text": "R for Plant Disease Epidemiology (R4PDE) is a book under development, which is based on the teaching notes from my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the Graduate Program in Plant Pathology of the Universidade Federal de Viçosa.\nThis book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a minimum level of knowledge in R to run the examples."
+    "text": "R for Plant Disease Epidemiology (R4PDE) is a book based on the teaching notes from my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the Graduate Program in Plant Pathology of the Universidade Federal de Viçosa.\nThis book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a minimum level of knowledge in R to run the examples."
   },
   {
     "objectID": "apps.html#book",
     "href": "apps.html#book",
     "title": "EM Del Ponte",
     "section": "",
-    "text": "R for Plant Disease Epidemiology (R4PDE) is a book under development, which is based on the teaching notes from my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the Graduate Program in Plant Pathology of the Universidade Federal de Viçosa.\nThis book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a minimum level of knowledge in R to run the examples."
+    "text": "R for Plant Disease Epidemiology (R4PDE) is a book based on the teaching notes from my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the Graduate Program in Plant Pathology of the Universidade Federal de Viçosa.\nThis book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a minimum level of knowledge in R to run the examples."
   },
   {
     "objectID": "apps.html#apps",
     "href": "apps.html#apps",
     "title": "EM Del Ponte",
     "section": "Apps",
-    "text": "Apps\nI have developed, myself or in collaboration with students, web applications to support research and teaching. These are made with R + shiny.\n\n\n\nTrainer\nSADBank\nFGSCdb\n\n\n\n\n\n\n\n\n\nA training tool for increasing the accuracy of visual assessments of plant disease severity (percent diseased area).\nA curated database of Standard Area Diagramas (SADs) for aiding visual assessments of disease severity.\nA georeferenced database of isolates of the Fusarium graminearum clade. Shiny app developed by by Kaique S. Alves\n\n\nEphemBrazil\nEpidemics\nRusty profits\n\n\n\n\n\n\n\nDatabase of distribution and basic taxonomic information on species of Ephemeroptera (Insecta) recorded in Brazil\nSimulation of plant disease progress curves by setting parameters for four populations dynamics models\nRusty profits is an shiny app calculator of the probality of breakeven on the costs of fungicides for managing soybean rust in Brazil. App developed by Kaique S. Alves"
+    "text": "Apps\nI have developed, myself or in collaboration with students, web applications to support research and teaching. These are made with R + shiny.\n\n\n\nTrainer\nSADBank\nFGSCdb\n\n\n\n\n\n\n\n\n\nA training tool for increasing the accuracy of visual assessments of plant disease severity (percent diseased area).\nA curated database of Standard Area Diagrams (SADs) for aiding visual assessments of disease severity.\nA georeferenced database of isolates of the Fusarium graminearum clade. Shiny app developed by by Kaique S. Alves\n\n\nEphemBrazil\nEpidemics\nRusty profits\n\n\n\n\n\n\n\nDatabase of distribution and basic taxonomic information on species of Ephemeroptera (Insecta) recorded in Brazil\nSimulation of plant disease progress curves by setting parameters for four populations dynamics models\nRusty profits is a shiny app calculator of the probability of break-even on the costs of fungicides for managing soybean rust in Brazil. App developed by Kaique S. Alves"
   },
   {
     "objectID": "index.html#talks-and-videos",
