@@ -5,7 +5,7 @@ editor: visual
 
 ## Book
 
-[![](figs/r4pde.png){style="float: left; margin-right: 30px" width="169"}](https://r4pde.netlify.app/)**R for Plant Disease Epidemiology** ([R4PDE](https://r4pde.netlify.app/)) is a dynamic book project rooted on the teaching notes of my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the [Graduate Program in Plant Pathology](http://www.dfp.ufv.br/grad/) of the Universidade Federal de Viçosa.
+[![](https://r4pde.netlify.app/cover.png){style="float: left; margin-right: 30px" width="200"}](https://r4pde.netlify.app/)**R for Plant Disease Epidemiology** ([R4PDE](https://r4pde.netlify.app/)) is a dynamic book project rooted on the teaching notes of my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the [Graduate Program in Plant Pathology](http://www.dfp.ufv.br/grad/) of the Universidade Federal de Viçosa.
 
 This book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a foundational knowledge of R to run the examples.
 
