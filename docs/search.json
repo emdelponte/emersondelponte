@@ -18,7 +18,7 @@
     "href": "lab.html#current-students",
     "title": "EM Del Ponte",
     "section": "Current students",
-    "text": "Current students\nMonalisa De Cól (M)\nLila Soares Lima (M)"
+    "text": "Current students\nMonalisa C. De Cól (M)\nLila Soares Lima (M)\nAna Carolyne C. de Carvalho (M)\nRicardo Gomes Tomáz (D)\nAna Paula S. Lima (Professional Masters)"
   },
   {
     "objectID": "lab.html#former-students",
@@ -96,5 +96,19 @@
     "title": "EM Del Ponte",
     "section": "Apps",
     "text": "Apps\nI have developed, myself or in collaboration with students, web applications to support research and teaching. These are made with R + Shiny.\n\n\n\nTrainer\nSADBank\nFGSCdb\n\n\n\n\n\n\n\n\n\nA training tool for increasing the accuracy of visual assessments of plant disease severity (percent diseased area).\nA curated database of Standard Area Diagrams (SADs) for aiding visual assessments of disease severity.\nA georeferenced database of isolates of the Fusarium graminearum clade. Shiny app developed by by Kaique S. Alves\n\n\nEphemBrazil\nEpidemics\nRusty profits\n\n\n\n\n\n\n\nDatabase of distribution and basic taxonomic information on species of Ephemeroptera (Insecta) recorded in Brazil\nSimulation of plant disease progress curves by setting parameters for four populations dynamics models\nRusty profits is a shiny app calculator of the probability of break-even on the costs of fungicides for managing soybean rust in Brazil. App developed by Kaique S. Alves\n\n\nTraineR2\nSpatial data simulation 1\nSpatial data simulation 2\n\n\n\n\n\n\n\nA training tool to increase the accuracy of severity estimates using actual photos of diseased organs.\nSimulation of presence-only spatial data for demonstrating random or aggregate patterns. Counts the number of units in user-defined spatial grid.\nSimulation of presence-absence spatial data for demonstrating random or aggregate patterns. Calculation of incidence and number of clusters.,"
+  },
+  {
+    "objectID": "lab.html#staff-technician",
+    "href": "lab.html#staff-technician",
+    "title": "EM Del Ponte",
+    "section": "Staff (technician)",
+    "text": "Staff (technician)\nBianca Moreira Barbosa (PhD in Chemistry)"
+  },
+  {
+    "objectID": "lab.html#ufv-professional-masters",
+    "href": "lab.html#ufv-professional-masters",
+    "title": "EM Del Ponte",
+    "section": "UFV professional masters",
+    "text": "UFV professional masters\nTiago de Sá Cardoso\nAna Paula Vicenzi\nLeonardo H. M. do Carmo\nLeonardo M. Antonello\nKarine da Costa M. Gonçalves"
   }
 ]
