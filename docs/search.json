@@ -14,6 +14,13 @@
     "text": "We utilize statistical and mathematical models, and conduct field, greenhouse, and laboratory experiments to measure, understand, compare, and predict plant disease epidemics.\nOur modeling work is not confined to specific diseases and encompasses a wide spectrum of topics within plant disease epidemiology. This includes the assessment of disease intensity and crop loss, modeling the temporal progress and spatial spread across different scales, evaluating and predicting disease risk, as well as conducting systematic reviews and meta-analyses.\nOur experimental research primarily revolves around the genotyping and phenotyping of fungal pathogen populations. This encompasses evaluating various traits such as reproduction, pathogenicity, aggressiveness, toxigenic potential, and fungicide resistance. Currently, we are studying two of the most significant plant pathogens globally: mycotoxigenic Fusarium, which causes head blights or ear rots in winter and summer crops, and Pyricularia blast affecting rice, wheat, and grasses."
   },
   {
+    "objectID": "lab.html#staff-technician",
+    "href": "lab.html#staff-technician",
+    "title": "EM Del Ponte",
+    "section": "Staff (technician)",
+    "text": "Staff (technician)\nBianca Moreira Barbosa (PhD in Chemistry)"
+  },
+  {
     "objectID": "lab.html#current-students",
     "href": "lab.html#current-students",
     "title": "EM Del Ponte",
@@ -33,6 +40,27 @@
     "title": "EM Del Ponte",
     "section": "Former postdocs",
     "text": "Former postdocs\nCamila Nicolli (UFV)\nGláucia Moreira (UFV)\nLucas Abreu (UFV)\nJuliano dos Santos (UFRGS, 2009-10)"
+  },
+  {
+    "objectID": "apps.html",
+    "href": "apps.html",
+    "title": "EM Del Ponte",
+    "section": "",
+    "text": "R for Plant Disease Epidemiology (R4PDE) is a dynamic book project rooted on the teaching notes of my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the Graduate Program in Plant Pathology of the Universidade Federal de Viçosa.\nThis book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a foundational knowledge of R to run the examples."
+  },
+  {
+    "objectID": "apps.html#book",
+    "href": "apps.html#book",
+    "title": "EM Del Ponte",
+    "section": "",
+    "text": "R for Plant Disease Epidemiology (R4PDE) is a dynamic book project rooted on the teaching notes of my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the Graduate Program in Plant Pathology of the Universidade Federal de Viçosa.\nThis book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a foundational knowledge of R to run the examples."
+  },
+  {
+    "objectID": "apps.html#apps",
+    "href": "apps.html#apps",
+    "title": "EM Del Ponte",
+    "section": "Apps",
+    "text": "Apps\nI have developed, myself or in collaboration with students, web applications to support research and teaching. These are made with R + Shiny.\n\n\n\nTrainer\nSADBank\nFGSCdb\n\n\n\n\n\n\n\n\n\nA training tool for increasing the accuracy of visual assessments of plant disease severity (percent diseased area).\nA curated database of Standard Area Diagrams (SADs) for aiding visual assessments of disease severity.\nA georeferenced database of isolates of the Fusarium graminearum clade. Shiny app developed by by Kaique S. Alves\n\n\nEphemBrazil\nEpidemics\nRusty profits\n\n\n\n\n\n\n\nDatabase of distribution and basic taxonomic information on species of Ephemeroptera (Insecta) recorded in Brazil\nSimulation of plant disease progress curves by setting parameters for four populations dynamics models\nRusty profits is a shiny app calculator of the probability of break-even on the costs of fungicides for managing soybean rust in Brazil. App developed by Kaique S. Alves\n\n\nTraineR2\nSpatial data simulation 1\nSpatial data simulation 2\n\n\n\n\n\n\n\nA training tool to increase the accuracy of severity estimates using actual photos of diseased organs.\nSimulation of presence-only spatial data for demonstrating random or aggregate patterns. Counts the number of units in user-defined spatial grid.\nSimulation of presence-absence spatial data for demonstrating random or aggregate patterns. Calculation of incidence and number of clusters.,"
   },
   {
     "objectID": "index.html",
@@ -75,40 +103,5 @@
     "title": "EM Del Ponte",
     "section": "Talks and videos",
     "text": "Talks and videos\nSlides of some of my talks are hosted in my Speakerdeck account and full videos of talks and lectures can be found on my YouTube channel."
-  },
-  {
-    "objectID": "apps.html",
-    "href": "apps.html",
-    "title": "EM Del Ponte",
-    "section": "",
-    "text": "R for Plant Disease Epidemiology (R4PDE) is a dynamic book project rooted on the teaching notes of my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the Graduate Program in Plant Pathology of the Universidade Federal de Viçosa.\nThis book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a foundational knowledge of R to run the examples."
-  },
-  {
-    "objectID": "apps.html#book",
-    "href": "apps.html#book",
-    "title": "EM Del Ponte",
-    "section": "",
-    "text": "R for Plant Disease Epidemiology (R4PDE) is a dynamic book project rooted on the teaching notes of my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the Graduate Program in Plant Pathology of the Universidade Federal de Viçosa.\nThis book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a foundational knowledge of R to run the examples."
-  },
-  {
-    "objectID": "apps.html#apps",
-    "href": "apps.html#apps",
-    "title": "EM Del Ponte",
-    "section": "Apps",
-    "text": "Apps\nI have developed, myself or in collaboration with students, web applications to support research and teaching. These are made with R + Shiny.\n\n\n\nTrainer\nSADBank\nFGSCdb\n\n\n\n\n\n\n\n\n\nA training tool for increasing the accuracy of visual assessments of plant disease severity (percent diseased area).\nA curated database of Standard Area Diagrams (SADs) for aiding visual assessments of disease severity.\nA georeferenced database of isolates of the Fusarium graminearum clade. Shiny app developed by by Kaique S. Alves\n\n\nEphemBrazil\nEpidemics\nRusty profits\n\n\n\n\n\n\n\nDatabase of distribution and basic taxonomic information on species of Ephemeroptera (Insecta) recorded in Brazil\nSimulation of plant disease progress curves by setting parameters for four populations dynamics models\nRusty profits is a shiny app calculator of the probability of break-even on the costs of fungicides for managing soybean rust in Brazil. App developed by Kaique S. Alves\n\n\nTraineR2\nSpatial data simulation 1\nSpatial data simulation 2\n\n\n\n\n\n\n\nA training tool to increase the accuracy of severity estimates using actual photos of diseased organs.\nSimulation of presence-only spatial data for demonstrating random or aggregate patterns. Counts the number of units in user-defined spatial grid.\nSimulation of presence-absence spatial data for demonstrating random or aggregate patterns. Calculation of incidence and number of clusters.,"
-  },
-  {
-    "objectID": "lab.html#staff-technician",
-    "href": "lab.html#staff-technician",
-    "title": "EM Del Ponte",
-    "section": "Staff (technician)",
-    "text": "Staff (technician)\nBianca Moreira Barbosa (PhD in Chemistry)"
-  },
-  {
-    "objectID": "lab.html#ufv-professional-masters",
-    "href": "lab.html#ufv-professional-masters",
-    "title": "EM Del Ponte",
-    "section": "UFV professional masters",
-    "text": "UFV professional masters\nTiago de Sá Cardoso\nAna Paula Vicenzi\nLeonardo H. M. do Carmo\nLeonardo M. Antonello\nKarine da Costa M. Gonçalves"
   }
 ]

@@ -28,6 +28,9 @@ website:
       - icon: github
         href: https://github.com/emdelponte
         aria-label: My GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/emerson-m-del-ponte-61678ba1/
+        aria-label: My Linkedin
 
 format:
   html:
