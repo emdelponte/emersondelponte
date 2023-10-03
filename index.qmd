@@ -4,7 +4,7 @@ title: ""
 
 ## Welcome!
 
-<img src="figs/delponte2.png" style="border-radius: 50%; margin-right:30px" width="180px" align="left"/> My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. I teach plant pathology/epidemiology and data science, conduct scientific research in the field of plant pathology, develop apps for supporting research and teaching,and prepare future professionals and leaders.<br><br><br>
+<img src="figs/delponte6.jpg" style="border-radius: 50%; margin-right:30px" width="180px" align="left"/> My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. I teach plant pathology/epidemiology and data science, conduct scientific research in the field of plant pathology, develop apps for supporting research and teaching,and prepare future professionals and leaders.<br><br><br>
 
 ## Resumé
 
