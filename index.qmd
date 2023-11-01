@@ -4,11 +4,11 @@ title: ""
 
 ## Welcome!
 
-<img src="figs/delponte6.jpg" style="border-radius: 50%; margin-right:30px" width="180px" align="left"/> My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. I teach plant pathology/epidemiology and data science, conduct scientific research in the field of plant pathology, develop apps for supporting research and teaching,and prepare future professionals and leaders.<br><br><br>
+<img src="figs/delponte6.jpg" style="border-radius: 50%; margin-right:30px" width="180px" align="left"/> My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. I teach plant pathology/epidemiology and data science, conduct scientific research in the field of plant pathology, develop apps for supporting research and teaching, and prepare future professionals and leaders.<br><br><br>
 
 ## Resumé
 
-I hold a DSc in Plant Pathology (Universidade Federal de Pelotas, 2004) with a one-year visit to Cornell University (Bergstrom Lab). I worked two years as as a postdoc associate in a project involving disease risk assessment and prediction (Yang Lab, Iowa State University). Currently, I work at the Universidade Federal de Viçosa (UFV) where I have both teaching and student [mentoring](lab.html) (masters and doctorate) responsibilities. You can get access to my peer-reviewed **publications** in my academic profile websites: [ORCID](https://orcid.org/0000-0003-4398-409X), [publons](https://publons.com/researcher/2740078/emerson-m-del-ponte/), [Google Scholar](https://scholar.google.com.br/citations?user=LgNDabAAAAAJ&hl=en), [ResearchGate](https://www.researchgate.net/profile/Emerson-Del-Ponte/research), or [Lattes](http://lattes.cnpq.br/9460309107496381).
+I hold a DSc in Plant Pathology from Universidade Federal de Pelotas (2004) and had the privilege of a one-year visit to Cornell University at the Bergstrom Lab. Following that, I spent two years as a postdoctoral associate working on a project related to disease risk assessment and prediction at the Yang Lab, Iowa State University. Currently, I am employed at the Universidade Federal de Viçosa (UFV), where I am involved in both teaching and student [mentoring](lab.html) (masters and doctorate) responsibilities. You can get access to my peer-reviewed **publications** in my academic profile websites: [ORCID](https://orcid.org/0000-0003-4398-409X), [publons](https://publons.com/researcher/2740078/emerson-m-del-ponte/), [Google Scholar](https://scholar.google.com.br/citations?user=LgNDabAAAAAJ&hl=en), [ResearchGate](https://www.researchgate.net/profile/Emerson-Del-Ponte/research), or [Lattes](http://lattes.cnpq.br/9460309107496381).
 
 ## Services
 

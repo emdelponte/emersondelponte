@@ -46,42 +46,42 @@
     "href": "apps.html",
     "title": "EM Del Ponte",
     "section": "",
-    "text": "R for Plant Disease Epidemiology (R4PDE) is a dynamic book project rooted on the teaching notes of my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the Graduate Program in Plant Pathology of the Universidade Federal de Viçosa.\nThis book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a foundational knowledge of R to run the examples."
+    "text": "R for Plant Disease Epidemiology (R4PDE) is a dynamic online book rooted on the teaching notes of my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the Graduate Program in Plant Pathology of the Universidade Federal de Viçosa.\nThis book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a foundational knowledge of R to run the examples."
   },
   {
     "objectID": "apps.html#book",
     "href": "apps.html#book",
     "title": "EM Del Ponte",
     "section": "",
-    "text": "R for Plant Disease Epidemiology (R4PDE) is a dynamic book project rooted on the teaching notes of my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the Graduate Program in Plant Pathology of the Universidade Federal de Viçosa.\nThis book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a foundational knowledge of R to run the examples."
+    "text": "R for Plant Disease Epidemiology (R4PDE) is a dynamic online book rooted on the teaching notes of my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the Graduate Program in Plant Pathology of the Universidade Federal de Viçosa.\nThis book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a foundational knowledge of R to run the examples."
   },
   {
     "objectID": "apps.html#apps",
     "href": "apps.html#apps",
     "title": "EM Del Ponte",
     "section": "Apps",
-    "text": "Apps\nI have developed, myself or in collaboration with students, web applications to support research and teaching. These are made with R + Shiny.\n\n\n\nTrainer\nSADBank\nFGSCdb\n\n\n\n\n\n\n\n\n\nA training tool for increasing the accuracy of visual assessments of plant disease severity (percent diseased area).\nA curated database of Standard Area Diagrams (SADs) for aiding visual assessments of disease severity.\nA georeferenced database of isolates of the Fusarium graminearum clade. Shiny app developed by by Kaique S. Alves\n\n\nEphemBrazil\nEpidemics\nRusty profits\n\n\n\n\n\n\n\nDatabase of distribution and basic taxonomic information on species of Ephemeroptera (Insecta) recorded in Brazil\nSimulation of plant disease progress curves by setting parameters for four populations dynamics models\nRusty profits is a shiny app calculator of the probability of break-even on the costs of fungicides for managing soybean rust in Brazil. App developed by Kaique S. Alves\n\n\nTraineR2\nSpatial data simulation 1\nSpatial data simulation 2\n\n\n\n\n\n\n\nA training tool to increase the accuracy of severity estimates using actual photos of diseased organs.\nSimulation of presence-only spatial data for demonstrating random or aggregate patterns. Counts the number of units in user-defined spatial grid.\nSimulation of presence-absence spatial data for demonstrating random or aggregate patterns. Calculation of incidence and number of clusters.,"
+    "text": "Apps\nI have developed, myself or in collaboration with students, web applications to support research and teaching. These are made with R + Shiny.\n\n\n\nTrainer\nSADBank\nFGSCdb\n\n\n\n\n\n\n\n\n\nA training tool for increasing the accuracy of visual assessments of plant disease severity (percent diseased area).\nA curated database of Standard Area Diagrams (SADs) for aiding visual assessments of disease severity.\nA georeferenced database of isolates of the Fusarium graminearum clade. Shiny app developed by by Kaique S. Alves\n\n\nEphemBrazil\nEpidemics\nRusty profits\n\n\n\n\n\n\n\nDatabase of distribution and basic taxonomic information on species of Ephemeroptera (Insecta) recorded in Brazil\nSimulation of plant disease progress curves by setting parameters for four populations dynamics models\nRusty profits is a shiny app calculator of the probability of break-even on the costs of fungicides for managing soybean rust in Brazil. App developed by Kaique S. Alves\n\n\nTraineR2\nSpatial data simulation 1\nSpatial data simulation 2\n\n\n\n\n\n\n\nA training tool to increase the accuracy of severity estimates using actual photos of diseased organs.\nSimulation of presence-only spatial data for demonstrating random or aggregate patterns. Counts the number of units in user-defined spatial grid.\nSimulation of presence-absence spatial data for demonstrating random or aggregate patterns. Calculation of incidence and number of clusters.,\n\n\nSpatial Gradients\nWarning systems\n\n\n\n\n\n\n\n\nSimulation of plant disease gradients by setting parameters of two gradients models\nCalculation of severity values for Wallin and FAST warning systems for plant disease epidemics. Downloads real time data from NASA POWER"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "EM Del Ponte",
     "section": "",
-    "text": "My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. I teach plant pathology/epidemiology and data science, conduct scientific research in the field of plant pathology, develop apps for supporting research and teaching,and prepare future professionals and leaders."
+    "text": "My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. I teach plant pathology/epidemiology and data science, conduct scientific research in the field of plant pathology, develop apps for supporting research and teaching, and prepare future professionals and leaders."
   },
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
     "title": "EM Del Ponte",
     "section": "",
-    "text": "My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. I teach plant pathology/epidemiology and data science, conduct scientific research in the field of plant pathology, develop apps for supporting research and teaching,and prepare future professionals and leaders."
+    "text": "My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. I teach plant pathology/epidemiology and data science, conduct scientific research in the field of plant pathology, develop apps for supporting research and teaching, and prepare future professionals and leaders."
   },
   {
     "objectID": "index.html#resumé",
     "href": "index.html#resumé",
     "title": "EM Del Ponte",
     "section": "Resumé",
-    "text": "Resumé\nI hold a DSc in Plant Pathology (Universidade Federal de Pelotas, 2004) with a one-year visit to Cornell University (Bergstrom Lab). I worked two years as as a postdoc associate in a project involving disease risk assessment and prediction (Yang Lab, Iowa State University). Currently, I work at the Universidade Federal de Viçosa (UFV) where I have both teaching and student mentoring (masters and doctorate) responsibilities. You can get access to my peer-reviewed publications in my academic profile websites: ORCID, publons, Google Scholar, ResearchGate, or Lattes."
+    "text": "Resumé\nI hold a DSc in Plant Pathology from Universidade Federal de Pelotas (2004) and had the privilege of a one-year visit to Cornell University at the Bergstrom Lab. Following that, I spent two years as a postdoctoral associate working on a project related to disease risk assessment and prediction at the Yang Lab, Iowa State University. Currently, I am employed at the Universidade Federal de Viçosa (UFV), where I am involved in both teaching and student mentoring (masters and doctorate) responsibilities. You can get access to my peer-reviewed publications in my academic profile websites: ORCID, publons, Google Scholar, ResearchGate, or Lattes."
   },
   {
     "objectID": "index.html#services",
