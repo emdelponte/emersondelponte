@@ -1,24 +1,45 @@
 [
   {
-    "objectID": "apps.html",
-    "href": "apps.html",
+    "objectID": "about.html",
+    "href": "about.html",
     "title": "EM Del Ponte",
     "section": "",
-    "text": "R for Plant Disease Epidemiology (R4PDE) is a dynamic online book rooted on the teaching notes of my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the Graduate Program in Plant Pathology of the Universidade Federal de Viçosa.\nThis book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a foundational knowledge of R to run the examples."
+    "text": "I hold a DSc in Plant Pathology from Universidade Federal de Pelotas (2004) and had the privilege of a one-year visit to Cornell University at the Bergstrom Lab. Following that, I spent two years as a postdoctoral associate working on a project related to disease risk assessment and prediction at the Yang Lab, Iowa State University. Currently, I am employed at the Universidade Federal de Viçosa (UFV), where I am involved in both teaching and student mentoring (masters and doctorate) responsibilities. You can get access to my peer-reviewed publications in my academic profile websites: ORCID, publons, Google Scholar, ResearchGate, or Lattes."
   },
   {
-    "objectID": "apps.html#book",
-    "href": "apps.html#book",
+    "objectID": "about.html#resumé",
+    "href": "about.html#resumé",
     "title": "EM Del Ponte",
     "section": "",
-    "text": "R for Plant Disease Epidemiology (R4PDE) is a dynamic online book rooted on the teaching notes of my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the Graduate Program in Plant Pathology of the Universidade Federal de Viçosa.\nThis book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a foundational knowledge of R to run the examples."
+    "text": "I hold a DSc in Plant Pathology from Universidade Federal de Pelotas (2004) and had the privilege of a one-year visit to Cornell University at the Bergstrom Lab. Following that, I spent two years as a postdoctoral associate working on a project related to disease risk assessment and prediction at the Yang Lab, Iowa State University. Currently, I am employed at the Universidade Federal de Viçosa (UFV), where I am involved in both teaching and student mentoring (masters and doctorate) responsibilities. You can get access to my peer-reviewed publications in my academic profile websites: ORCID, publons, Google Scholar, ResearchGate, or Lattes."
   },
   {
-    "objectID": "apps.html#apps",
-    "href": "apps.html#apps",
+    "objectID": "about.html#services",
+    "href": "about.html#services",
     "title": "EM Del Ponte",
-    "section": "Apps",
-    "text": "Apps\nI have developed, myself or in collaboration with students, web applications to support research and teaching. These are made with R + Shiny.\n\n\n\nTrainer\nSADBank\nFGSCdb\n\n\n\n\n\n\n\n\n\nA training tool for increasing the accuracy of visual assessments of plant disease severity (percent diseased area).\nA curated database of Standard Area Diagrams (SADs) for aiding visual assessments of disease severity.\nA georeferenced database of isolates of the Fusarium graminearum clade. Shiny app developed by Kaique S. Alves\n\n\nEphemBrazil\nEpidemics\nRusty profits\n\n\n\n\n\n\n\nDatabase of distribution and basic taxonomic information on species of Ephemeroptera (Insecta) recorded in Brazil\nSimulation of plant disease progress curves by setting parameters for four populations dynamics models\nRusty profits is a shiny app calculator of the probability of break-even on the costs of fungicides for managing soybean rust in Brazil. App developed by Kaique S. Alves\n\n\nTraineR2\nSpatial data simulation 1\nSpatial data simulation 2\n\n\n\n\n\n\n\nA training tool to increase the accuracy of severity estimates using actual photos of diseased organs.\nSimulation of presence-only spatial data for demonstrating random or aggregate patterns. Counts the number of units in user-defined spatial grid.\nSimulation of presence-absence spatial data for demonstrating random or aggregate patterns. Calculation of incidence and number of clusters.,\n\n\nSpatial Gradients\nWarning systems\nEDT calculator\n\n\n\n\n\n\n\nSimulation of plant disease gradients by setting parameters of two gradients models\nCalculation of severity values for Wallin and FAST warning systems for plant disease epidemics. Downloads real time data from NASA POWER\nCalculation of Economic Damage Thresholds for plant disease management based on four parameters\n\n\nPlant Rust Images\nAlumni map\n\n\n\n\n\n\n\n\nInteractive Shiny app for a image gallery of plant rusts from South Africa.\nShiny app for a map of alumni of a graduate student program"
+    "section": "Services",
+    "text": "Services\nI’ve been involved in scholarly peer-review since early in my career. I’ve served as associate editor for a few journals, including Plant Disease. Currently, I am Editor in Chief for Tropical Plant Pathology, the journal of the Brazilian Phytopathological Society Since 2022, I am also serving as associate editor for the CABI Agriculture & Bioscience (Plant Pathology Section) and the European Journal of Plant Pathology journals."
+  },
+  {
+    "objectID": "about.html#open-science",
+    "href": "about.html#open-science",
+    "title": "EM Del Ponte",
+    "section": "Open Science",
+    "text": "Open Science\nI strongly advocate for an open and reproducible research model and culture that may ultimately contribute to a more accessible, transparent and reliable science. This led me to co-found Open Plant Pathology initiative together with Adam Sparks. In my Lab, we make use of R language for all statistical and data science related activities. All data and computational codes produced during our research are made available ahead of peer-review. You can find our code on GitHub. The research outcomes are organized and shared as a research compendium and preprints of manuscripts are archived in Open Science Framework (OSF)."
+  },
+  {
+    "objectID": "about.html#talks-and-videos",
+    "href": "about.html#talks-and-videos",
+    "title": "EM Del Ponte",
+    "section": "Talks and videos",
+    "text": "Talks and videos\nSlides of some of my talks are hosted in my Speakerdeck account and full videos of talks and lectures can be found on my YouTube channel."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Emerson Del Ponte",
+    "section": "",
+    "text": "My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. I teach plant pathology/epidemiology and data science, conduct scientific research in the field of plant pathology, develop apps for supporting research and teaching, and prepare future professionals and leaders."
   },
   {
     "objectID": "lab.html",
@@ -63,45 +84,24 @@
     "text": "Former postdocs\nCamila Nicolli (UFV)\nGláucia Moreira (UFV)\nLucas Abreu (UFV)\nJuliano dos Santos (UFRGS, 2009-10)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "apps.html",
+    "href": "apps.html",
     "title": "EM Del Ponte",
     "section": "",
-    "text": "My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. I teach plant pathology/epidemiology and data science, conduct scientific research in the field of plant pathology, develop apps for supporting research and teaching, and prepare future professionals and leaders."
+    "text": "R for Plant Disease Epidemiology (R4PDE) is a dynamic online book rooted on the teaching notes of my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the Graduate Program in Plant Pathology of the Universidade Federal de Viçosa.\nThis book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a foundational knowledge of R to run the examples."
   },
   {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
+    "objectID": "apps.html#book",
+    "href": "apps.html#book",
     "title": "EM Del Ponte",
     "section": "",
-    "text": "My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. I teach plant pathology/epidemiology and data science, conduct scientific research in the field of plant pathology, develop apps for supporting research and teaching, and prepare future professionals and leaders."
+    "text": "R for Plant Disease Epidemiology (R4PDE) is a dynamic online book rooted on the teaching notes of my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the Graduate Program in Plant Pathology of the Universidade Federal de Viçosa.\nThis book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a foundational knowledge of R to run the examples."
   },
   {
-    "objectID": "index.html#resumé",
-    "href": "index.html#resumé",
+    "objectID": "apps.html#apps",
+    "href": "apps.html#apps",
     "title": "EM Del Ponte",
-    "section": "Resumé",
-    "text": "Resumé\nI hold a DSc in Plant Pathology from Universidade Federal de Pelotas (2004) and had the privilege of a one-year visit to Cornell University at the Bergstrom Lab. Following that, I spent two years as a postdoctoral associate working on a project related to disease risk assessment and prediction at the Yang Lab, Iowa State University. Currently, I am employed at the Universidade Federal de Viçosa (UFV), where I am involved in both teaching and student mentoring (masters and doctorate) responsibilities. You can get access to my peer-reviewed publications in my academic profile websites: ORCID, publons, Google Scholar, ResearchGate, or Lattes."
-  },
-  {
-    "objectID": "index.html#services",
-    "href": "index.html#services",
-    "title": "EM Del Ponte",
-    "section": "Services",
-    "text": "Services\nI’ve been involved in scholarly peer-review since early in my career. I’ve served as associate editor for a few journals, including Plant Disease. Currently, I am Editor in Chief for Tropical Plant Pathology, the journal of the Brazilian Phytopathological Society Since 2022, I am also serving as associate editor for the CABI Agriculture & Bioscience (Plant Pathology Section) and the European Journal of Plant Pathology journals."
-  },
-  {
-    "objectID": "index.html#open-science",
-    "href": "index.html#open-science",
-    "title": "EM Del Ponte",
-    "section": "Open Science",
-    "text": "Open Science\nI strongly advocate for an open and reproducible research model and culture that may ultimately contribute to a more accessible, transparent and reliable science. This led me to co-found Open Plant Pathology initiative together with Adam Sparks. In my Lab, we make use of R language for all statistical and data science related activities. All data and computational codes produced during our research are made available ahead of peer-review. You can find our code on GitHub. The research outcomes are organized and shared as a research compendium and preprints of manuscripts are archived in Open Science Framework (OSF)."
-  },
-  {
-    "objectID": "index.html#talks-and-videos",
-    "href": "index.html#talks-and-videos",
-    "title": "EM Del Ponte",
-    "section": "Talks and videos",
-    "text": "Talks and videos\nSlides of some of my talks are hosted in my Speakerdeck account and full videos of talks and lectures can be found on my YouTube channel."
+    "section": "Apps",
+    "text": "Apps\nI have developed, myself or in collaboration with students, web applications to support research and teaching. These are made with R + Shiny.\n\n\n\nTrainer\nSADBank\nFGSCdb\n\n\n\n\n\n\n\n\n\nA training tool for increasing the accuracy of visual assessments of plant disease severity (percent diseased area).\nA curated database of Standard Area Diagrams (SADs) for aiding visual assessments of disease severity.\nA georeferenced database of isolates of the Fusarium graminearum clade. Shiny app developed by Kaique S. Alves\n\n\nEphemBrazil\nEpidemics\nRusty profits\n\n\n\n\n\n\n\nDatabase of distribution and basic taxonomic information on species of Ephemeroptera (Insecta) recorded in Brazil\nSimulation of plant disease progress curves by setting parameters for four populations dynamics models\nRusty profits is a shiny app calculator of the probability of break-even on the costs of fungicides for managing soybean rust in Brazil. App developed by Kaique S. Alves\n\n\nTraineR2\nSpatial data simulation 1\nSpatial data simulation 2\n\n\n\n\n\n\n\nA training tool to increase the accuracy of severity estimates using actual photos of diseased organs.\nSimulation of presence-only spatial data for demonstrating random or aggregate patterns. Counts the number of units in user-defined spatial grid.\nSimulation of presence-absence spatial data for demonstrating random or aggregate patterns. Calculation of incidence and number of clusters.,\n\n\nSpatial Gradients\nWarning systems\nEDT calculator\n\n\n\n\n\n\n\nSimulation of plant disease gradients by setting parameters of two gradients models\nCalculation of severity values for Wallin and FAST warning systems for plant disease epidemics. Downloads real time data from NASA POWER\nCalculation of Economic Damage Thresholds for plant disease management based on four parameters\n\n\nPlant Rust Images\nAlumni map\n\n\n\n\n\n\n\n\nInteractive Shiny app for a image gallery of plant rusts from South Africa.\nShiny app for a map of alumni of a graduate student program"
   }
 ]

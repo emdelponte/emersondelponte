@@ -15,6 +15,9 @@ website:
         href: index.qmd
         text: Home
       - icon: people
+        href: about.qmd
+        text: About me
+      - icon: people
         href: lab.qmd
         text: The lab
       - icon: tools
@@ -34,7 +37,9 @@ website:
 
 format:
   html:
-    theme: yeti
+    theme: 
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true
     

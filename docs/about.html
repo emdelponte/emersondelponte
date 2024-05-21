@@ -66,12 +66,10 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="EM Del Ponte -">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://r4pde.netlify.app/cover.png">
 <meta property="og:site-name" content="EM Del Ponte">
 <meta name="twitter:title" content="EM Del Ponte -">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://r4pde.netlify.app/cover.png">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
@@ -97,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target=""><i class="bi bi-people" role="img">
+    <a class="nav-link active" href="./about.html" rel="" target="" aria-current="page"><i class="bi bi-people" role="img">
 </i> 
  <span class="menu-text">About me</span></a>
   </li>  
@@ -107,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">The lab</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./apps.html" rel="" target="" aria-current="page"><i class="bi bi-tools" role="img">
+    <a class="nav-link" href="./apps.html" rel="" target=""><i class="bi bi-tools" role="img">
 </i> 
  <span class="menu-text">Resources</span></a>
   </li>  
@@ -145,8 +143,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#book" id="toc-book" class="nav-link active" data-scroll-target="#book">Book</a></li>
-  <li><a href="#apps" id="toc-apps" class="nav-link" data-scroll-target="#apps">Apps</a></li>
+  <li><a href="#resumé" id="toc-resumé" class="nav-link active" data-scroll-target="#resumé">Resumé</a></li>
+  <li><a href="#services" id="toc-services" class="nav-link" data-scroll-target="#services">Services</a></li>
+  <li><a href="#open-science" id="toc-open-science" class="nav-link" data-scroll-target="#open-science">Open Science</a></li>
+  <li><a href="#talks-and-videos" id="toc-talks-and-videos" class="nav-link" data-scroll-target="#talks-and-videos">Talks and videos</a></li>
   </ul>
 </nav>
     </div>
@@ -155,95 +155,21 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="book" class="level2">
-<h2 class="anchored" data-anchor-id="book">Book</h2>
-<p><a href="https://r4pde.netlify.app/"><img src="https://r4pde.netlify.app/cover.png" class="img-fluid" style="float: left; margin-right: 30px; border: 2px solid steelblue" width="200"></a><strong>R for Plant Disease Epidemiology</strong> (<a href="https://r4pde.netlify.app/">R4PDE</a>) is a dynamic online book rooted on the teaching notes of my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the <a href="http://www.dfp.ufv.br/grad/">Graduate Program in Plant Pathology</a> of the Universidade Federal de Viçosa.</p>
-<p>This book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a foundational knowledge of R to run the examples.</p>
+<section id="resumé" class="level2">
+<h2 class="anchored" data-anchor-id="resumé">Resumé</h2>
+<p>I hold a DSc in Plant Pathology from Universidade Federal de Pelotas (2004) and had the privilege of a one-year visit to Cornell University at the Bergstrom Lab. Following that, I spent two years as a postdoctoral associate working on a project related to disease risk assessment and prediction at the Yang Lab, Iowa State University. Currently, I am employed at the Universidade Federal de Viçosa (UFV), where I am involved in both teaching and student <a href="lab.html">mentoring</a> (masters and doctorate) responsibilities. You can get access to my peer-reviewed <strong>publications</strong> in my academic profile websites: <a href="https://orcid.org/0000-0003-4398-409X">ORCID</a>, <a href="https://publons.com/researcher/2740078/emerson-m-del-ponte/">publons</a>, <a href="https://scholar.google.com.br/citations?user=LgNDabAAAAAJ&amp;hl=en">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Emerson-Del-Ponte/research">ResearchGate</a>, or <a href="http://lattes.cnpq.br/9460309107496381">Lattes</a>.</p>
 </section>
-<section id="apps" class="level2">
-<h2 class="anchored" data-anchor-id="apps">Apps</h2>
-<p>I have developed, myself or in collaboration with students, web applications to support research and teaching. These are made with R + Shiny.</p>
-<table class="table">
-<thead>
-<tr class="header">
-<th>Trainer</th>
-<th>SADBank</th>
-<th>FGSCdb</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="https://edelponte.shinyapps.io/trainer"><img src="figs/app_trainer.png" class="img-fluid" style="border-radius: 50%; border: 2px solid steelblue" width="150"></a></td>
-<td><a href="https://edelponte.shinyapps.io/sadbank"><img src="figs/app_sadbank.png" class="img-fluid" style="border-radius: 50%; border: 2px solid steelblue" width="150"></a></td>
-<td><a href="https://edelponte.shinyapps.io/fgscdb"><img src="figs/app_fgscdb.png" class="img-fluid" style="border-radius: 50%; border: 2px solid steelblue" width="150"></a></td>
-</tr>
-<tr class="even">
-<td>A training tool for increasing the accuracy of visual assessments of plant disease severity (percent diseased area).</td>
-<td>A curated database of Standard Area Diagrams (SADs) for aiding visual assessments of disease severity.</td>
-<td>A georeferenced database of isolates of the <em>Fusarium graminearum</em> clade. Shiny app developed by Kaique S. Alves</td>
-</tr>
-<tr class="odd">
-<td><strong>EphemBrazil</strong></td>
-<td><strong>Epidemics</strong></td>
-<td><strong>Rusty profits</strong></td>
-</tr>
-<tr class="even">
-<td><a href="https://edelponte.shinyapps.io/ephembrazil/"><img src="figs/app_ephembrazil.png" class="img-fluid" style="border-radius: 50%; border: 2px solid steelblue" width="150"></a></td>
-<td><a href="https://edelponte.shinyapps.io/epidemics"><img src="figs/app_epidemics.png" class="img-fluid" style="border-radius: 50%; border: 2px solid steelblue" width="150"></a></td>
-<td><a href="https://alvesks.shinyapps.io/rusty-profits/"><img src="figs/app_rusty.png" class="img-fluid" style="border-radius: 50%; border: 2px solid steelblue" width="150"></a></td>
-</tr>
-<tr class="odd">
-<td>Database of distribution and basic taxonomic information on species of Ephemeroptera (Insecta) recorded in Brazil</td>
-<td>Simulation of plant disease progress curves by setting parameters for four populations dynamics models</td>
-<td>Rusty profits is a shiny app calculator of the probability of break-even on the costs of fungicides for managing soybean rust in Brazil. App developed by Kaique S. Alves</td>
-</tr>
-<tr class="even">
-<td><strong>TraineR2</strong></td>
-<td><strong>Spatial data simulation 1</strong></td>
-<td><strong>Spatial data simulation 2</strong></td>
-</tr>
-<tr class="odd">
-<td><a href="https://delponte.shinyapps.io/traineR2/"><img src="figs/app_trainer2.png" class="img-fluid" style="border-radius: 50%; border: 2px solid steelblue" width="150"></a></td>
-<td><a href="https://delponte.shinyapps.io/spatial"><img src="figs/app_spatial.png" class="img-fluid" style="border-radius: 50%;  border: 2px solid steelblue" width="150"></a></td>
-<td><a href="https://delponte.shinyapps.io/spatial2/"><img src="figs/app_spatial2.png" class="img-fluid" style="border-radius: 50%; border: 2px solid steelblue" width="150"></a></td>
-</tr>
-<tr class="even">
-<td>A training tool to increase the accuracy of severity estimates using actual photos of diseased organs.</td>
-<td>Simulation of presence-only spatial data for demonstrating random or aggregate patterns. Counts the number of units in user-defined spatial grid.</td>
-<td>Simulation of presence-absence spatial data for demonstrating random or aggregate patterns. Calculation of incidence and number of clusters.,</td>
-</tr>
-<tr class="odd">
-<td><strong>Spatial Gradients</strong></td>
-<td><strong>Warning systems</strong></td>
-<td><strong>EDT calculator</strong></td>
-</tr>
-<tr class="even">
-<td><a href="https://delponte.shinyapps.io/gradients/"><img src="figs/app_gradients.png" class="img-fluid" style="border-radius: 50%; border: 2px solid steelblue" width="150"></a></td>
-<td><a href="https://epidemiologiaufv.shinyapps.io/warning-systems/"><img src="figs/apps_warning_systems.png" style="border-radius: 50%; border: 2px solid steelblue" width="150" height="150"></a></td>
-<td><a href="https://epidemiologiaufv.shinyapps.io/EDTCalculator/"><img src="figs/aps_edt.png" class="img-fluid" style="border-radius: 50%; border: 2px solid steelblue" width="150"></a></td>
-</tr>
-<tr class="odd">
-<td>Simulation of plant disease gradients by setting parameters of two gradients models</td>
-<td>Calculation of severity values for Wallin and FAST warning systems for plant disease epidemics. Downloads real time data from NASA POWER</td>
-<td>Calculation of Economic Damage Thresholds for plant disease management based on four parameters</td>
-</tr>
-<tr class="even">
-<td><strong>Plant Rust Images</strong></td>
-<td><strong>Alumni map</strong></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><a href="https://epidemiologiaufv.shinyapps.io/plantrustimages/"><img src="figs/app_plantrust.png" style="border-radius: 50%; border: 2px solid steelblue" width="150" height="150"></a></td>
-<td><a href="https://delponte.shinyapps.io/mpdefesa/"><img src="figs/app_mpdefesa.png" style="border-radius: 50%; border: 2px solid steelblue" width="150" height="150"></a></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Interactive Shiny app for a image gallery of plant rusts from South Africa.</td>
-<td>Shiny app for a map of alumni of a graduate student program</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<section id="services" class="level2">
+<h2 class="anchored" data-anchor-id="services">Services</h2>
+<p>I’ve been involved in scholarly peer-review since early in my career. I’ve served as associate editor for a few journals, including Plant Disease. Currently, I am Editor in Chief for <a href="www.sbfitopatologia.org.br/tpp">Tropical Plant Pathology</a>, the journal of the <a href="www.sbfitopatologia.org.br">Brazilian Phytopathological Society</a> Since 2022, I am also serving as associate editor for the <a href="https://cabiagbio.biomedcentral.com/about/editorial-board">CABI Agriculture &amp; Bioscience</a> (Plant Pathology Section) and the <a href="https://www.springer.com/journal/10658/editors">European Journal of Plant Pathology</a> journals.</p>
+</section>
+<section id="open-science" class="level2">
+<h2 class="anchored" data-anchor-id="open-science">Open Science</h2>
+<p>I strongly advocate for an open and reproducible research model and culture that may ultimately contribute to a more accessible, transparent and reliable science. This led me to co-found <a href="http://www.openplantpathology.org/">Open Plant Pathology</a> initiative together with <a href="https://adamhsparks.netlify.app/">Adam Sparks</a>. In my Lab, we make use of <a href="https://www.r-project.org/">R language</a> for all statistical and data science related activities. All data and computational codes produced during our research are made available ahead of peer-review. You can find our code on <a href="https://github.com/emdelponte">GitHub</a>. The research outcomes are organized and shared as a <a href="https://research-compendium.science/">research compendium</a> and <a href="https://publicationethics.org/resources/discussion-documents/preprints">preprints</a> of manuscripts are archived in Open Science Framework (<a href="https://osf.io/jb6yd">OSF</a>).</p>
+</section>
+<section id="talks-and-videos" class="level2">
+<h2 class="anchored" data-anchor-id="talks-and-videos">Talks and videos</h2>
+<p>Slides of some of my talks are hosted in my <a href="https://speakerdeck.com/emdelponte">Speakerdeck</a> account and full videos of talks and lectures can be found on my <a href="https://www.youtube.com/channel/UC3fmW_hoXOY_YR23EtlYvZg">YouTube</a> channel.</p>
 
 
 </section>
