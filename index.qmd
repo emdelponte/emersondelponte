@@ -5,9 +5,9 @@ about:
   template: jolla
   image: figs/delponte6.jpg
   links:
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com/edelponte
+    - icon: bluesky
+      text: bluesky
+      href: https://bsky.app/profile/edelponte.bsky.social
     - icon: github
       text: Github
       href: https://github.com/emdelponte
@@ -15,5 +15,5 @@ about:
       href: https://www.linkedin.com/in/emerson-m-del-ponte-61678ba1/
       text: Linkedin
 ---
-My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. I teach plant pathology/epidemiology and data science, conduct scientific research in the field of plant pathology, develop apps for supporting research and teaching, and prepare future professionals and leaders.
 
+My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. I teach plant pathology/epidemiology and data science, conduct scientific research in the field of plant pathology and prepare future professionals and leaders.
