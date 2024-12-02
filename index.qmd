@@ -6,7 +6,7 @@ about:
   image: figs/delponte6.jpg
   links:
     - icon: bluesky
-      text: bluesky
+      text: Bluesky
       href: https://bsky.app/profile/edelponte.bsky.social
     - icon: github
       text: Github
