@@ -1,0 +1,23 @@
+---
+title: "Machine learning in plant disease diagnosis - are we getting there?"
+description: "Many submissions to plant pathology journals applying ML focus on incremental accuracy improvements using standardized datasets, often overlooking real-world complexities and biological relevance. To advance the field, ML research must address field-relevant challenges through collaboration with plant pathologists, ensuring practical and impactful solutions for disease management."
+author:
+  - name: Emerson Del Ponte
+    url: https://emersondelponte.netlify.app
+    orcid: 
+    affiliation: Universidade Federal de Viçosa
+date: 01-01-2025
+image: preview.png
+categories: [Plant Pathology] 
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+As an editor for prominent plant pathology journals, I’ve observed an increasing number of submissions applying machine learning (ML) techniques to classify images of plant diseases. While these studies showcase the potential of ML, they often fail to align with the goals of plant pathology journals. Many focus heavily on incremental improvements in accuracy, often already above 95%, while relying on standardized datasets gathered from repositories and that do not capture real-world complexities, such as environmental variability, mixed infections, or subtle disease symptoms.
+
+A recurring issue is that these works tend to prioritize technological approaches (testing of new architectures on the same datasets) over scientific relevance. Some address problems where the distinctions between healthy and diseased plants, or between different diseases, are visually obvious, requiring no ML for classification. While technically sound, these papers often lack novelty and actionable insights that could advance plant pathology.
+
+Such studies might be better suited for computer science or engineering journals, where the focus is on algorithmic refinement. To truly contribute to plant pathology, ML research must tackle complex, field-relevant challenges. Collaboration with plant pathologists is crucial to provide the necessary biological context, design studies reflective of real-world conditions, and ensure that the outcomes offer practical solutions for disease management. 
+
+I am confident that AI holds immense potential for transforming plant disease diagnosis, and with the creativity and expertise of researchers, we will continue to find innovative solutions that make a lasting impact.
+
+Post originalmente postado no [LinkedIn](https://www.linkedin.com/posts/emerson-m-del-ponte-61678ba1_machine-learning-in-plant-disease-diagnosis-activity-7280289462050246656-Vdux?utm_source=share&utm_medium=member_desktop)

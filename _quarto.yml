@@ -23,6 +23,8 @@ website:
       - icon: tools
         href: apps.qmd
         text: Resources
+      - icon: pen
+        href: posts.qmd
 
     right:
       - icon: twitter

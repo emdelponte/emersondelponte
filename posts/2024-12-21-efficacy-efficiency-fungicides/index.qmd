@@ -1,0 +1,35 @@
+---
+title: "Fungicidas: Compreendendo a diferença entre eficácia e eficiência"
+description: "Você sabe a diferença entre este dois termos? neste pequeno artigo eu comento sobre as diferenças conceituais e aplicação regionalizada do termo eficiência como sendo sinônimo de eficácia"
+author:
+  - name: Emerson Del Ponte
+    url: https://emersondelponte.netlify.app
+    orcid: 
+    affiliation: Universidade Federal de Viçosa
+date: 12-21-2024
+image: preview.png
+categories: [Plant Pathology] 
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+No Brasil, é muito comum o uso do termo eficiência ou eficácia, indistintamente, para descrever o desempenho ou performance de fungicidas no controle de doenças. Ambos são expressos em percentuais de redução da intensidade da doença relativa ao tratamento sem aplicação. Nesse cálculo, quanto mais próximo de 100%, melhor o produto.
+
+Muitos os consideram sinônimos, como apontam dicionários como o Caldas Aulete, que frequentemente os correlacionam no uso cotidiano. Contudo, no domínio técnico-científico, há particularidades que os distinguem. A diferença entre eles pode parecer uma questão gramatical, mas ela tem impacto significativo na comunicação técnica.
+
+De acordo com o dicionário Cambridge:
+
+Eficácia ("efficacy"): a capacidade, especialmente de um medicamento ou método, de alcançar o resultado pretendido.
+
+Eficiência ("efficiency"): a qualidade de realizar a maior quantidade de trabalho útil utilizando o mínimo possível de energia, combustível, esforço, etc.
+
+Portanto, no contexto de fungicidas, o termo técnico correto para descrever a performance de um produto é eficácia e não eficiência, já que esta última está relacionada à otimização de recursos (tempo e custo) necessários para atingir um resultado equivalente no manejo de doenças.
+
+De maneira prática, ao afirmar que "o fungicida X tem uma eficiência de 75% no controle da doença Y", na verdade, estamos nos referindo à eficácia do produto. O termo eficiência não é tecnicamente errado, mas tem um uso particular e seria adequado se estivéssemos discutindo, com base na definição, como o fungicida contribui para a otimização de recursos ou o retorno financeiro no manejo. Por exemplo, se uma única aplicação reduz a severidade da doença no mesmo patamar que duas aplicações (por exemplo, 75%), a primeira opção tem maior eficiência (e também tem boa eficácia). O mesmo vale para comparações entre doses diferentes do mesmo produto (otimização de recursos) e diferentes tecnologias de aplicação (otimização de tempo).
+
+Como mostrado acima, o termo equivalente a eficácia, em inglês, é "efficacy". Esse é amplamente utilizado na literatura técnico-científica internacional sobre avaliação de performance de fungicidas. Já o termo "efficiency" mais raramente aparece associado a fungicidas no mesmo contexto e está ligado a trabalhos produzidos no Brasil, reforçando que o uso do termo eficiência é um costume regional devido mais a uma questão de hábito do que de precisão técnica.
+
+Ao escrever relatórios técnicos, artigos ou materiais de divulgação, é essencial diferenciar esses conceitos e aplicá-los corretamente para garantir clareza e precisão na comunicação. Essa distinção não é apenas acadêmica, mas também prática, pois ajuda a estabelecer padrões consistentes no entendimento e uso dos termos no manejo de doenças.
+
+E você, prefere usar eficiência ou eficácia? E em seu país, os termos também são usados de forma indistinta?
+
+Post originalmente postado no [LinkedIn](https://www.linkedin.com/posts/emerson-m-del-ponte-61678ba1_fungicidas-compreendendo-a-diferen%C3%A7a-entre-activity-7274160598081249280-6NFN?utm_source=share&utm_medium=member_desktop)

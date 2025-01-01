@@ -1,0 +1,10 @@
+---
+title: "My Blog"
+listing: 
+  contents: posts # this name must match the name of the folder you created in step #1; here, all Quarto docs in the `posts` directory will be included on your listing page
+  type: grid # or `default` or `table`; each type has its own set of yaml options to include
+  sort: "date desc" # can also sort on more than one field
+  categories: true
+
+---
+

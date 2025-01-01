@@ -1,0 +1,6 @@
+# options specified here will apply to all posts in this folder
+
+# re-render posts only when a change to the source file is made ----
+freeze: auto
+
+title-block-banner: false

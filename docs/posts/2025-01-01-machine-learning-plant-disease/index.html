@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Emerson Del Ponte">
+<meta name="dcterms.date" content="2025-01-01">
+<meta name="description" content="Many submissions to plant pathology journals applying ML focus on incremental accuracy improvements using standardized datasets, often overlooking real-world complexities and biological relevance. To advance the field, ML research must address field-relevant challenges through collaboration with plant pathologists, ensuring practical and impactful solutions for disease management.">
 
-<title>apps – EM Del Ponte</title>
+<title>Machine learning in plant disease diagnosis - are we getting there? – EM Del Ponte</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d1b12f2568ecbe55642fee6aa00bd082.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-b2511bcbb01c2159fd96a78deb42ffd9.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d1b12f2568ecbe55642fee6aa00bd082.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-b2511bcbb01c2159fd96a78deb42ffd9.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,14 +73,14 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="– EM Del Ponte">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://r4pde.netlify.app/cover.png">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Machine learning in plant disease diagnosis - are we getting there? – EM Del Ponte">
+<meta property="og:description" content="Many submissions to plant pathology journals applying ML focus on incremental accuracy improvements using standardized datasets, often overlooking real-world complexities and biological relevance. To advance the field, ML research must address field-relevant challenges through collaboration with plant pathologists, ensuring practical and impactful solutions for disease management.">
+<meta property="og:image" content="preview.png">
 <meta property="og:site_name" content="EM Del Ponte">
-<meta name="twitter:title" content="– EM Del Ponte">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://r4pde.netlify.app/cover.png">
+<meta name="twitter:title" content="Machine learning in plant disease diagnosis - are we getting there? – EM Del Ponte">
+<meta name="twitter:description" content="Many submissions to plant pathology journals applying ML focus on incremental accuracy improvements using standardized datasets, often overlooking real-world complexities and biological relevance. To advance the field, ML research must address field-relevant challenges through collaboration with plant pathologists, ensuring practical and impactful solutions for disease management.">
+<meta name="twitter:image" content="preview.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -88,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">EM Del Ponte</span>
     </a>
   </div>
@@ -99,27 +102,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> <i class="bi bi-house" role="img">
+    <a class="nav-link" href="../../index.html"> <i class="bi bi-house" role="img">
 </i> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> <i class="bi bi-people" role="img">
+    <a class="nav-link" href="../../about.html"> <i class="bi bi-people" role="img">
 </i> 
 <span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./lab.html"> <i class="bi bi-people" role="img">
+    <a class="nav-link" href="../../lab.html"> <i class="bi bi-people" role="img">
 </i> 
 <span class="menu-text">The lab</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./apps.html" aria-current="page"> <i class="bi bi-tools" role="img">
+    <a class="nav-link" href="../../apps.html"> <i class="bi bi-tools" role="img">
 </i> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> <i class="bi bi-pen" role="img">
+    <a class="nav-link" href="../../posts.html"> <i class="bi bi-pen" role="img">
 </i> 
 <span class="menu-text">My Blog</span></a>
   </li>  
@@ -152,114 +155,65 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#book" id="toc-book" class="nav-link active" data-scroll-target="#book">Book</a></li>
-  <li><a href="#apps" id="toc-apps" class="nav-link" data-scroll-target="#apps">Apps</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Machine learning in plant disease diagnosis - are we getting there?</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Plant Pathology</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Many submissions to plant pathology journals applying ML focus on incremental accuracy improvements using standardized datasets, often overlooking real-world complexities and biological relevance. To advance the field, ML research must address field-relevant challenges through collaboration with plant pathologists, ensuring practical and impactful solutions for disease management.
+  </div>
+</div>
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://emersondelponte.netlify.app">Emerson Del Ponte</a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Universidade Federal de Viçosa
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 1, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
 
-<section id="book" class="level2">
-<h2 class="anchored" data-anchor-id="book">Book</h2>
-<p><a href="https://r4pde.netlify.app/"><img src="https://r4pde.netlify.app/cover.png" class="img-fluid" style="float: left; margin-right: 30px; border: 2px solid steelblue" width="200"></a><strong>R for Plant Disease Epidemiology</strong> (<a href="https://r4pde.netlify.app/">R4PDE</a>) is a dynamic online book rooted on the teaching notes of my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the <a href="http://www.dfp.ufv.br/grad/">Graduate Program in Plant Pathology</a> of the Universidade Federal de Viçosa.</p>
-<p>This book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a foundational knowledge of R to run the examples.</p>
-</section>
-<section id="apps" class="level2">
-<h2 class="anchored" data-anchor-id="apps">Apps</h2>
-<p>I have developed, myself or in collaboration with students, web applications to support research and teaching. These are made with R + Shiny.</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Trainer</th>
-<th>SADBank</th>
-<th>FGSCdb</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="https://edelponte.shinyapps.io/trainer"><img src="figs/app_trainer.png" class="img-fluid" style="border-radius: 50%; border: 2px solid steelblue" width="150"></a></td>
-<td><a href="https://edelponte.shinyapps.io/sadbank"><img src="figs/app_sadbank.png" class="img-fluid" style="border-radius: 50%; border: 2px solid steelblue" width="150"></a></td>
-<td><a href="https://edelponte.shinyapps.io/fgscdb"><img src="figs/app_fgscdb.png" class="img-fluid" style="border-radius: 50%; border: 2px solid steelblue" width="150"></a></td>
-</tr>
-<tr class="even">
-<td>A training tool for increasing the accuracy of visual assessments of plant disease severity (percent diseased area).</td>
-<td>A curated database of Standard Area Diagrams (SADs) for aiding visual assessments of disease severity.</td>
-<td>A georeferenced database of isolates of the <em>Fusarium graminearum</em> clade. Shiny app developed by Kaique S. Alves</td>
-</tr>
-<tr class="odd">
-<td><strong>EphemBrazil</strong></td>
-<td><strong>Epidemics</strong></td>
-<td><strong>Rusty profits</strong></td>
-</tr>
-<tr class="even">
-<td><a href="https://edelponte.shinyapps.io/ephembrazil/"><img src="figs/app_ephembrazil.png" class="img-fluid" style="border-radius: 50%; border: 2px solid steelblue" width="150"></a></td>
-<td><a href="https://edelponte.shinyapps.io/epidemics"><img src="figs/app_epidemics.png" class="img-fluid" style="border-radius: 50%; border: 2px solid steelblue" width="150"></a></td>
-<td><a href="https://alvesks.shinyapps.io/rusty-profits/"><img src="figs/app_rusty.png" class="img-fluid" style="border-radius: 50%; border: 2px solid steelblue" width="150"></a></td>
-</tr>
-<tr class="odd">
-<td>Database of distribution and basic taxonomic information on species of Ephemeroptera (Insecta) recorded in Brazil</td>
-<td>Simulation of plant disease progress curves by setting parameters for four populations dynamics models</td>
-<td>Rusty profits is a shiny app calculator of the probability of break-even on the costs of fungicides for managing soybean rust in Brazil. App developed by Kaique S. Alves</td>
-</tr>
-<tr class="even">
-<td><strong>TraineR2</strong></td>
-<td><strong>Spatial data simulation 1</strong></td>
-<td><strong>Spatial data simulation 2</strong></td>
-</tr>
-<tr class="odd">
-<td><a href="https://delponte.shinyapps.io/traineR2/"><img src="figs/app_trainer2.png" class="img-fluid" style="border-radius: 50%; border: 2px solid steelblue" width="150"></a></td>
-<td><a href="https://delponte.shinyapps.io/spatial"><img src="figs/app_spatial.png" class="img-fluid" style="border-radius: 50%;  border: 2px solid steelblue" width="150"></a></td>
-<td><a href="https://delponte.shinyapps.io/spatial2/"><img src="figs/app_spatial2.png" class="img-fluid" style="border-radius: 50%; border: 2px solid steelblue" width="150"></a></td>
-</tr>
-<tr class="even">
-<td>A training tool to increase the accuracy of severity estimates using actual photos of diseased organs.</td>
-<td>Simulation of presence-only spatial data for demonstrating random or aggregate patterns. Counts the number of units in user-defined spatial grid.</td>
-<td>Simulation of presence-absence spatial data for demonstrating random or aggregate patterns. Calculation of incidence and number of clusters.,</td>
-</tr>
-<tr class="odd">
-<td><strong>Spatial Gradients</strong></td>
-<td><strong>Warning systems</strong></td>
-<td><strong>EDT calculator</strong></td>
-</tr>
-<tr class="even">
-<td><a href="https://delponte.shinyapps.io/gradients/"><img src="figs/app_gradients.png" class="img-fluid" style="border-radius: 50%; border: 2px solid steelblue" width="150"></a></td>
-<td><a href="https://epidemiologiaufv.shinyapps.io/warning-systems/"><img src="figs/apps_warning_systems.png" style="border-radius: 50%; border: 2px solid steelblue" width="150" height="150"></a></td>
-<td><a href="https://epidemiologiaufv.shinyapps.io/EDTCalculator/"><img src="figs/aps_edt.png" class="img-fluid" style="border-radius: 50%; border: 2px solid steelblue" width="150"></a></td>
-</tr>
-<tr class="odd">
-<td>Simulation of plant disease gradients by setting parameters of two gradients models</td>
-<td>Calculation of severity values for Wallin and FAST warning systems for plant disease epidemics. Downloads real time data from NASA POWER</td>
-<td>Calculation of Economic Damage Thresholds for plant disease management based on four parameters</td>
-</tr>
-<tr class="even">
-<td><strong>Plant Rust Images</strong></td>
-<td><strong>Alumni map</strong></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><a href="https://epidemiologiaufv.shinyapps.io/plantrustimages/"><img src="figs/app_plantrust.png" style="border-radius: 50%; border: 2px solid steelblue" width="150" height="150"></a></td>
-<td><a href="https://delponte.shinyapps.io/mpdefesa/"><img src="figs/app_mpdefesa.png" style="border-radius: 50%; border: 2px solid steelblue" width="150" height="150"></a></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Interactive Shiny app for a image gallery of plant rusts from South Africa.</td>
-<td>Shiny app for a map of alumni of a graduate student program</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<p>As an editor for prominent plant pathology journals, I’ve observed an increasing number of submissions applying machine learning (ML) techniques to classify images of plant diseases. While these studies showcase the potential of ML, they often fail to align with the goals of plant pathology journals. Many focus heavily on incremental improvements in accuracy, often already above 95%, while relying on standardized datasets gathered from repositories and that do not capture real-world complexities, such as environmental variability, mixed infections, or subtle disease symptoms.</p>
+<p>A recurring issue is that these works tend to prioritize technological approaches (testing of new architectures on the same datasets) over scientific relevance. Some address problems where the distinctions between healthy and diseased plants, or between different diseases, are visually obvious, requiring no ML for classification. While technically sound, these papers often lack novelty and actionable insights that could advance plant pathology.</p>
+<p>Such studies might be better suited for computer science or engineering journals, where the focus is on algorithmic refinement. To truly contribute to plant pathology, ML research must tackle complex, field-relevant challenges. Collaboration with plant pathologists is crucial to provide the necessary biological context, design studies reflective of real-world conditions, and ensure that the outcomes offer practical solutions for disease management.</p>
+<p>I am confident that AI holds immense potential for transforming plant disease diagnosis, and with the creativity and expertise of researchers, we will continue to find innovative solutions that make a lasting impact.</p>
+<p>Post originalmente postado no <a href="https://www.linkedin.com/posts/emerson-m-del-ponte-61678ba1_machine-learning-in-plant-disease-diagnosis-activity-7280289462050246656-Vdux?utm_source=share&amp;utm_medium=member_desktop">LinkedIn</a></p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
