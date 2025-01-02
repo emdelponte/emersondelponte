@@ -1,0 +1,25 @@
+---
+title: "Pré-prints: você já adotou essa prática de comunicação científica?"
+description: "Os pré-prints permitem compartilhar manuscritos antes da revisão por pares, ampliando o acesso ao conhecimento e promovendo transparência. Desde 2017, uso essa prática para antecipar resultados, evitar custos de acesso aberto e integrar dados e publicações via OSF. E você, já usa pré-prints?"
+author:
+  - name: Emerson Del Ponte
+    url: https://emersondelponte.netlify.app
+    orcid: 
+    affiliation: Universidade Federal de Viçosa
+date: 01-02-2025
+image: preview.png
+categories: [Academia] 
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+Embora o assunto e a prática de publicação de pré-prints - um manuscrito de artigo científico compartilhado publicamente em um servidor antes da submissão para uma revista com revisão por pares - tenham ganhado maior relevância há mais de uma década, muitos pesquisadores ainda desconhecem ou têm receio de adotá-la como uma forma de comunicação científica. O objetivo deste post não é discutir as vantagens de postar pré-prints (há muitas referências ótimas sobre o tema), mas compartilhar minha experiência.
+
+Minhas principais motivações para postar pré-prints são: publicar os resultados de pesquisa de forma antecipada, logo antes da submissão para a revista científica, permitindo que os leitores acessem e avaliem o conteúdo gratuitamente; e, assim, superar os altos custos das taxas de acesso aberto, que não consigo arcar, já que publico normalmente no modelo "fechado", conhecido como de assinatura (onde o leitor paga para ler). Meu primeiro pré-print do meu laboratório foi publicado no bioRxiv em dezembro de 2017. Desde então, tenho priorizado postar pré-prints de todos os artigos produzidos -- salvo aqueles que são publicados em acesso aberto e que não demoram muito no processo de revisão.
+
+Embora existam diversos repositórios generalistas ou temáticos, minha preferência é pelo servidor de pré-prints da Open Science Framework (OSF): <https://osf.io/>. Um diferencial, além de atribuição de um DOI e métricas de acesso, comuns em outros servidores, é que a plataforma permite conectar o pré-print diretamente aos conjuntos de dados depositados no próprio OSF , integrando assim os dois produtos que se autorelacionam na plataforma. Recentemente, o OSF implementou um processo de moderação para pré-prints, que inclui uma revisão preliminar para garantir que o conteúdo seja adequado para publicação e que os metadados estejam alinhados com o texto enviado. Esse processo de moderação não leva mais do que dois ou três dias, em média. A moderação não impede que o arquivo seja atualizado por uma versão mais recente, o que fica registrado no sistema com controle de versões, já que a versão anterior não é excluída, mas mantida no histórico.
+
+Aliás, depois que o manuscrito for publicado em uma revista, é desejável atualizar o arquivo no repositório com o conteúdo final após as correções, podendo inclusive informar o endereço do link da publicação na revista. Ou seja, o pré-print pode espelhar o conteúdo da publicação. O que não podemos é enviar o arquivo formatado pela revista.
+
+Para mim, adotar pré-prints não apenas democratizou o acesso ao conhecimento científico, mas também fortaleceu a transparência na pesquisa. E você? Já explorou o uso de pré-prints na sua trajetória acadêmica? Se não, o que te impede?
+
+Post originalmente postado no [LinkedIn](https://www.linkedin.com/posts/emerson-m-del-ponte-61678ba1_pr%C3%A9-prints-voc%C3%AA-j%C3%A1-adotou-essa-pr%C3%A1tica-de-activity-7280572894395400193-wEZX?utm_source=share&utm_medium=member_desktop). Entra e comenta!

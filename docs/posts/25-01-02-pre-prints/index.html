@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Emerson Del Ponte">
+<meta name="dcterms.date" content="2025-01-02">
+<meta name="description" content="Os pré-prints permitem compartilhar manuscritos antes da revisão por pares, ampliando o acesso ao conhecimento e promovendo transparência. Desde 2017, uso essa prática para antecipar resultados, evitar custos de acesso aberto e integrar dados e publicações via OSF. E você, já usa pré-prints?">
 
-<title>My Blog – EM Del Ponte</title>
+<title>Pré-prints: você já adotou essa prática de comunicação científica? – EM Del Ponte</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +26,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d1b12f2568ecbe55642fee6aa00bd082.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-b2511bcbb01c2159fd96a78deb42ffd9.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d1b12f2568ecbe55642fee6aa00bd082.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-b2511bcbb01c2159fd96a78deb42ffd9.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,72 +72,16 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="My Blog – EM Del Ponte">
-<meta property="og:image" content="./posts/25-01-02-pre-prints/preview.png">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Pré-prints: você já adotou essa prática de comunicação científica? – EM Del Ponte">
+<meta property="og:description" content="Os pré-prints permitem compartilhar manuscritos antes da revisão por pares, ampliando o acesso ao conhecimento e promovendo transparência. Desde 2017, uso essa prática para antecipar resultados, evitar custos de acesso aberto e integrar dados e publicações via OSF. E você, já usa pré-prints?">
+<meta property="og:image" content="preview.png">
 <meta property="og:site_name" content="EM Del Ponte">
-<meta name="twitter:title" content="My Blog – EM Del Ponte">
-<meta name="twitter:image" content="./posts/25-01-02-pre-prints/preview.png">
+<meta name="twitter:title" content="Pré-prints: você já adotou essa prática de comunicação científica? – EM Del Ponte">
+<meta name="twitter:description" content="Os pré-prints permitem compartilhar manuscritos antes da revisão por pares, ampliando o acesso ao conhecimento e promovendo transparência. Desde 2017, uso essa prática para antecipar resultados, evitar custos de acesso aberto e integrar dados e publicações via OSF. E você, já usa pré-prints?">
+<meta name="twitter:image" content="preview.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -147,7 +92,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">EM Del Ponte</span>
     </a>
   </div>
@@ -158,27 +103,27 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> <i class="bi bi-house" role="img">
+    <a class="nav-link" href="../../index.html"> <i class="bi bi-house" role="img">
 </i> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> <i class="bi bi-people" role="img">
+    <a class="nav-link" href="../../about.html"> <i class="bi bi-people" role="img">
 </i> 
 <span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./lab.html"> <i class="bi bi-people" role="img">
+    <a class="nav-link" href="../../lab.html"> <i class="bi bi-people" role="img">
 </i> 
 <span class="menu-text">The lab</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./apps.html"> <i class="bi bi-tools" role="img">
+    <a class="nav-link" href="../../apps.html"> <i class="bi bi-tools" role="img">
 </i> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> <i class="bi bi-pen" role="img">
+    <a class="nav-link" href="../../posts.html"> <i class="bi bi-pen" role="img">
 </i> 
 <span class="menu-text">My Blog</span></a>
   </li>  
@@ -210,22 +155,49 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="QWNhZGVtaWE=">Academia <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UGxhbnQlMjBQYXRob2xvZ3k=">Plant Pathology <span class="quarto-category-count">(2)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">My Blog</h1>
+<h1 class="title">Pré-prints: você já adotou essa prática de comunicação científica?</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Academia</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Os pré-prints permitem compartilhar manuscritos antes da revisão por pares, ampliando o acesso ao conhecimento e promovendo transparência. Desde 2017, uso essa prática para antecipar resultados, evitar custos de acesso aberto e integrar dados e publicações via OSF. E você, já usa pré-prints?
+  </div>
 </div>
 
-
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://emersondelponte.netlify.app">Emerson Del Ponte</a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Universidade Federal de Viçosa
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 2, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -235,137 +207,16 @@ window.Quarto = {
 </header>
 
 
+<p>Embora o assunto e a prática de publicação de pré-prints - um manuscrito de artigo científico compartilhado publicamente em um servidor antes da submissão para uma revista com revisão por pares - tenham ganhado maior relevância há mais de uma década, muitos pesquisadores ainda desconhecem ou têm receio de adotá-la como uma forma de comunicação científica. O objetivo deste post não é discutir as vantagens de postar pré-prints (há muitas referências ótimas sobre o tema), mas compartilhar minha experiência.</p>
+<p>Minhas principais motivações para postar pré-prints são: publicar os resultados de pesquisa de forma antecipada, logo antes da submissão para a revista científica, permitindo que os leitores acessem e avaliem o conteúdo gratuitamente; e, assim, superar os altos custos das taxas de acesso aberto, que não consigo arcar, já que publico normalmente no modelo “fechado”, conhecido como de assinatura (onde o leitor paga para ler). Meu primeiro pré-print do meu laboratório foi publicado no bioRxiv em dezembro de 2017. Desde então, tenho priorizado postar pré-prints de todos os artigos produzidos – salvo aqueles que são publicados em acesso aberto e que não demoram muito no processo de revisão.</p>
+<p>Embora existam diversos repositórios generalistas ou temáticos, minha preferência é pelo servidor de pré-prints da Open Science Framework (OSF): <a href="https://osf.io/" class="uri">https://osf.io/</a>. Um diferencial, além de atribuição de um DOI e métricas de acesso, comuns em outros servidores, é que a plataforma permite conectar o pré-print diretamente aos conjuntos de dados depositados no próprio OSF , integrando assim os dois produtos que se autorelacionam na plataforma. Recentemente, o OSF implementou um processo de moderação para pré-prints, que inclui uma revisão preliminar para garantir que o conteúdo seja adequado para publicação e que os metadados estejam alinhados com o texto enviado. Esse processo de moderação não leva mais do que dois ou três dias, em média. A moderação não impede que o arquivo seja atualizado por uma versão mais recente, o que fica registrado no sistema com controle de versões, já que a versão anterior não é excluída, mas mantida no histórico.</p>
+<p>Aliás, depois que o manuscrito for publicado em uma revista, é desejável atualizar o arquivo no repositório com o conteúdo final após as correções, podendo inclusive informar o endereço do link da publicação na revista. Ou seja, o pré-print pode espelhar o conteúdo da publicação. O que não podemos é enviar o arquivo formatado pela revista.</p>
+<p>Para mim, adotar pré-prints não apenas democratizou o acesso ao conhecimento científico, mas também fortaleceu a transparência na pesquisa. E você? Já explorou o uso de pré-prints na sua trajetória acadêmica? Se não, o que te impede?</p>
+<p>Post originalmente postado no <a href="https://www.linkedin.com/posts/emerson-m-del-ponte-61678ba1_pr%C3%A9-prints-voc%C3%AA-j%C3%A1-adotou-essa-pr%C3%A1tica-de-activity-7280572894395400193-wEZX?utm_source=share&amp;utm_medium=member_desktop">LinkedIn</a>. Entra e comenta!</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="QWNhZGVtaWE=" data-listing-date-sort="1735786800000" data-listing-file-modified-sort="1735848597039" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="432">
-<a href="./posts/25-01-02-pre-prints/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/25-01-02-pre-prints/preview.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Pré-prints: você já adotou essa prática de comunicação científica?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('QWNhZGVtaWE='); return false;">
-Academia
-</div>
-</div>
-<div class="card-text listing-description">
-Os pré-prints permitem compartilhar manuscritos antes da revisão por pares, ampliando o acesso ao conhecimento e promovendo transparência. Desde 2017, uso essa prática para…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Emerson Del Ponte
-</div>
-<div class="listing-date">
-Jan 2, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="UGxhbnQlMjBQYXRob2xvZ3k=" data-listing-date-sort="1735700400000" data-listing-file-modified-sort="1735770052110" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="241">
-<a href="./posts/2025-01-01-machine-learning-plant-disease/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2025-01-01-machine-learning-plant-disease/preview.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Machine learning in plant disease diagnosis - are we getting there?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UGxhbnQlMjBQYXRob2xvZ3k='); return false;">
-Plant Pathology
-</div>
-</div>
-<div class="card-text listing-description">
-Many submissions to plant pathology journals applying ML focus on incremental accuracy improvements using standardized datasets, often overlooking real-world complexities…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Emerson Del Ponte
-</div>
-<div class="listing-date">
-Jan 1, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="QWNhZGVtaWE=" data-listing-date-sort="1734922800000" data-listing-file-modified-sort="1735769831649" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="293">
-<a href="./posts/2024-12-31-formacao-diversificada-sandwich/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2024-12-31-formacao-diversificada-sandwich/preview.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-A Importância de uma formação acadêmica diversificada - doutorado sanduíche
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('QWNhZGVtaWE='); return false;">
-Academia
-</div>
-</div>
-<div class="card-text listing-description">
-O doutorado sanduíche vai além do aprendizado científico, proporcionando vivências culturais, adaptação a novos desafios e interação com diferentes perspectivas acadêmicas.…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Emerson Del Ponte
-</div>
-<div class="listing-date">
-Dec 23, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="UGxhbnQlMjBQYXRob2xvZ3k=" data-listing-date-sort="1734750000000" data-listing-file-modified-sort="1735769818161" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="432">
-<a href="./posts/2024-12-21-efficacy-efficiency-fungicides/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2024-12-21-efficacy-efficiency-fungicides/preview.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Fungicidas: Compreendendo a diferença entre eficácia e eficiência
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UGxhbnQlMjBQYXRob2xvZ3k='); return false;">
-Plant Pathology
-</div>
-</div>
-<div class="card-text listing-description">
-Você sabe a diferença entre este dois termos? neste pequeno artigo eu comento sobre as diferenças conceituais e aplicação regionalizada do termo eficiência como sendo…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Emerson Del Ponte
-</div>
-<div class="listing-date">
-Dec 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
