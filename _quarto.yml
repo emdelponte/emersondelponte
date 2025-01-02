@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 website:
+  back-to-top-navigation: true
   title: "EM Del Ponte"
   page-navigation: true
   open-graph: true
@@ -27,9 +28,9 @@ website:
         href: posts.qmd
 
     right:
-      - icon: twitter
-        href: https://twitter.com/edelponte
-        aria-label: My Twitter
+      - text: "{{< iconify simple-icons bluesky >}}"
+        href: https://bsky.app/profile/edelponte.bsky.social
+        aria-label: My bluesky
       - icon: github
         href: https://github.com/emdelponte
         aria-label: My GitHub
