@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "Machine learning in plant disease diagnosis - are we getting there?\n\n\n\nPlant Pathology\n\n\n\nMany submissions to plant pathology journals applying ML focus on incremental accuracy improvements using standardized datasets, often overlooking real-world complexities…\n\n\n\nEmerson Del Ponte\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Importância de uma formação acadêmica diversificada - doutorado sanduíche\n\n\n\nAcademia\n\n\n\nO doutorado sanduíche vai além do aprendizado científico, proporcionando vivências culturais, adaptação a novos desafios e interação com diferentes perspectivas acadêmicas.…\n\n\n\nEmerson Del Ponte\n\n\nDec 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFungicidas: Compreendendo a diferença entre eficácia e eficiência\n\n\n\nPlant Pathology\n\n\n\nVocê sabe a diferença entre este dois termos? neste pequeno artigo eu comento sobre as diferenças conceituais e aplicação regionalizada do termo eficiência como sendo…\n\n\n\nEmerson Del Ponte\n\n\nDec 21, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "apps.html",
+    "href": "apps.html",
+    "title": "EM Del Ponte",
+    "section": "",
+    "text": "R for Plant Disease Epidemiology (R4PDE) is a dynamic online book rooted on the teaching notes of my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the Graduate Program in Plant Pathology of the Universidade Federal de Viçosa.\nThis book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a foundational knowledge of R to run the examples."
+  },
+  {
+    "objectID": "apps.html#book",
+    "href": "apps.html#book",
+    "title": "EM Del Ponte",
+    "section": "",
+    "text": "R for Plant Disease Epidemiology (R4PDE) is a dynamic online book rooted on the teaching notes of my graduate course, FIP 602 - Plant Disease Epidemiology, which is offered every year for students in the Graduate Program in Plant Pathology of the Universidade Federal de Viçosa.\nThis book is for those interested in studying and modelling plant disease epidemics using R. It provides context and showcases various methods for describing, visualizing and analyzing epidemic data collected over time and/or space. Users should have have a foundational knowledge of R to run the examples."
+  },
+  {
+    "objectID": "apps.html#apps",
+    "href": "apps.html#apps",
+    "title": "EM Del Ponte",
+    "section": "Apps",
+    "text": "Apps\nI have developed, myself or in collaboration with students, web applications to support research and teaching. These are made with R + Shiny.\n\n\n\nTrainer\nSADBank\nFGSCdb\n\n\n\n\n\n\n\n\n\nA training tool for increasing the accuracy of visual assessments of plant disease severity (percent diseased area).\nA curated database of Standard Area Diagrams (SADs) for aiding visual assessments of disease severity.\nA georeferenced database of isolates of the Fusarium graminearum clade. Shiny app developed by Kaique S. Alves\n\n\nEphemBrazil\nEpidemics\nRusty profits\n\n\n\n\n\n\n\nDatabase of distribution and basic taxonomic information on species of Ephemeroptera (Insecta) recorded in Brazil\nSimulation of plant disease progress curves by setting parameters for four populations dynamics models\nRusty profits is a shiny app calculator of the probability of break-even on the costs of fungicides for managing soybean rust in Brazil. App developed by Kaique S. Alves\n\n\nTraineR2\nSpatial data simulation 1\nSpatial data simulation 2\n\n\n\n\n\n\n\nA training tool to increase the accuracy of severity estimates using actual photos of diseased organs.\nSimulation of presence-only spatial data for demonstrating random or aggregate patterns. Counts the number of units in user-defined spatial grid.\nSimulation of presence-absence spatial data for demonstrating random or aggregate patterns. Calculation of incidence and number of clusters.,\n\n\nSpatial Gradients\nWarning systems\nEDT calculator\n\n\n\n\n\n\n\nSimulation of plant disease gradients by setting parameters of two gradients models\nCalculation of severity values for Wallin and FAST warning systems for plant disease epidemics. Downloads real time data from NASA POWER\nCalculation of Economic Damage Thresholds for plant disease management based on four parameters\n\n\nPlant Rust Images\nAlumni map\n\n\n\n\n\n\n\n\nInteractive Shiny app for a image gallery of plant rusts from South Africa.\nShiny app for a map of alumni of a graduate student program"
+  },
+  {
+    "objectID": "lab.html",
+    "href": "lab.html",
+    "title": "EM Del Ponte",
+    "section": "",
+    "text": "We utilize statistical and mathematical models, and conduct field, greenhouse, and laboratory experiments to measure, understand, compare, and predict plant disease epidemics.\nOur modeling work is not confined to specific diseases and encompasses a wide spectrum of topics within plant disease epidemiology. This includes the assessment of disease intensity and crop loss, modeling the temporal progress and spatial spread across different scales, evaluating and predicting disease risk, as well as conducting systematic reviews and meta-analyses.\nOur experimental research primarily revolves around the genotyping and phenotyping of fungal pathogen populations. This encompasses evaluating various traits such as reproduction, pathogenicity, aggressiveness, toxigenic potential, and fungicide resistance. Currently, we are studying two of the most significant plant pathogens globally: mycotoxigenic Fusarium, which causes head blights or ear rots in winter and summer crops, and Pyricularia blast affecting rice, wheat, and grasses."
+  },
+  {
+    "objectID": "lab.html#our-research",
+    "href": "lab.html#our-research",
+    "title": "EM Del Ponte",
+    "section": "",
+    "text": "We utilize statistical and mathematical models, and conduct field, greenhouse, and laboratory experiments to measure, understand, compare, and predict plant disease epidemics.\nOur modeling work is not confined to specific diseases and encompasses a wide spectrum of topics within plant disease epidemiology. This includes the assessment of disease intensity and crop loss, modeling the temporal progress and spatial spread across different scales, evaluating and predicting disease risk, as well as conducting systematic reviews and meta-analyses.\nOur experimental research primarily revolves around the genotyping and phenotyping of fungal pathogen populations. This encompasses evaluating various traits such as reproduction, pathogenicity, aggressiveness, toxigenic potential, and fungicide resistance. Currently, we are studying two of the most significant plant pathogens globally: mycotoxigenic Fusarium, which causes head blights or ear rots in winter and summer crops, and Pyricularia blast affecting rice, wheat, and grasses."
+  },
+  {
+    "objectID": "lab.html#staff-technician",
+    "href": "lab.html#staff-technician",
+    "title": "EM Del Ponte",
+    "section": "Staff (technician)",
+    "text": "Staff (technician)\nBianca Moreira Barbosa (PhD in Chemistry)"
+  },
+  {
+    "objectID": "lab.html#current-postdocs",
+    "href": "lab.html#current-postdocs",
+    "title": "EM Del Ponte",
+    "section": "Current Postdocs",
+    "text": "Current Postdocs\nMarston Franceschini"
+  },
+  {
+    "objectID": "lab.html#current-students",
+    "href": "lab.html#current-students",
+    "title": "EM Del Ponte",
+    "section": "Current students",
+    "text": "Current students\nRicardo Gomes Tomáz (D)\nMonalisa C. De Cól (D)\nAna Carolyne C. de Carvalho (M)\nMary Paz Romero Benavides (M)"
+  },
+  {
+    "objectID": "lab.html#former-students",
+    "href": "lab.html#former-students",
+    "title": "EM Del Ponte",
+    "section": "Former students",
+    "text": "Former students\n\nUFV\nLila Soares Lima (M)\nKaique dos Santos Alves (M, D)\nJhonatan Paulo Barro (M, D)\nGustavo B. dos Santos (M)\nIgnácio Cazón (D)\nJoão Paulo Ascari (D)\nSheila M. P. Andrade (M)\nMaíra R. Duffeck (M, D)\nFranklin J. Machado (M, D)\nCaroline F. Ávila (M)\n\n\n\nUFRGS\nPaulo R. Kuhnem (D)\nLarissa B. Gomes (M)\nCamila P. Nicolli (M)\nLeilane S. D’Ávila (M)\nFelipe Dalla Lana (M)\nAndré A. Schwanck (M)\nRaquel Stumpf (M)\nPaula Astolfi (M)\nPiérri Spolti (M, D)\n\n\nUFV Professional Masters\nEvando Puhl de Melo\nTiago de Sá Cardoso\nMarlon Michel A. Moreira Neto\nAna Paula Vicenzi\nLeonardo H. M. do Carmo\nLeonardo M. Antonello\nKarine da Costa M. Gonçalves"
+  },
+  {
+    "objectID": "lab.html#former-postdocs",
+    "href": "lab.html#former-postdocs",
+    "title": "EM Del Ponte",
+    "section": "Former postdocs",
+    "text": "Former postdocs\nCamila P. Nicolli (M)\nGláucia Moreira (UFV)\nLucas Abreu (UFV)\nJuliano dos Santos (UFRGS, 2009-10)"
+  },
+  {
+    "objectID": "posts/2024-12-21-efficacy-efficiency-fungicides/index.html",
+    "href": "posts/2024-12-21-efficacy-efficiency-fungicides/index.html",
+    "title": "Fungicidas: Compreendendo a diferença entre eficácia e eficiência",
+    "section": "",
+    "text": "No Brasil, é muito comum o uso do termo eficiência ou eficácia, indistintamente, para descrever o desempenho ou performance de fungicidas no controle de doenças. Ambos são expressos em percentuais de redução da intensidade da doença relativa ao tratamento sem aplicação. Nesse cálculo, quanto mais próximo de 100%, melhor o produto.\nMuitos os consideram sinônimos, como apontam dicionários como o Caldas Aulete, que frequentemente os correlacionam no uso cotidiano. Contudo, no domínio técnico-científico, há particularidades que os distinguem. A diferença entre eles pode parecer uma questão gramatical, mas ela tem impacto significativo na comunicação técnica.\nDe acordo com o dicionário Cambridge:\nEficácia (“efficacy”): a capacidade, especialmente de um medicamento ou método, de alcançar o resultado pretendido.\nEficiência (“efficiency”): a qualidade de realizar a maior quantidade de trabalho útil utilizando o mínimo possível de energia, combustível, esforço, etc.\nPortanto, no contexto de fungicidas, o termo técnico correto para descrever a performance de um produto é eficácia e não eficiência, já que esta última está relacionada à otimização de recursos (tempo e custo) necessários para atingir um resultado equivalente no manejo de doenças.\nDe maneira prática, ao afirmar que “o fungicida X tem uma eficiência de 75% no controle da doença Y”, na verdade, estamos nos referindo à eficácia do produto. O termo eficiência não é tecnicamente errado, mas tem um uso particular e seria adequado se estivéssemos discutindo, com base na definição, como o fungicida contribui para a otimização de recursos ou o retorno financeiro no manejo. Por exemplo, se uma única aplicação reduz a severidade da doença no mesmo patamar que duas aplicações (por exemplo, 75%), a primeira opção tem maior eficiência (e também tem boa eficácia). O mesmo vale para comparações entre doses diferentes do mesmo produto (otimização de recursos) e diferentes tecnologias de aplicação (otimização de tempo).\nComo mostrado acima, o termo equivalente a eficácia, em inglês, é “efficacy”. Esse é amplamente utilizado na literatura técnico-científica internacional sobre avaliação de performance de fungicidas. Já o termo “efficiency” mais raramente aparece associado a fungicidas no mesmo contexto e está ligado a trabalhos produzidos no Brasil, reforçando que o uso do termo eficiência é um costume regional devido mais a uma questão de hábito do que de precisão técnica.\nAo escrever relatórios técnicos, artigos ou materiais de divulgação, é essencial diferenciar esses conceitos e aplicá-los corretamente para garantir clareza e precisão na comunicação. Essa distinção não é apenas acadêmica, mas também prática, pois ajuda a estabelecer padrões consistentes no entendimento e uso dos termos no manejo de doenças.\nE você, prefere usar eficiência ou eficácia? E em seu país, os termos também são usados de forma indistinta?\nPost originalmente postado no LinkedIn\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "posts/2024-12-31-formacao-diversificada-sandwich/index.html",
+    "href": "posts/2024-12-31-formacao-diversificada-sandwich/index.html",
+    "title": "A Importância de uma formação acadêmica diversificada - doutorado sanduíche",
+    "section": "",
+    "text": "O período de formação acadêmica é transformador na vida de qualquer pesquisador. Além de ser o momento para desenvolver habilidades e competências, existe um aspecto menos tangível, mas igualmente essencial: a formação diversificada, que ultrapassa as fronteiras do seu laboratório de origem. Nesse contexto, programas como o doutorado sanduíche desempenham um papel fundamental.\nA vivência em um ambiente acadêmico distanciando-se do ambiente confortável do laboratório de origem e do apoio direto do orientador, proporciona muito mais do que conhecimento científico. Ela oferece lições de vida que moldam não apenas o pesquisador, mas também o ser humano. Conviver com outras culturas, aprender a lidar com diferentes formas de pensar e adaptar-se a novos desafios são experiências que enriquecem a perspectiva pessoal e profissional.\nObviamente, o sucesso acadêmico não está exclusivamente condicionado a essas experiências. Muitos pesquisadores que desenvolvem suas carreiras inteiramente em seus países de origem alcançam resultados notáveis e exercem impactos significativos. No entanto, aqueles que têm a oportunidade de vivenciar ambientes acadêmicos e culturais diferentes se deparam com um enriquecimento singular.\nÉ também uma oportunidade de desafiar verdades absolutas e compreender que a ciência é plural. Diversas escolas de pensamento, opiniões contrastantes e abordagens metodológicas coexistem e se complementam. Dialogar com outros orientadores e professores é essencial para ampliar perspectivas. Essa diversidade estimula o pensamento crítico.\nA formação diversificada é um pilar essencial para a construção de uma carreira acadêmica rica e com mais significados. Ela transforma desafios em oportunidades de crescimento e ensina que o aprendizado não se limita ao conteúdo científico, mas também inclui as experiências humanas que ocorrem fora do laboratório. A ciência não deve ser vista apenas como um produto de dados e análises; é também o resultado das histórias, vivências e perspectivas dos cientistas que a constroem.\nPost originalmente postado no LinkedIn\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "posts/2025-01-01-machine-learning-plant-disease/index.html",
+    "href": "posts/2025-01-01-machine-learning-plant-disease/index.html",
+    "title": "Machine learning in plant disease diagnosis - are we getting there?",
+    "section": "",
+    "text": "As an editor for prominent plant pathology journals, I’ve observed an increasing number of submissions applying machine learning (ML) techniques to classify images of plant diseases. While these studies showcase the potential of ML, they often fail to align with the goals of plant pathology journals. Many focus heavily on incremental improvements in accuracy, often already above 95%, while relying on standardized datasets gathered from repositories and that do not capture real-world complexities, such as environmental variability, mixed infections, or subtle disease symptoms.\nA recurring issue is that these works tend to prioritize technological approaches (testing of new architectures on the same datasets) over scientific relevance. Some address problems where the distinctions between healthy and diseased plants, or between different diseases, are visually obvious, requiring no ML for classification. While technically sound, these papers often lack novelty and actionable insights that could advance plant pathology.\nSuch studies might be better suited for computer science or engineering journals, where the focus is on algorithmic refinement. To truly contribute to plant pathology, ML research must tackle complex, field-relevant challenges. Collaboration with plant pathologists is crucial to provide the necessary biological context, design studies reflective of real-world conditions, and ensure that the outcomes offer practical solutions for disease management.\nI am confident that AI holds immense potential for transforming plant disease diagnosis, and with the creativity and expertise of researchers, we will continue to find innovative solutions that make a lasting impact.\nPost originalmente postado no LinkedIn\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Emerson Del Ponte",
+    "section": "",
+    "text": "My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. I teach plant pathology/epidemiology and data science, conduct scientific research in the field of plant pathology and prepare future professionals and leaders.\n\n\n Back to top"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "EM Del Ponte",
+    "section": "",
+    "text": "I hold a DSc in Plant Pathology from Universidade Federal de Pelotas (2004) and had the privilege of a one-year visit to Cornell University at the Bergstrom Lab. Following that, I spent two years as a postdoctoral associate working on a project related to disease risk assessment and prediction at the Yang Lab, Iowa State University. Currently, I am employed at the Universidade Federal de Viçosa (UFV), where I am involved in both teaching and student mentoring (masters and doctorate) responsibilities. You can get access to my peer-reviewed publications in my academic profile websites: ORCID, publons, Google Scholar, ResearchGate, or Lattes."
+  },
+  {
+    "objectID": "about.html#resumé",
+    "href": "about.html#resumé",
+    "title": "EM Del Ponte",
+    "section": "",
+    "text": "I hold a DSc in Plant Pathology from Universidade Federal de Pelotas (2004) and had the privilege of a one-year visit to Cornell University at the Bergstrom Lab. Following that, I spent two years as a postdoctoral associate working on a project related to disease risk assessment and prediction at the Yang Lab, Iowa State University. Currently, I am employed at the Universidade Federal de Viçosa (UFV), where I am involved in both teaching and student mentoring (masters and doctorate) responsibilities. You can get access to my peer-reviewed publications in my academic profile websites: ORCID, publons, Google Scholar, ResearchGate, or Lattes."
+  },
+  {
+    "objectID": "about.html#services",
+    "href": "about.html#services",
+    "title": "EM Del Ponte",
+    "section": "Services",
+    "text": "Services\nI’ve been involved in scholarly peer-review since early in my career. I’ve served as associate editor for a few journals, including Plant Disease. Currently, I am Editor in Chief for Tropical Plant Pathology, the journal of the Brazilian Phytopathological Society Since 2022, I am also serving as associate editor for the CABI Agriculture & Bioscience (Plant Pathology Section) and the European Journal of Plant Pathology journals."
+  },
+  {
+    "objectID": "about.html#open-science",
+    "href": "about.html#open-science",
+    "title": "EM Del Ponte",
+    "section": "Open Science",
+    "text": "Open Science\nI strongly advocate for an open and reproducible research model and culture that may ultimately contribute to a more accessible, transparent and reliable science. This led me to co-found Open Plant Pathology initiative together with Adam Sparks. In my Lab, we make use of R language for all statistical and data science related activities. All data and computational codes produced during our research are made available ahead of peer-review. You can find our code on GitHub. The research outcomes are organized and shared as a research compendium and preprints of manuscripts are archived in Open Science Framework (OSF)."
+  },
+  {
+    "objectID": "about.html#talks-and-videos",
+    "href": "about.html#talks-and-videos",
+    "title": "EM Del Ponte",
+    "section": "Talks and videos",
+    "text": "Talks and videos\nSlides of some of my talks are hosted in my Speakerdeck account and full videos of talks and lectures can be found on my YouTube channel."
+  }
+]
