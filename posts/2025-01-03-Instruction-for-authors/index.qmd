@@ -1,0 +1,23 @@
+---
+title: "Você lê as instruções para os autores ao preparar seu manuscrito?"
+description: "Ler e seguir as instruções para autores ao submeter um manuscrito demonstra profissionalismo e respeito ao corpo editorial. Negligenciar diretrizes de formatação, estrutura e referências pode atrasar o processo editorial ou levar à rejeição, refletindo desleixo."
+author:
+  - name: Emerson Del Ponte
+    url: https://emersondelponte.netlify.app
+    orcid: 
+    affiliation: Universidade Federal de Viçosa
+date: 01-03-2025
+image: preview.png
+categories: [Academia] 
+draft: false 
+---
+
+Submeter um manuscrito para uma revista científica exige atenção a vários detalhes além do conteúdo do trabalho. Embora algumas revistas já tenham adotado um estilo mais livre, focando no conteúdo e deixando ajustes de formatação para a equipe de produção, muitas ainda mantêm regras rigorosas que remetem à época das publicações impressas. Negligenciar essas diretrizes pode gerar atrasos significativos no processo editorial e causar uma má impressão ao editor. Afinal, o diabo mora nos detalhes.
+
+Adequar o manuscrito às exigências da revista é uma demonstração de profissionalismo e respeito ao trabalho do corpo editorial. Elementos como formatação, estrutura do texto e inclusão de metadados relevantes são essenciais para uma submissão bem-sucedida. Mesmo que as tecnologias modernas permitam ajustes automáticos, a ausência de conformidade inicial reflete um desleixo ou desinteresse por parte do autor.
+
+Um erro particularmente comum está relacionado ao formato geral do manuscrito, citações e referências bibliográficas. Muitos autores não adaptam esses elementos às normas específicas da revista, reaproveitando manuscritos preparados para outros periódicos. Isso pode gerar atrasos na aceitação do artigo ou até mesmo rejeição, especialmente em revistas que ainda dão grande importância a esses detalhes quando da primeira submissão. Já vi muitos casos onde os autores mantém resquícios de submissões prévias como nome da revista inclusive, além do formato remeter a outras publicações, sugerindo que o manuscrito já foi rejeitado.
+
+Enquanto as revistas avançam no uso da tecnologia para facilitar a vida de autores e editores, ainda cabe ao autor ler as Instruções para Autores e ajustar o manuscrito de acordo com as especificações da revista. Esse cuidado é essencial para garantir um processo editorial mais ágil e eficiente, aumentando as chances de sucesso da publicação. Ajustar-se às normas é uma prática que reflete comprometimento com o processo científico.
+
+Post originalmente postado no [LinkedIn](https://www.linkedin.com/posts/emerson-m-del-ponte-61678ba1_voc%C3%AA-l%C3%AA-as-instru%C3%A7%C3%B5es-para-os-autores-ao-activity-7280911209015525376-3dvD?utm_source=share&utm_medium=member_desktop). Entra e comenta!
