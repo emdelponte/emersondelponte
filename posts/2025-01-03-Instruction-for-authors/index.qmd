@@ -10,6 +10,7 @@ date: 01-03-2025
 image: preview.png
 categories: [Academia] 
 draft: false 
+include-after-body: ../ai_use_declaration.html
 ---
 
 Submeter um manuscrito para uma revista científica exige atenção a vários detalhes além do conteúdo do trabalho. Embora algumas revistas já tenham adotado um estilo mais livre, focando no conteúdo e deixando ajustes de formatação para a equipe de produção, muitas ainda mantêm regras rigorosas que remetem à época das publicações impressas. Negligenciar essas diretrizes pode gerar atrasos significativos no processo editorial e causar uma má impressão ao editor. Afinal, o diabo mora nos detalhes.
@@ -23,5 +24,3 @@ Enquanto as revistas avançam no uso da tecnologia para facilitar a vida de auto
 ------------------------------------------------------------------------
 
 Texto divulgado no [LinkedIn](https://www.linkedin.com/posts/emerson-m-del-ponte-61678ba1_voc%C3%AA-l%C3%AA-as-instru%C3%A7%C3%B5es-para-os-autores-ao-activity-7280911209015525376-3dvD?utm_source=share&utm_medium=member_desktop). Entra e comenta!
-
-> Elaborado com o suporte do ChatGPT-4 para revisão estrutural e gramatical, sob minha supervisão e edição final. A imagem associada ao post foi criada por IA generativa.

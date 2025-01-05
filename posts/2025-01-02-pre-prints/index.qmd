@@ -9,7 +9,8 @@ author:
 date: 01-02-2025
 image: preview.png
 categories: [Academia] 
-draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+draft: false 
+include-after-body: ../ai_use_declaration.html
 ---
 
 Embora o assunto e a prática de publicação de pré-prints - um manuscrito de artigo científico compartilhado publicamente em um servidor antes da submissão para uma revista com revisão por pares - tenham ganhado maior relevância há mais de uma década, muitos pesquisadores ainda desconhecem ou têm receio de adotá-la como uma forma de comunicação científica. O objetivo deste post não é discutir as vantagens de postar pré-prints (há muitas referências ótimas sobre o tema), mas compartilhar minha experiência.
@@ -26,4 +27,4 @@ Para mim, adotar pré-prints não apenas democratizou o acesso ao conhecimento c
 
 Texto divulgado no [LinkedIn](https://www.linkedin.com/posts/emerson-m-del-ponte-61678ba1_pr%C3%A9-prints-voc%C3%AA-j%C3%A1-adotou-essa-pr%C3%A1tica-de-activity-7280572894395400193-wEZX?utm_source=share&utm_medium=member_desktop). Entra e comenta!
 
-> Elaborado com o suporte do ChatGPT-4 para revisão estrutural e gramatical, sob minha supervisão e edição final. A imagem associada ao post foi criada por IA generativa.
+

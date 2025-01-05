@@ -9,7 +9,8 @@ author:
 date: 12-23-2024
 image: preview.png
 categories: [Academia] 
-draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+draft: false 
+include-after-body: ../ai_use_declaration.html
 ---
 
 O período de formação acadêmica é transformador na vida de qualquer pesquisador. Além de ser o momento para desenvolver habilidades e competências, existe um aspecto menos tangível, mas igualmente essencial: a formação diversificada, que ultrapassa as fronteiras do seu laboratório de origem. Nesse contexto, programas como o doutorado sanduíche desempenham um papel fundamental.
@@ -25,5 +26,3 @@ A formação diversificada é um pilar essencial para a construção de uma carr
 ------------------------------------------------------------------------
 
 Texto divulgado no [LinkedIn](https://www.linkedin.com/posts/emerson-m-del-ponte-61678ba1_a-import%C3%A2ncia-de-uma-forma%C3%A7%C3%A3o-acad%C3%AAmica-diversificada-activity-7279890278746869760-v_fg?utm_source=share&utm_medium=member_desktop). Entra e comenta!
-
-> Elaborado com o suporte do ChatGPT-4 para revisão estrutural e gramatical, sob minha supervisão e edição final. A imagem associada ao post foi criada por IA generativa.
