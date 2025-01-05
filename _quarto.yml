@@ -8,6 +8,11 @@ website:
   page-navigation: true
   open-graph: true
   twitter-card: true
+  
+  page-footer: 
+    background: light
+    left: © Emerson Del Ponte
+    right: This website is built with [Quarto](https://quarto.org/){target=_blank}
   navbar:
     collapse-below: lg
     search: true
