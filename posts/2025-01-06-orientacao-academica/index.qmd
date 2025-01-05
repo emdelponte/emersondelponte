@@ -1,0 +1,27 @@
+---
+title: "Orientação acadêmica: Uma via de mão dupla"
+description: "A orientação acadêmica é uma parceria baseada em diálogo, respeito mútuo e aprendizado conjunto. Quando bem estabelecida, beneficia tanto orientador quanto orientado, promovendo crescimento profissional e contribuindo para o avanço da ciência."
+author:
+  - name: Emerson Del Ponte
+    url: https://emersondelponte.netlify.app
+    orcid: 
+    affiliation: Universidade Federal de Viçosa
+date: 01-06-2025
+image: preview.png
+categories: [Academia] 
+draft: false 
+---
+
+Muito se fala sobre ambientes tóxicos na academia, onde orientadores falham na condução ética ou se valem de abordagens questionáveis. Isso é, infelizmente, um fato. No entanto, a relação entre orientador e orientado é uma via de mão dupla, e seu sucesso depende do comprometimento e esforço de ambas as partes.
+
+Não raro, essa relação pode se deteriorar, tornando-se um campo minado de frustrações. Expectativas desalinhadas, dificuldades de comunicação e desafios na conciliação de personalidades ou objetivos podem criar obstáculos. Mas é justamente nesses momentos que o diálogo e a construção de confiança se tornam ainda mais essenciais. É um processo de aprendizado mútuo, de trocas e de crescimento. Tive a sorte de orientar estudantes que estavam dispostos a aprender comigo (na maioria das vezes, junto comigo), e alguns, tão brilhantes que são, impulsionaram muitas das minhas pesquisas e, por consequente, a minha carreira. Essa é a essência da relação: uma verdadeira troca e aprendizado mútuo.
+
+Orientação exige humildade intelectual de ambas as partes. Significa reconhecer que ninguém sabe tudo e que há um imenso valor na troca de perspectivas. Quando orientador e orientado se comprometem com o diálogo e a construção de uma relação respeitosa, todos crescem -  a ciência, a carreira, e o impacto de seu trabalho no mundo. Orientação acadêmica é, acima de tudo, uma parceria. Quando há respeito mútuo e abertura para aprender, criam-se oportunidades únicas de aprendizado e realização profissional. Afinal, ciência é feita em colaboração, e as relações que construímos no caminho são tão importantes quanto os resultados que alcançamos.
+
+
+
+------------------------------------------------------------------------
+
+Texto divulgado no [LinkedIn]. Entra e comenta!
+
+> Texto elaborado com o suporte do ChatGPT-4 para revisão estrutural e gramatical, sob minha supervisão e edição final. A imagem associada ao post foi criada por IA generativa.
