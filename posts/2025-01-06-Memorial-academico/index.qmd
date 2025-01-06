@@ -13,7 +13,7 @@ draft: false
 include-after-body: ../ai_use_declaration.html
 ---
 
-Em outubro de 2022, pouco mais de dois anos atrás, vivenciei um momento marcante da minha carreira acadêmica: a defesa do memorial acadêmico para progressão ao cargo de professor titular. Foi um processo que trouxe uma elevada carga emocional e reflexiva. Não apenas pelo caráter avaliativo em si, algo que, após um concurso público bem sucedido, imaginamos não enfrentar novamente, mas, sobretudo, pela oportunidade de revisitar minha trajetória, tanto acadêmica quanto pessoal, ao longo de 16 anos de docência e além.
+Em 25 de outubro de 2022, pouco mais de dois anos atrás, vivenciei um momento marcante da minha carreira acadêmica: a defesa do memorial acadêmico para progressão ao cargo de professor titular. Foi um processo que trouxe uma elevada carga emocional e reflexiva. Não apenas pelo caráter avaliativo em si, algo que, após um concurso público bem sucedido, imaginamos não enfrentar novamente, mas, sobretudo, pela oportunidade de revisitar minha trajetória, tanto acadêmica quanto pessoal, ao longo de 16 anos de docência e além.
 
 Sem necessidade de seguir um formato pré-definido e decidido a dedicar um bom tempo prévio (vários meses) na preparação do memorial, estruturei-o no formato de um livro, com capítulos individuais que narram, em uma perspectiva cronológica e reflexiva, as etapas marcantes da minha formação. Optei por deixar os números e métricas em segundo plano, priorizando os acontecimentos, decisões e processos que moldaram quem sou como pesquisador e educador. Ao relembrar essas vivências, ficou claro como cada escolha, cada mudança e cada desafio contribuíram para o meu crescimento profissional e humano.
 
