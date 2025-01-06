@@ -1,0 +1,28 @@
+---
+title: "Professor titular: o valor do memorial acadêmico"
+description: "Em outubro de 2022, defendi meu memorial acadêmico para progressão a professor titular, um marco que transcendeu a avaliação formal, transformando-se em uma profunda reflexão sobre minha trajetória de 16 anos de docência. Estruturado como um livro, o memorial narrou as etapas mais marcantes da minha formação, priorizando decisões, desafios e recomeços que moldaram minha identidade como educador e pesquisador."
+author:
+  - name: Emerson Del Ponte
+    url: https://emersondelponte.netlify.app
+    orcid: 
+    affiliation: Universidade Federal de Viçosa
+date: 01-06-2025
+image: preview.png
+categories: [Academia] 
+draft: false 
+include-after-body: ../ai_use_declaration.html
+---
+
+Em outubro de 2022, pouco mais de dois anos atrás, vivenciei um momento marcante da minha carreira acadêmica: a defesa do memorial acadêmico para progressão ao cargo de professor titular. Foi um processo que trouxe uma elevada carga emocional e reflexiva. Não apenas pelo caráter avaliativo em si, algo que, após um concurso público bem sucedido, imaginamos não enfrentar novamente, mas, sobretudo, pela oportunidade de revisitar minha trajetória, tanto acadêmica quanto pessoal, ao longo de 16 anos de docência e além.
+
+Sem necessidade de seguir um formato pré-definido e decidido a dedicar um bom tempo prévio (vários meses) na preparação do memorial, estruturei-o no formato de um livro, com capítulos individuais que narram, em uma perspectiva cronológica e reflexiva, as etapas marcantes da minha formação. Optei por deixar os números e métricas em segundo plano, priorizando os acontecimentos, decisões e processos que moldaram quem sou como pesquisador e educador. Ao relembrar essas vivências, ficou claro como cada escolha, cada mudança e cada desafio contribuíram para o meu crescimento profissional e humano.
+
+Dentre as muitas reflexões, recordo-me especialmente de algumas decisões difíceis que levaram a mudanças impactantes, como a troca de universidade e a migração para um estado do Brasil distante das famílias. Ao relembrar esses momentos, é inevitável a pergunta: o que teria acontecido se a decisão fosse outra? Foi um exercício profundo de compreensão das bifurcações da vida, das renúncias e das conquistas.
+
+Minha fase que durou oito anos como professor adjunto na UFRGS foi um marco inicial de construção e descoberta, enquanto meu tempo adicional de oito anos como associado na UFV representou recomeços em um contexto totalmente novo. Ambas as etapas trouxeram desafios distintos, mas igualmente enriquecedores. Conviver com diferentes culturas acadêmicas e pessoais foi uma experiência que me ensinou a adaptar, aprender e criar conexões genuínas em contextos variados. Cada recomeço, por mais desafiador, revelou-se uma oportunidade de renovação, de redescobrir paixões, de inovar métodos e de solidificar meu propósito como professor.
+
+Essa jornada de reflexão durante a escrita do memorial foi mais do que um exercício para atender aos critérios de avaliação. Foi um resgate de memórias e de um senso de propósito. Relembrar o passado me permitiu olhar para o futuro com gratidão pelas escolhas feitas, com aprendizado pelos erros cometidos e com entusiasmo pelos desafios que ainda estão por vir. \
+
+------------------------------------------------------------------------
+
+Texto divulgado no LinkedIn. Entra e comenta!
