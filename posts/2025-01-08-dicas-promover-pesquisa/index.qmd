@@ -1,0 +1,36 @@
+---
+title: "Out of sight, out of mind - dicas para promover sua pesquisa"
+description: "A divulgação científica tem se intensificado nas mídias sociais, permitindo que pesquisadores compartilhem suas descobertas desde os primeiros resultados até a publicação formal. Estratégias como apresentações em eventos acadêmicos, uso de resumos gráficos, publicação em servidores de pré-prints e compartilhamento de dados em repositórios digitais ampliam a visibilidade e a credibilidade dos trabalhos. "
+author:
+  - name: Emerson Del Ponte
+    url: https://emersondelponte.netlify.app
+    orcid: 
+    affiliation: Universidade Federal de Viçosa
+date: 01-08-2025
+image: preview.png
+categories: [Academia] 
+draft: false 
+include-after-body: ../ai_use_declaration.html
+---
+
+É bem provável que você tenha notado o crescente engajamento de pesquisadores (incluindo este que vos fala) nas mídias sociais para divulgar suas publicações, sejam artigos publicados ou pré-prints. Contudo, a divulgação de um artigo não precisa se limitar apenas ao período posterior à publicação. Na verdade, iniciamos esse processo de divulgação para nossos pares antes mesmo da publicação formal do artigo científico.
+
+Uma das primeiras estratégias consiste na apresentação da pesquisa - sejam os resultados preliminares ou finais - em eventos acadêmicos como congressos e simpósios. Esses eventos oferecem uma excelente oportunidade para se comunicar com os pares e receber feedback. Adicionalmente, pode-se postar os arquivos dos resumos e pôsteres em repositórios digitais, ampliando sua visibilidade e possibilitando a divulgação nas mídias sociais. Entretanto, poucos pesquisadores [estimulam ou adotam](https://kamounlab.medium.com/why-you-should-publish-your-posters-c4505b72f329) essa prática.
+
+Elementos modernos, como o resumo gráfico (*graphical abstract*), têm se destacado por sintetizar os principais achados de forma visual e atrativa. Esses gráficos são úteis tanto para revistas (muitas já exigem esse tipo de elemento) quanto para redes sociais.
+
+Antes da submissão do manuscrito, uma estratégia importante é a [publicação em servidores de pré-prints](https://emersondelponte.netlify.app/posts/2025-01-02-pre-prints/). Essa prática permite atribuir um DOI ao trabalho, tornando-o acessível gratuitamente e rapidamente indexado por ferramentas como o Google Acadêmico. A partir da publicação do pré-print, pode-se dar início à divulgação do manuscrito em redes sociais acadêmicas e profissionais.
+
+A publicação dos dados da pesquisa em repositórios específicos é outra abordagem estratégica. Além de aumentar a transparência e a credibilidade, essa prática amplia a disseminação do trabalho e incentiva a citação direta do artigo que originou os dados. Quando o trabalho envolve o desenvolvimento de produtos, como aplicativos, *dashboards* ou outras ferramentas digitais, a divulgação desses materiais pode remeter ao artigo original.
+
+Após a aceitação do artigo em uma revista científica, é essencial compartilhá-lo em diferentes plataformas. É importante adaptar o conteúdo de acordo com o público-alvo de cada uma: enquanto o LinkedIn permite textos mais longos e detalhados, os microblogs favorecem mensagens curtas e diretas. Além disso, plataformas de indexação automática, como ORCID, ResearchGate e Google Scholar, ampliam o alcance dos trabalhos ao conectá-los a redes acadêmicas globais.
+
+Outra boa estratégia é a criação de um site profissional ou de um canal no YouTube, que ajudam a consolidar a identidade acadêmica e aumentar a visibilidade. Um blog, com reflexões e explicações simplificadas, também pode ampliar o impacto da pesquisa, conectando o pesquisador tanto à comunidade científica quanto ao público em geral.
+
+A visibilidade é crucial para que sua pesquisa alcance a comunidade científica e a sociedade. Contudo, é fundamental lembrar que o verdadeiro impacto de um trabalho depende da qualidade e relevância do que é publicado. O reconhecimento não ocorre de forma instantânea; geralmente, leva tempo para que uma pesquisa de alto valor seja notada e citada. Assim, embora as estratégias de divulgação sejam importantes, **jamais subestime o poder de uma ciência bem feita e fundamentada**.
+
+\
+
+------------------------------------------------------------------------
+
+Posted on LinkedIn. Log in and discuss!
