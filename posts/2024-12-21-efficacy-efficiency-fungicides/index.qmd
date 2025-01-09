@@ -11,7 +11,6 @@ image: preview.png
 categories: [Plant Pathology] 
 draft: false 
 include-after-body: ../ai_use_declaration.html
-
 ---
 
 No Brasil, é muito comum o uso do termo eficiência ou eficácia, indistintamente, para descrever o desempenho ou performance de fungicidas no controle de doenças. Ambos são expressos em percentuais de redução da intensidade da doença relativa ao tratamento sem aplicação. Nesse cálculo, quanto mais próximo de 100%, melhor o produto.
@@ -34,8 +33,8 @@ Ao escrever relatórios técnicos, artigos ou materiais de divulgação, é esse
 
 E você, prefere usar eficiência ou eficácia? E em seu país, os termos também são usados de forma indistinta?
 
+![Image created with DALL-E](preview.png){fig-align="center"}
+
 ------------------------------------------------------------------------
 
 Texto divulgado no [LinkedIn](https://www.linkedin.com/posts/emerson-m-del-ponte-61678ba1_fungicidas-compreendendo-a-diferen%C3%A7a-entre-activity-7274160598081249280-6NFN?utm_source=share&utm_medium=member_desktop). Entra e comenta!
-
-
