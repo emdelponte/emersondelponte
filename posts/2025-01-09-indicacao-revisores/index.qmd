@@ -1,0 +1,32 @@
+---
+title: "Indicação de revisores em submissões científicas - considerações éticas"
+description: ""
+author:
+  - name: Emerson Del Ponte
+    url: https://emersondelponte.netlify.app
+    orcid: 
+    affiliation: Universidade Federal de Viçosa
+date: 01-09-2025
+image: preview.png
+categories: [Academia] 
+draft: true 
+include-after-body: ../ai_use_declaration.html
+---
+
+A sugestão de revisores ao submeter manuscritos é uma etapa que exige integridade e responsabilidade ética. Embora nem todas as editoras e revistas adotem esse procedimento (algumas se preocupam com fraudes relacionadas a indicações de falsos especialistas), muitas exigem que os autores indiquem revisores preferidos e, em alguns casos, revisores não preferidos. Neste último caso, a indicação visa evitar potenciais conflitos de interesse. Quando a revista não oferece a opção de incluir revisores não preferidos diretamente, esses nomes podem ser mencionados na [cover letter](https://emersondelponte.netlify.app/posts/2025-01-07-cover-letter/).
+
+Embora pareça óbvio, é importante destacar que a principal função dos revisores é contribuir para o aprimoramento do manuscrito. Isso inclui identificar falhas, apontar limitações e sugerir melhorias que fortaleçam a qualidade e a relevância do estudo. Por esse motivo, os revisores devem ser escolhidos com base em sua capacidade técnica e imparcialidade, e não em sua predisposição para apoiar os autores ou o tema da pesquisa.
+
+Nesse processo, é essencial indicar pesquisadores com expertise no tema do manuscrito e que não mantenham vínculos diretos ou recentes com os autores. Além disso, recomenda-se buscar diversidade geográfica e profissional, evitando vieses regionais ou institucionais que possam comprometer a imparcialidade da avaliação.
+
+Deve-se evitar a indicação de coautores de trabalhos publicados nos últimos anos, ex-alunos, orientadores e amigos pessoais. Indicar consistentemente indivíduos com quem se mantém vínculos estreitos pode gerar suspeitas sobre a imparcialidade do processo. Da mesma forma, priorizar revisores de uma mesma região ou país pode ser interpretado como tentativa de enviesar a revisão.
+
+O editor-chefe e o corpo editorial desempenham um papel crucial na análise dessas sugestões, sendo responsáveis por garantir a integridade do processo de revisão por pares. A seriedade e a ética na escolha dos revisores sugeridos refletem diretamente na percepção do editor sobre a conduta do autor. Embora as sugestões sejam consideradas, a decisão final sobre quem realizará a revisão do manuscrito é exclusivamente do corpo editorial.
+
+Sugerir revisores qualificados e imparciais não apenas contribui para um processo de revisão mais transparente e justo, mas também reforça a seriedade e o profissionalismo do pesquisador. A credibilidade científica vai além da qualidade dos manuscritos e está diretamente ligada à ética demonstrada em todas as etapas do processo de submissão. Assim, a indicação de revisores, quando solicitada, deve ser tratada com o mesmo rigor e integridade empregados na condução das pesquisas.
+
+![](preview.png){fig-align="center" width="500"}
+
+------------------------------------------------------------------------
+
+Posted on LinkedIn. Log in and discuss!
