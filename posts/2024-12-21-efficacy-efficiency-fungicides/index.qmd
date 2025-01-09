@@ -33,7 +33,7 @@ Ao escrever relatórios técnicos, artigos ou materiais de divulgação, é esse
 
 E você, prefere usar eficiência ou eficácia? E em seu país, os termos também são usados de forma indistinta?
 
-![Image created with DALL-E](preview.png){fig-align="center"}
+![](preview.png){fig-align="center" width="500"}
 
 ------------------------------------------------------------------------
 

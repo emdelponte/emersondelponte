@@ -12,11 +12,13 @@ about:
       href: https://github.com/emdelponte
     - icon: linkedin
       href: https://www.linkedin.com/in/emerson-m-del-ponte-61678ba1/
-      
 ---
+
+```{=html}
 <style>
 body {
   background-image: url('figs/background2.png');
 }
 </style>
+```
 My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. I teach plant pathology/epidemiology and data science, conduct scientific research in the field of plant pathology and prepare future professionals and leaders.

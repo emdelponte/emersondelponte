@@ -21,11 +21,8 @@ Such studies might be better suited for computer science or engineering journals
 
 I am confident that AI holds immense potential for transforming plant disease diagnosis, and with the creativity and expertise of researchers, we will continue to find innovative solutions that make a lasting impact.
 
-![Image created with DALL-E](preview.png){fig-align="center"}
-
+![](preview.png){fig-align="center" width="500"}
 
 ------------------------------------------------------------------------
 
 This post was published in [LinkedIn](https://www.linkedin.com/posts/emerson-m-del-ponte-61678ba1_machine-learning-in-plant-disease-diagnosis-activity-7280289462050246656-Vdux?utm_source=share&utm_medium=member_desktop). Log in there to discuss it!
-
-

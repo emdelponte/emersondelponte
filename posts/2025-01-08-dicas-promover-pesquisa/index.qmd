@@ -29,7 +29,7 @@ Outra boa estratégia é a criação de um site profissional ou de um canal no Y
 
 A visibilidade é crucial para que sua pesquisa alcance a comunidade científica e a sociedade. Contudo, é fundamental lembrar que o verdadeiro impacto de um trabalho depende da qualidade e relevância do que é publicado. O reconhecimento não ocorre de forma instantânea; geralmente, leva tempo para que uma pesquisa de alto valor seja notada e citada. Assim, embora as estratégias de divulgação sejam importantes, **jamais subestime o poder de uma ciência bem feita e fundamentada**.
 
-![Image created with DALL-E](preview.png){fig-align="center"}
+![](preview.png){fig-align="center" width="500"}
 
 ------------------------------------------------------------------------
 
