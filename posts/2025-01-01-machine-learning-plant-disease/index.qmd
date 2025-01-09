@@ -1,6 +1,6 @@
 ---
 title: "Machine learning in plant disease diagnosis - are we getting there?"
-description: "Many submissions to plant pathology journals applying ML focus on incremental accuracy improvements using standardized datasets, often overlooking real-world complexities and biological relevance. To advance the field, ML research must address field-relevant challenges through collaboration with plant pathologists, ensuring practical and impactful solutions for disease management."
+description: ""
 author:
   - name: Emerson Del Ponte
     url: https://emersondelponte.netlify.app

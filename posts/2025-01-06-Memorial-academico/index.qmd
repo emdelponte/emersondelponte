@@ -1,6 +1,6 @@
 ---
 title: "Professor titular: o valor do memorial acadêmico"
-description: "Em outubro de 2022, defendi meu memorial acadêmico para progressão a professor titular, um marco que transcendeu a avaliação formal, transformando-se em uma profunda reflexão sobre minha trajetória de 16 anos de docência. Estruturado como um livro, o memorial narrou as etapas mais marcantes da minha formação, priorizando decisões, desafios e recomeços que moldaram minha identidade como educador e pesquisador."
+description: ""
 author:
   - name: Emerson Del Ponte
     url: https://emersondelponte.netlify.app

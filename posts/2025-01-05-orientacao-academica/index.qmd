@@ -1,6 +1,6 @@
 ---
 title: "Orientação acadêmica: Uma via de mão dupla"
-description: "A orientação acadêmica é uma parceria baseada em diálogo, respeito mútuo e aprendizado conjunto. Quando bem estabelecida, beneficia tanto orientador quanto orientado, promovendo crescimento profissional e contribuindo para o avanço da ciência."
+description: ""
 author:
   - name: Emerson Del Ponte
     url: https://emersondelponte.netlify.app

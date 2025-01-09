@@ -1,6 +1,6 @@
 ---
 title: "Pré-prints: você já adotou essa prática de comunicação científica?"
-description: "Os pré-prints permitem compartilhar manuscritos antes da revisão por pares, ampliando o acesso ao conhecimento e promovendo transparência. Desde 2017, uso essa prática para antecipar resultados, evitar custos de acesso aberto e integrar dados e publicações via OSF. E você, já usa pré-prints?"
+description: ""
 author:
   - name: Emerson Del Ponte
     url: https://emersondelponte.netlify.app

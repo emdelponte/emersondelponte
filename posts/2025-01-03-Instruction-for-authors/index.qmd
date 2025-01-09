@@ -1,6 +1,6 @@
 ---
 title: "Você lê as instruções para os autores ao preparar seu manuscrito?"
-description: "Ler e seguir as instruções para autores ao submeter um manuscrito demonstra profissionalismo e respeito ao corpo editorial. Negligenciar diretrizes de formatação, estrutura e referências pode atrasar o processo editorial ou levar à rejeição, refletindo desleixo."
+description: ""
 author:
   - name: Emerson Del Ponte
     url: https://emersondelponte.netlify.app

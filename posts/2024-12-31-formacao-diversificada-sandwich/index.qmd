@@ -1,6 +1,6 @@
 ---
 title: "A Importância de uma formação acadêmica diversificada - doutorado sanduíche "
-description: "O doutorado sanduíche vai além do aprendizado científico, proporcionando vivências culturais, adaptação a novos desafios e interação com diferentes perspectivas acadêmicas. Essa experiência enriquece a formação do pesquisador, estimula o pensamento crítico e fortalece a ciência como um campo plural e dinâmico."
+description: ""
 author:
   - name: Emerson Del Ponte
     url: https://emersondelponte.netlify.app

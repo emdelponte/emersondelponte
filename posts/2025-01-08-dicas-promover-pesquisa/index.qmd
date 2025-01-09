@@ -1,6 +1,6 @@
 ---
 title: "Out of sight, out of mind - dicas para promover sua pesquisa"
-description: "A divulgação científica tem se intensificado nas mídias sociais, permitindo que pesquisadores compartilhem suas descobertas desde os primeiros resultados até a publicação formal. Estratégias como apresentações em eventos acadêmicos, uso de resumos gráficos, publicação em servidores de pré-prints e compartilhamento de dados em repositórios digitais ampliam a visibilidade e a credibilidade dos trabalhos. "
+description: ""
 author:
   - name: Emerson Del Ponte
     url: https://emersondelponte.netlify.app

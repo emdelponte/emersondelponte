@@ -1,6 +1,6 @@
 ---
 title: "Fungicidas: Compreendendo a diferença entre eficácia e eficiência"
-description: "Você sabe a diferença entre este dois termos? neste pequeno artigo eu comento sobre as diferenças conceituais e aplicação regionalizada do termo eficiência como sendo sinônimo de eficácia"
+description: ""
 author:
   - name: Emerson Del Ponte
     url: https://emersondelponte.netlify.app
