@@ -1,0 +1,34 @@
+---
+title: "To Abbreviate or not to abbreviate? Journal titles in the digital age"
+description: ""
+author:
+  - name: Emerson Del Ponte
+    url: https://emersondelponte.netlify.app
+    orcid: 
+    affiliation: Universidade Federal de Viçosa
+date: 01-13-2025
+image: preview.png
+categories: [Academia] 
+draft: false 
+include-after-body: ../ai_use_declaration.html
+---
+
+Among my several responsibilities as editor-in-chief are copy-editing and proofreading. One of the challenges during copy-editing is ensuring that the format submitted by the authors complies with the journal's guidelines, as instructions are not always followed as they should be. When it comes to proofreading, reviewing after the authors' checks ensures that persistent errors can be avoided or minimized before the final publication, which cannot be corrected once published. Among the various formatting elements, the most common errors during copy-editing involve the bibliographic reference style and the use of italics for scientific names, which may persist after proof making.
+
+In the case of references, the production team standardizes them, but always based on the content submitted by the authors. A recurring issue is the inconsistent use of journal abbreviations, which often requires adjustments to ensure uniformity and adherence to editorial standards. With the outsourcing of the production process by journals and the use of different production teams, who must follow the varied standards of hundreds of publications, these inconsistencies become even more evident during proofreading. This scenario highlights the complexity of the editorial process and the need for meticulous attention to ensure the quality and uniformity of the published material.
+
+Historically, the use of journal abbreviations arose as a solution to save space in print publications, when the cost and size of journals were significant constraints. This practice was standardized by norms such as [ISO 4](https://en.wikipedia.org/wiki/ISO_4), which established clear guidelines for abbreviating titles and promoted consistency in bibliographic references.
+
+However, I question whether, in the digital age, we should still be concerned with saving space. With the vast availability of storage and online search tools, using full journal titles in references could not only eliminate ambiguities but also make sources easier to access and identify. Moreover, adopting a more generic and standardized reference style, common to various journals, would significantly benefit both authors and production teams, simplifying processes and reducing inconsistencies.
+
+The use of reference management software, such as EndNote, Mendeley or Zotero, can help alleviate these problems related to standardization, but I am not sure about the proportion of authors who actually use these resources. In this case, the second problem mentioned above, such as the use of italics for scientific names of species, is beyond the control of automated tools and requires manual checking by the author and editor.
+
+Given the challenges of modern academic publishing, it is important to evaluate which practices serve the needs of a digital-first world and which remain relics of the past. Streamlining reference styles, adopting full journal titles, and promoting the use of reference management tools are potential paths to improving the efficiency of the editorial process.
+
+What do you think? Should we continue to use journal abbreviations in references, or is it time to move toward using full journal titles in a digital-first world? Could a universal reference style or the exclusive use of citations with DOIs (when available) bring more benefits, or are existing practices still fit for purpose?
+
+![](preview.png){fig-align="center" width="500"}
+
+------------------------------------------------------------------------
+
+Texto publicado no LinkedIn. Faça login para discutir!
