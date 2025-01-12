@@ -81,9 +81,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -239,337 +239,395 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="QWNhZGVtaWE=" data-listing-date-sort="1736737200000" data-listing-file-modified-sort="1736723980551" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="496">
-<a href="./posts/2025-01-13-abbreviate-journal-titles/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2025-01-13-abbreviate-journal-titles/preview.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-To Abbreviate or not to abbreviate? Journal titles in the digital age
-</h5>
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="QWNhZGVtaWE=" data-listing-date-sort="1736737200000" data-listing-file-modified-sort="1736723980551" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="496">
+<div class="thumbnail">
+<p><a href="./posts/2025-01-13-abbreviate-journal-titles/index.html" class="no-external"></a></p><a href="./posts/2025-01-13-abbreviate-journal-titles/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2025-01-13-abbreviate-journal-titles/preview.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2025-01-13-abbreviate-journal-titles/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2025-01-13-abbreviate-journal-titles/index.html" class="no-external">To Abbreviate or not to abbreviate? Journal titles in the digital age</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2025-01-13-abbreviate-journal-titles/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('QWNhZGVtaWE='); return false;">
 Academia
 </div>
 </div>
-<div class="card-text listing-description">
-Among my several responsibilities as editor-in-chief are copy-editing and proofreading. One of the challenges during copy-editing is ensuring that the format submitted by…
+<div class="listing-description">
+<a href="./posts/2025-01-13-abbreviate-journal-titles/index.html" class="no-external">Among my several responsibilities as editor-in-chief are copy-editing and proofreading. One of the challenges during copy-editing is ensuring that the format submitted by…</a>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Emerson Del Ponte
 </div>
+<div class="metadata">
+<a href="./posts/2025-01-13-abbreviate-journal-titles/index.html" class="no-external">
 <div class="listing-date">
 Jan 13, 2025
 </div>
-</div>
-</div>
+<div class="listing-author">
+Emerson Del Ponte
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="QWNhZGVtaWE=" data-listing-date-sort="1736391600000" data-listing-file-modified-sort="1736706636595" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="455">
-<a href="./posts/2025-01-09-indicacao-revisores/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2025-01-09-indicacao-revisores/preview.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Indicação de revisores em submissões científicas - considerações éticas
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="QWNhZGVtaWE=" data-listing-date-sort="1736391600000" data-listing-file-modified-sort="1736706636595" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="455">
+<div class="thumbnail">
+<p><a href="./posts/2025-01-09-indicacao-revisores/index.html" class="no-external"></a></p><a href="./posts/2025-01-09-indicacao-revisores/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2025-01-09-indicacao-revisores/preview.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2025-01-09-indicacao-revisores/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2025-01-09-indicacao-revisores/index.html" class="no-external">Indicação de revisores em submissões científicas - considerações éticas</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2025-01-09-indicacao-revisores/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('QWNhZGVtaWE='); return false;">
 Academia
 </div>
 </div>
-<div class="card-text listing-description">
-A sugestão de revisores ao submeter manuscritos é uma etapa que exige integridade e responsabilidade ética. Algumas revistas exigem que os autores indiquem revisores…
+<div class="listing-description">
+<a href="./posts/2025-01-09-indicacao-revisores/index.html" class="no-external">A sugestão de revisores ao submeter manuscritos é uma etapa que exige integridade e responsabilidade ética. Algumas revistas exigem que os autores indiquem revisores…</a>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Emerson Del Ponte
 </div>
+<div class="metadata">
+<a href="./posts/2025-01-09-indicacao-revisores/index.html" class="no-external">
 <div class="listing-date">
 Jan 9, 2025
 </div>
-</div>
-</div>
+<div class="listing-author">
+Emerson Del Ponte
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="QWNhZGVtaWE=" data-listing-date-sort="1736305200000" data-listing-file-modified-sort="1736463226603" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="483">
-<a href="./posts/2025-01-08-dicas-promover-pesquisa/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2025-01-08-dicas-promover-pesquisa/preview.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Out of sight, out of mind - dicas para promover sua pesquisa
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="QWNhZGVtaWE=" data-listing-date-sort="1736305200000" data-listing-file-modified-sort="1736463226603" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="483">
+<div class="thumbnail">
+<p><a href="./posts/2025-01-08-dicas-promover-pesquisa/index.html" class="no-external"></a></p><a href="./posts/2025-01-08-dicas-promover-pesquisa/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2025-01-08-dicas-promover-pesquisa/preview.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2025-01-08-dicas-promover-pesquisa/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2025-01-08-dicas-promover-pesquisa/index.html" class="no-external">Out of sight, out of mind - dicas para promover sua pesquisa</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2025-01-08-dicas-promover-pesquisa/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('QWNhZGVtaWE='); return false;">
 Academia
 </div>
 </div>
-<div class="card-text listing-description">
-É bem provável que você tenha notado o crescente engajamento de pesquisadores (incluindo este que vos fala) nas mídias sociais para divulgar suas publicações, sejam artigos…
+<div class="listing-description">
+<a href="./posts/2025-01-08-dicas-promover-pesquisa/index.html" class="no-external">É bem provável que você tenha notado o crescente engajamento de pesquisadores (incluindo este que vos fala) nas mídias sociais para divulgar suas publicações, sejam artigos…</a>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Emerson Del Ponte
 </div>
+<div class="metadata">
+<a href="./posts/2025-01-08-dicas-promover-pesquisa/index.html" class="no-external">
 <div class="listing-date">
 Jan 8, 2025
 </div>
-</div>
-</div>
+<div class="listing-author">
+Emerson Del Ponte
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="QWNhZGVtaWE=" data-listing-date-sort="1736218800000" data-listing-file-modified-sort="1736463097949" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="386">
-<a href="./posts/2025-01-07-cover-letter/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2025-01-07-cover-letter/preview.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Cover letters in manuscript submissions: Useless tradition or missed opportunity?
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="QWNhZGVtaWE=" data-listing-date-sort="1736218800000" data-listing-file-modified-sort="1736463097949" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="386">
+<div class="thumbnail">
+<p><a href="./posts/2025-01-07-cover-letter/index.html" class="no-external"></a></p><a href="./posts/2025-01-07-cover-letter/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2025-01-07-cover-letter/preview.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2025-01-07-cover-letter/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2025-01-07-cover-letter/index.html" class="no-external">Cover letters in manuscript submissions: Useless tradition or missed opportunity?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2025-01-07-cover-letter/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('QWNhZGVtaWE='); return false;">
 Academia
 </div>
 </div>
-<div class="card-text listing-description">
-The cover letter, a traditional element in the scientific submission process, seems to hold varying levels of relevance in the current landscape. As a researcher and…
+<div class="listing-description">
+<a href="./posts/2025-01-07-cover-letter/index.html" class="no-external">The cover letter, a traditional element in the scientific submission process, seems to hold varying levels of relevance in the current landscape. As a researcher and…</a>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Emerson Del Ponte
 </div>
+<div class="metadata">
+<a href="./posts/2025-01-07-cover-letter/index.html" class="no-external">
 <div class="listing-date">
 Jan 7, 2025
 </div>
-</div>
-</div>
+<div class="listing-author">
+Emerson Del Ponte
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="QWNhZGVtaWE=" data-listing-date-sort="1736132400000" data-listing-file-modified-sort="1736463078157" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="392">
-<a href="./posts/2025-01-06-Memorial-academico/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2025-01-06-Memorial-academico/preview.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Professor titular: o valor do memorial acadêmico
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="QWNhZGVtaWE=" data-listing-date-sort="1736132400000" data-listing-file-modified-sort="1736463078157" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="392">
+<div class="thumbnail">
+<p><a href="./posts/2025-01-06-Memorial-academico/index.html" class="no-external"></a></p><a href="./posts/2025-01-06-Memorial-academico/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2025-01-06-Memorial-academico/preview.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2025-01-06-Memorial-academico/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2025-01-06-Memorial-academico/index.html" class="no-external">Professor titular: o valor do memorial acadêmico</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2025-01-06-Memorial-academico/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('QWNhZGVtaWE='); return false;">
 Academia
 </div>
 </div>
-<div class="card-text listing-description">
-Em 25 de outubro de 2022, pouco mais de dois anos atrás, vivenciei um momento marcante da minha carreira acadêmica: a defesa do memorial acadêmico para progressão ao cargo…
+<div class="listing-description">
+<a href="./posts/2025-01-06-Memorial-academico/index.html" class="no-external">Em 25 de outubro de 2022, pouco mais de dois anos atrás, vivenciei um momento marcante da minha carreira acadêmica: a defesa do memorial acadêmico para progressão ao cargo…</a>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Emerson Del Ponte
 </div>
+<div class="metadata">
+<a href="./posts/2025-01-06-Memorial-academico/index.html" class="no-external">
 <div class="listing-date">
 Jan 6, 2025
 </div>
-</div>
-</div>
+<div class="listing-author">
+Emerson Del Ponte
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="QWNhZGVtaWE=" data-listing-date-sort="1736046000000" data-listing-file-modified-sort="1736463313772" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="263">
-<a href="./posts/2025-01-05-orientacao-academica/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2025-01-05-orientacao-academica/preview.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Orientação acadêmica: Uma via de mão dupla
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="QWNhZGVtaWE=" data-listing-date-sort="1736046000000" data-listing-file-modified-sort="1736463313772" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="263">
+<div class="thumbnail">
+<p><a href="./posts/2025-01-05-orientacao-academica/index.html" class="no-external"></a></p><a href="./posts/2025-01-05-orientacao-academica/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2025-01-05-orientacao-academica/preview.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2025-01-05-orientacao-academica/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2025-01-05-orientacao-academica/index.html" class="no-external">Orientação acadêmica: Uma via de mão dupla</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2025-01-05-orientacao-academica/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('QWNhZGVtaWE='); return false;">
 Academia
 </div>
 </div>
-<div class="card-text listing-description">
-Muito se fala sobre ambientes tóxicos na academia, onde orientadores falham na condução ética ou se valem de abordagens questionáveis. Isso é, infelizmente, um fato. No…
+<div class="listing-description">
+<a href="./posts/2025-01-05-orientacao-academica/index.html" class="no-external">Muito se fala sobre ambientes tóxicos na academia, onde orientadores falham na condução ética ou se valem de abordagens questionáveis. Isso é, infelizmente, um fato. No…</a>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Emerson Del Ponte
 </div>
+<div class="metadata">
+<a href="./posts/2025-01-05-orientacao-academica/index.html" class="no-external">
 <div class="listing-date">
 Jan 5, 2025
 </div>
-</div>
-</div>
+<div class="listing-author">
+Emerson Del Ponte
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="QWNhZGVtaWE=" data-listing-date-sort="1735873200000" data-listing-file-modified-sort="1736462991982" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="296">
-<a href="./posts/2025-01-03-Instruction-for-authors/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2025-01-03-Instruction-for-authors/preview.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Você lê as instruções para os autores ao preparar seu manuscrito?
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="QWNhZGVtaWE=" data-listing-date-sort="1735873200000" data-listing-file-modified-sort="1736462991982" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="296">
+<div class="thumbnail">
+<p><a href="./posts/2025-01-03-Instruction-for-authors/index.html" class="no-external"></a></p><a href="./posts/2025-01-03-Instruction-for-authors/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2025-01-03-Instruction-for-authors/preview.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2025-01-03-Instruction-for-authors/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2025-01-03-Instruction-for-authors/index.html" class="no-external">Você lê as instruções para os autores ao preparar seu manuscrito?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2025-01-03-Instruction-for-authors/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('QWNhZGVtaWE='); return false;">
 Academia
 </div>
 </div>
-<div class="card-text listing-description">
-Submeter um manuscrito para uma revista científica exige atenção a vários detalhes além do conteúdo do trabalho. Embora algumas revistas já tenham adotado um estilo mais…
+<div class="listing-description">
+<a href="./posts/2025-01-03-Instruction-for-authors/index.html" class="no-external">Submeter um manuscrito para uma revista científica exige atenção a vários detalhes além do conteúdo do trabalho. Embora algumas revistas já tenham adotado um estilo mais…</a>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Emerson Del Ponte
 </div>
+<div class="metadata">
+<a href="./posts/2025-01-03-Instruction-for-authors/index.html" class="no-external">
 <div class="listing-date">
 Jan 3, 2025
 </div>
-</div>
-</div>
+<div class="listing-author">
+Emerson Del Ponte
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="QWNhZGVtaWE=" data-listing-date-sort="1735786800000" data-listing-file-modified-sort="1736463020862" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="432">
-<a href="./posts/2025-01-02-pre-prints/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2025-01-02-pre-prints/preview.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Pré-prints: você já adotou essa prática de comunicação científica?
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="QWNhZGVtaWE=" data-listing-date-sort="1735786800000" data-listing-file-modified-sort="1736463020862" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="432">
+<div class="thumbnail">
+<p><a href="./posts/2025-01-02-pre-prints/index.html" class="no-external"></a></p><a href="./posts/2025-01-02-pre-prints/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2025-01-02-pre-prints/preview.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2025-01-02-pre-prints/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2025-01-02-pre-prints/index.html" class="no-external">Pré-prints: você já adotou essa prática de comunicação científica?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2025-01-02-pre-prints/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('QWNhZGVtaWE='); return false;">
 Academia
 </div>
 </div>
-<div class="card-text listing-description">
-Embora o assunto e a prática de publicação de pré-prints - um manuscrito de artigo científico compartilhado publicamente em um servidor antes da submissão para uma revista…
+<div class="listing-description">
+<a href="./posts/2025-01-02-pre-prints/index.html" class="no-external">Embora o assunto e a prática de publicação de pré-prints - um manuscrito de artigo científico compartilhado publicamente em um servidor antes da submissão para uma revista…</a>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Emerson Del Ponte
 </div>
+<div class="metadata">
+<a href="./posts/2025-01-02-pre-prints/index.html" class="no-external">
 <div class="listing-date">
 Jan 2, 2025
 </div>
-</div>
-</div>
+<div class="listing-author">
+Emerson Del Ponte
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="UGxhbnQlMjBQYXRob2xvZ3k=" data-listing-date-sort="1735700400000" data-listing-file-modified-sort="1736463156380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="248">
-<a href="./posts/2025-01-01-machine-learning-plant-disease/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2025-01-01-machine-learning-plant-disease/preview.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Machine learning in plant disease diagnosis - are we getting there?
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="UGxhbnQlMjBQYXRob2xvZ3k=" data-listing-date-sort="1735700400000" data-listing-file-modified-sort="1736463156380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="248">
+<div class="thumbnail">
+<p><a href="./posts/2025-01-01-machine-learning-plant-disease/index.html" class="no-external"></a></p><a href="./posts/2025-01-01-machine-learning-plant-disease/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2025-01-01-machine-learning-plant-disease/preview.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2025-01-01-machine-learning-plant-disease/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2025-01-01-machine-learning-plant-disease/index.html" class="no-external">Machine learning in plant disease diagnosis - are we getting there?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2025-01-01-machine-learning-plant-disease/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('UGxhbnQlMjBQYXRob2xvZ3k='); return false;">
 Plant Pathology
 </div>
 </div>
-<div class="card-text listing-description">
-As an editor for prominent plant pathology journals, I’ve observed an increasing number of submissions applying machine learning (ML) techniques to classify images of plant…
+<div class="listing-description">
+<a href="./posts/2025-01-01-machine-learning-plant-disease/index.html" class="no-external">As an editor for prominent plant pathology journals, I’ve observed an increasing number of submissions applying machine learning (ML) techniques to classify images of plant…</a>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Emerson Del Ponte
 </div>
+<div class="metadata">
+<a href="./posts/2025-01-01-machine-learning-plant-disease/index.html" class="no-external">
 <div class="listing-date">
 Jan 1, 2025
 </div>
-</div>
-</div>
+<div class="listing-author">
+Emerson Del Ponte
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="QWNhZGVtaWE=" data-listing-date-sort="1734922800000" data-listing-file-modified-sort="1736463143852" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="296">
-<a href="./posts/2024-12-31-formacao-diversificada-sandwich/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2024-12-31-formacao-diversificada-sandwich/preview.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-A Importância de uma formação acadêmica diversificada - doutorado sanduíche
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="QWNhZGVtaWE=" data-listing-date-sort="1734922800000" data-listing-file-modified-sort="1736463143852" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="296">
+<div class="thumbnail">
+<p><a href="./posts/2024-12-31-formacao-diversificada-sandwich/index.html" class="no-external"></a></p><a href="./posts/2024-12-31-formacao-diversificada-sandwich/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2024-12-31-formacao-diversificada-sandwich/preview.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2024-12-31-formacao-diversificada-sandwich/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2024-12-31-formacao-diversificada-sandwich/index.html" class="no-external">A Importância de uma formação acadêmica diversificada - doutorado sanduíche</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2024-12-31-formacao-diversificada-sandwich/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('QWNhZGVtaWE='); return false;">
 Academia
 </div>
 </div>
-<div class="card-text listing-description">
-O período de formação acadêmica é transformador na vida de qualquer pesquisador. Além de ser o momento para desenvolver habilidades e competências, existe um aspecto menos…
+<div class="listing-description">
+<a href="./posts/2024-12-31-formacao-diversificada-sandwich/index.html" class="no-external">O período de formação acadêmica é transformador na vida de qualquer pesquisador. Além de ser o momento para desenvolver habilidades e competências, existe um aspecto menos…</a>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Emerson Del Ponte
 </div>
+<div class="metadata">
+<a href="./posts/2024-12-31-formacao-diversificada-sandwich/index.html" class="no-external">
 <div class="listing-date">
 Dec 23, 2024
 </div>
-</div>
-</div>
+<div class="listing-author">
+Emerson Del Ponte
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="UGxhbnQlMjBQYXRob2xvZ3k=" data-listing-date-sort="1734750000000" data-listing-file-modified-sort="1736463129188" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="435">
-<a href="./posts/2024-12-21-efficacy-efficiency-fungicides/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2024-12-21-efficacy-efficiency-fungicides/preview.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Fungicidas: Compreendendo a diferença entre eficácia e eficiência
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="UGxhbnQlMjBQYXRob2xvZ3k=" data-listing-date-sort="1734750000000" data-listing-file-modified-sort="1736463129188" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="435">
+<div class="thumbnail">
+<p><a href="./posts/2024-12-21-efficacy-efficiency-fungicides/index.html" class="no-external"></a></p><a href="./posts/2024-12-21-efficacy-efficiency-fungicides/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2024-12-21-efficacy-efficiency-fungicides/preview.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2024-12-21-efficacy-efficiency-fungicides/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2024-12-21-efficacy-efficiency-fungicides/index.html" class="no-external">Fungicidas: Compreendendo a diferença entre eficácia e eficiência</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2024-12-21-efficacy-efficiency-fungicides/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('UGxhbnQlMjBQYXRob2xvZ3k='); return false;">
 Plant Pathology
 </div>
 </div>
-<div class="card-text listing-description">
-No Brasil, é muito comum o uso do termo eficiência ou eficácia, indistintamente, para descrever o desempenho ou performance de fungicidas no controle de doenças. Ambos são…
+<div class="listing-description">
+<a href="./posts/2024-12-21-efficacy-efficiency-fungicides/index.html" class="no-external">No Brasil, é muito comum o uso do termo eficiência ou eficácia, indistintamente, para descrever o desempenho ou performance de fungicidas no controle de doenças. Ambos são…</a>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Emerson Del Ponte
 </div>
+<div class="metadata">
+<a href="./posts/2024-12-21-efficacy-efficiency-fungicides/index.html" class="no-external">
 <div class="listing-date">
 Dec 21, 2024
 </div>
-</div>
-</div>
+<div class="listing-author">
+Emerson Del Ponte
 </div>
 </a>
+</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">
