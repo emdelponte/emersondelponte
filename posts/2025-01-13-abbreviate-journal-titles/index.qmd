@@ -1,5 +1,5 @@
 ---
-title: "To Abbreviate or not to abbreviate? Journal titles in the digital age"
+title: "To abbreviate or not to abbreviate? Journal titles in the digital age"
 description: ""
 author:
   - name: Emerson Del Ponte
@@ -8,7 +8,7 @@ author:
     affiliation: Universidade Federal de Viçosa
 date: 01-13-2025
 image: preview.png
-categories: [Academia] 
+categories: [Academia, English] 
 draft: false 
 include-after-body: ../ai_use_declaration.html
 ---

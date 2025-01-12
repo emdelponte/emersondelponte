@@ -8,7 +8,7 @@ author:
     affiliation: Universidade Federal de Viçosa
 date: 01-08-2025
 image: preview.png
-categories: [Academia] 
+categories: [Academia, Português] 
 draft: false 
 include-after-body: ../ai_use_declaration.html
 ---
