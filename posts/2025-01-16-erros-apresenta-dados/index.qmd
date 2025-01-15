@@ -45,10 +45,10 @@ Por fim, e não menos importante, outro problema que vale mencionar é a avalia�
 
 E você, já viu problemas desse tipo? Ou outros problemas que eu não abordei neste texto?
 
-Agradecimentos: Aos colegas Tiago Olivoto e Franklin Machado pelos comentários construtivos.
-
 ![](preview.png){fig-align="center" width="500"}
 
 ------------------------------------------------------------------------
 
-Texto publicado no LinkedIn. Login para discutir!
+Agradecimentos: Aos colegas Tiago Olivoto e Franklin Machado pelos comentários construtivos.
+
+Texto publicado no LinkedIn. Faça login para discutir!
