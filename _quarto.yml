@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 website:
+  reader-mode: false
   back-to-top-navigation: true
   title: "EM Del Ponte"
   page-navigation: true
