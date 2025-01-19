@@ -4,7 +4,7 @@ description: ""
 author:
   - name: Emerson Del Ponte
     url: https://emersondelponte.netlify.app
-    orcid: 
+    orcid: 0000-0003-4398-409X
     affiliation: Universidade Federal de Viçosa
 date: 12-23-2024
 image: preview.png
