@@ -31,6 +31,8 @@ website:
         text: Resources
       - icon: pen
         href: posts.qmd
+      - icon: map
+        href: mapa.qmd
 
     right:
       - text: "{{< iconify simple-icons bluesky >}}"

@@ -1,0 +1,8 @@
+---
+title: "Risk maps"
+editor: visual
+---
+
+Here, you will find risk maps of the climatic favorability for soybean rust epidemics in RS state during the growing season. The content is presented in Portuguese language given the target audience.
+
+{{< revealjs file="mapas.html" height="500px" class="ratio ratio-16x9" >}}
