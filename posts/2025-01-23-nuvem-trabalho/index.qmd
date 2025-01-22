@@ -1,0 +1,40 @@
+---
+title: "Offline vs. nuvem: como otimizar a escrita científica colaborativa"
+description: ""
+author:
+  - name: Emerson Del Ponte
+    url: https://emersondelponte.netlify.app
+    orcid: 0000-0003-4398-409X
+    affiliation: Universidade Federal de Viçosa
+date: 01-23-2025
+image: preview.png
+categories: [Português, Academia] 
+draft: false 
+include-after-body: ../ai_use_declaration.html
+---
+
+A produção de texto é uma atividade central na vida do pesquisador. Assim, a escolha da ferramenta de trabalho para escrever e formatar textos é uma decisão importante. Isso depende de como o pesquisador se sente confortável e produtivo, especialmente em um contexto em que a escrita é, na maior parte do tempo, colaborativa.
+
+Quando comecei a escrever minha dissertação, no fim da década de 1990, a ferramenta padrão era o MS Word, e a rotina consistia em edição individual e offline. Cerca de meia década mais tarde, surgiram as ferramentas para trabalho na nuvem, como o Google Docs (lançado em 2006 após a aquisição do programa Writely), que rapidamente se popularizou.
+
+A ideia de editar um documento colaborativamente em tempo real era muito atrativa, mas o ambiente era estranho para mim, já habituado ao MS Word. O Google Docs já oferecia edição colaborativa, mas ainda era limitado em comparação ao MS Word, tanto em funcionalidades quanto em ferramentas de formatação. Por isso, continuei por vários anos escrevendo textos acadêmicos no MS Word e trocando versões por e-mail ou por drives colaborativos, como o Dropbox.
+
+Uma das principais limitações que enfrentei ao conhecer o Google Docs foi o controle de correções e comentários, essenciais na escrita colaborativa. No MS Word, esse recurso já era robusto, permitindo revisar, aceitar ou rejeitar alterações com facilidade. No Google Docs, esse controle era rudimentar e não atendia às minhas necessidades.
+
+Outro ponto crítico era a exigência de muitas revistas científicas pelo formato .doc ou .docx. Embora o Google Docs permitisse exportar documentos para esse formato, detalhes de formatação frequentemente se perdiam. Um exemplo disso era a impossibilidade de configurar a numeração de linhas diretamente no Google Docs, uma exigência comum para a submissão de artigos.
+
+Além disso, a desformatação de equações e fórmulas era um problema. Em trabalhos científicos que envolvem análises quantitativas, a apresentação clara de equações é essencial. O editor de equações do Google Docs era bastante limitado e, ao exportar para o MS Word, muitos elementos perdiam alinhamento ou símbolos, comprometendo a clareza do texto. Esses problemas tornavam o Google Docs inviável como substituto completo do MS Word, especialmente em projetos que exigiam precisão, conformidade editorial e formatação avançada.
+
+Outra funcionalidade importante no MS Word era sua integração com ferramentas de gerenciamento de referências bibliográficas, como o EndNote, que era o padrão na época. Contudo, por volta de 2015, mudei minha rotina e passei a usar o Google Docs para edição colaborativa e o MS Word para a formatação final. Isso me permitia aproveitar a colaboração em tempo real do Google Docs enquanto mantinha o controle necessário para atender às exigências de submissão de artigos científicos. O trabalho continuava dividido em geração de conteúdo e formatação. A integração com ferramentas de gerenciamento de referências foi resolvida com a chegada da funcionalidade do Zotero no Google Docs.
+
+O verdadeiro "game changer" ocorreu em 2020, quando o Google Docs passou a permitir a edição de documentos no formato .docx diretamente na plataforma. Essa funcionalidade eliminou a necessidade de conversões frequentes, reduzindo os problemas de desformatação e tornando o fluxo de trabalho mais eficiente, especialmente na escrita colaborativa de artigos científicos. A funcionalidade de adição de números de linhas foi implementada mais recentemente, em meados de 2023.
+
+Hoje, minha rotina consiste em trabalhar totalmente no Google Docs, seja em arquivos no formato gdocs (de minha criação) ou .docx (quando recebo links compartilhados), integrados a drives Google em trabalhos colaborativos. Para a submissão de manuscritos às revistas, faço a exportação do arquivo final para PDF ou MS Word.
+
+E você? Ainda utiliza o sistema MS Word offline + e-mail para escrita colaborativa ou já está totalmente imerso no trabalho na nuvem? Ou prefere outras plataformas e ferramentas para produção e formatação de textos? Qual rotina te deixa mais produtivo e eficiente?
+
+![](preview.png){fig-align="center" width="500"}
+
+------------------------------------------------------------------------
+
+Texto publicado no LinkedIn. Faça login para discutir!
