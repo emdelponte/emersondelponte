@@ -6,6 +6,10 @@ format:
 editor: visual
 ---
 
+## 22 de janeiro
+
+![](figs/maps/RS-22-01-2025.png)
+
 ## 20 de janeiro
 
 ![](figs/maps/RS-20-01-2025.png)
