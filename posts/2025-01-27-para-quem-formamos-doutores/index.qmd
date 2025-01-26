@@ -1,0 +1,34 @@
+---
+title: "Para quem estamos formando mestres e doutores?"
+description: ""
+author:
+  - name: Emerson Del Ponte
+    url: https://emersondelponte.netlify.app
+    orcid: 0000-0003-4398-409X
+    affiliation: Universidade Federal de Viçosa
+date: 01-27-2025
+image: preview.png
+categories: [Português, Academia] 
+draft: false 
+include-after-body: ../ai_use_declaration.html
+---
+
+A academia sempre foi vista como um espaço exclusivo, onde títulos de mestre, mas especialmente de doutor, representam um diferencial que poucos alcançam. Há mais de vinte anos, quando concluí meu doutorado, os programas de pós-graduação formavam profissionais com um propósito claro: preparar professores para as universidades e pesquisadores para instituições públicas, onde a estabilidade e o serviço público eram as principais motivações.
+
+Sou de uma geração em que o doutorado era um caminho para vocacionados que desejavam lecionar e contribuir para o avanço do conhecimento científico. As oportunidades existiam, bastava um pouco de paciência e perseverança. O trânsito de acadêmicos com doutorado para o setor privado, embora ocorresse, era menos comum e geralmente reservado a casos específicos, onde o conhecimento técnico altamente especializado justificava altos salários em posições estratégicas. No entanto, o cenário parece ter se invertido. Hoje, especialmente na minha área de atuação (Agronomia/Fitossanidade), vejo claramente um declínio no interesse pela carreira docente. Não é incomum que concursos para docentes, mesmo em departamentos de excelência no país, não atraiam candidatos suficientes para uma triagem adequada.
+
+Por outro lado, o setor privado, particularmente no agronegócio, tem absorvido um número crescente de doutores. Seja pela escassez de vagas na academia ou pelo excesso de doutores no mercado, muitas empresas têm se tornado o destino principal desses profissionais. É comum que os mais qualificados sejam recrutados antes mesmo de concluírem seus cursos, iniciando suas carreiras com salários superiores aos de colegas que optaram por permanecer na academia, seja como pós-doutorandos ou jovens docentes. Esse movimento reflete um reconhecimento crescente, por parte das empresas, do valor de profissionais altamente qualificados, capazes de enfrentar desafios complexos e propor soluções inovadoras.
+
+Esse fluxo de cérebros da academia para a indústria também inclui docentes, atraídos por uma compensação financeira mais competitiva, especialmente em um contexto de desvalorização da carreira universitária. Nesse cenário, a pós-graduação deixou de ser apenas um passaporte para a academia e se consolidou como um diferencial competitivo no mercado de trabalho.
+
+Diante dessa nova realidade, somos desafiados a repensar a formação de mestres e doutores. Como preparar profissionais capazes de contribuir em diferentes setores da sociedade, seja na academia, no setor público ou na iniciativa privada? Os programas de pós-graduação, particularmente em centros de excelência, oferecem a formação ideal para esse contexto ou ainda estão presos a estruturas curriculares ultrapassadas? Estamos promovendo uma formação mais flexível e interdisciplinar, que desenvolva competências como inovação, liderança e resolução de problemas reais?
+
+Essas questões deveriam estar no centro dos planejamentos estratégicos e reformas curriculares das instituições de ensino. Embora os programas de pós-graduação no Brasil sejam fortemente influenciados pela agenda da CAPES, há esforços recentes da própria agência para modernizar os processos e atender às demandas emergentes.
+
+Entre essas iniciativas, os mestrados e doutorados profissionais merecem maior atenção, especialmente considerando a crescente demanda por formação técnica e aplicada em áreas como a agricultura. Esses programas podem desempenhar um papel importante na integração entre o conhecimento técnico-científico e as soluções práticas necessárias para o mercado. No entanto, resta saber: estamos prontos para transformar esses potenciais em realidade? E como podemos alinhar as demandas locais e setoriais com o caráter universal da ciência que buscamos preservar?
+
+![](preview.png){fig-align="center" width="500"}
+
+------------------------------------------------------------------------
+
+Texto publicado no LinkedIn. Faça login para discutir!
