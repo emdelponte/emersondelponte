@@ -8,7 +8,7 @@ author:
     affiliation: Universidade Federal de Viçosa
 date: 01-31-2025
 image: preview.png
-categories: [Português, Academia] 
+categories: [Português, Academia, Plant Pathology] 
 draft: false 
 include-after-body: ../ai_use_declaration.html
 ---
