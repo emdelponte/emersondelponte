@@ -1,0 +1,52 @@
+---
+title: "Data available on request - até quando?"
+description: ""
+author:
+  - name: Emerson Del Ponte
+    url: https://emersondelponte.netlify.app
+    orcid: 0000-0003-4398-409X
+    affiliation: Universidade Federal de Viçosa
+date: 01-31-2025
+image: preview.png
+categories: [Português, Academia] 
+draft: false 
+include-after-body: ../ai_use_declaration.html
+---
+
+Ao ler artigos científicos, você provavelmente já notou com frequência a expressão "data available on request" na seção “declaração de disponibilidade de dados”, indicando que os dados gerados no estudo e utilizados nas análises serão fornecidos apenas mediante solicitação. Essa prática é intrigante num momento em que a ciência aberta se consolida como um pilar essencial para a transparência e a reprodutibilidade. Mas até quando essa abordagem será considerada aceitável?
+
+Em 2018, junto com meu colega [Adam Sparks](https://adamhsparks.netlify.app/about/), iniciei um movimento para conscientizar a comunidade sobre a importância da ciência aberta na Fitopatologia. Esse esforço resultou na criação da iniciativa [Open Plant Pathology](https://openplantpathology.netlify.app/team), cujo objetivo era promover práticas mais transparentes, incentivando o compartilhamento aberto de dados e o uso de ferramentas de código aberto pela comunidade científica.
+
+Com o apoio de outros colegas, utilizamos ambientes de chat para fomentar discussões e criamos um website para divulgar postagens sobre o tema. Foi nesse contexto que surgiu um esforço colaborativo para responder a uma questão essencial: com que frequência os pesquisadores compartilham os dados em artigos publicados em revistas de Fitopatologia?
+
+Os resultados do [estudo publicado](https://apsjournals.apsnet.org/doi/10.1094/PHYTO-10-21-0430-PER) na revista Phytopathology não foram animadores, como já era esperado. Apenas uma fração ínfima das publicações incluía os dados originais e detalhava os métodos de análise de forma a permitir a reprodutibilidade da pesquisa. O compartilhamento dos códigos de programação utilizados nas análises era ainda mais raro.
+
+Os dados gerados em um estudo científico são parte integral da pesquisa e deveriam estar acessíveis junto ao artigo publicado, garantindo mais transparência no processo decisório durante as análises. Isso permitiria, por exemplo, que revisores tivessem mais subsídios para avaliar a qualidade das análises realizadas. De fato, o compartilhamento de dados na ciência oferece múltiplas vantagens: aumenta a transparência e a reprodutibilidade das pesquisas, acelera descobertas ao evitar a duplicação de esforços, amplia o impacto e a visibilidade dos estudos, facilita metanálises e comparações, estimula colaborações e inovação. Além disso, dados compartilhados podem ser reaproveitados em novas abordagens, gerando sínteses mais robustas e promovendo avanços que beneficiam toda a comunidade científica.
+
+Se há tantas vantagens, por que essa prática ainda não é amplamente adotada? Uma das principais razões é a falta de incentivos, exigências e até mesmo conhecimento sobre como disponibilizar os dados em repositórios. A maioria das revistas científicas não torna o compartilhamento obrigatório, e as agências de fomento, embora incentivem o acesso aberto às publicações, ainda são tímidas quanto à exigência de compartilhamento de dados em seus editais.
+
+Embora os dados possam ser distribuídos em planilhas ou outros arquivos como material suplementar à publicação, o ideal é utilizar repositórios de dados, onde esses podem receber um identificador digital (DOI). Há diversas opções de repositórios genéricos (ex.: OSF, Zenodo), que são gratuitos, além de repositórios específicos para determinadas áreas de pesquisa.
+
+Além disso, há desafios particulares em algumas áreas. Dados sensíveis, como aqueles relacionados à saúde humana, estão sujeitos a regulamentações rigorosas, exigindo anonimização para proteger a identidade dos indivíduos envolvidos.
+
+Outro fator relevante é o receio de que, ao disponibilizar publicamente seus dados, outros pesquisadores os utilizem para publicar estudos semelhantes ou mais abrangentes antes que os próprios autores tenham a chance de explorá-los completamente. Esse medo, embora legítimo, pode ser mitigado por meio de licenças de dados que garantam o devido crédito aos autores originais.
+
+A iniciativa Open Plant Pathology talvez não tenha provocado uma mudança imediata e ampla na comunidade científica, dada a dificuldade de transformar uma cultura de forma voluntária e individual. Mudanças desse tipo são desafiadoras e levam muitos anos, ou até décadas.
+
+Ainda assim, o movimento encontrou ressonância em instituições importantes. A Sociedade Americana de Fitopatologia (APS), por exemplo, publicou um [artigo](https://apsjournals.apsnet.org/doi/10.1094/PHYTO-12-23-0483-IA) destacando boas práticas para uma ciência mais aberta, incluindo o compartilhamento de dados. Na Sociedade Brasileira de Fitopatologia, tentou-se implementar um time de editores de dados na revista Tropical Plant Pathology, mas o engajamento foi mínimo por parte dos autores, e a iniciativa não obteve o impacto esperado.
+
+Enquanto isso, artigos continuam sendo publicados sem disponibilização direta dos dados originais, perpetuando uma prática que limita o acesso à informação e enfraquece o princípio da transparência.
+
+Para reverter esse cenário, a comunidade acadêmica precisa valorizar mais as práticas de ciência aberta, reconhecendo os dados como produtos legítimos da pesquisa, assim como os artigos científicos. Essa valorização poderia ser incorporada a processos de seleção acadêmica e rankings institucionais, incentivando uma cultura de transparência, reprodutibilidade e colaboração.
+
+Além disso, [seminários](https://www.linkedin.com/posts/emerson-m-del-ponte-61678ba1_reproducibility-in-plant-pathology-activity-7266584222453157888-x0hb?utm_source=share&utm_medium=member_desktop), campanhas educacionais e workshops sobre o uso de ferramentas para tornar a pesquisa mais reprodutível seriam fundamentais para fomentar essa mudança cultural. No entanto, essa formação precisa ser integrada diretamente nos cursos de pós-graduação. Os futuros cientistas devem ser capacitados não apenas a produzir conhecimento, mas também a torná-lo transparente, acessível e reprodutível. No Brasil, a [Rede Brasileira de Reprodutibilidade](https://www.reprodutibilidade.org/) tem desempenhado um papel fundamental na promoção de práticas de pesquisa mais transparentes e confiáveis na comunidade científica nacional.
+
+Enquanto essas mudanças não se concretizam de forma mais ampla, o "data available on request" continuará predominando. Mas essa opção, além de restringir o acesso aos dados, levanta uma dúvida: os dados realmente são enviados aos leitores quando solicitados? [Estudos](https://www.jclinepi.com/article/S0895-4356(22)00141-X/fulltext) indicam que, na prática, essa disponibilidade é incerta.
+
+E você, o que pensa sobre o compartilhamento de dados na pesquisa científica? Você ainda distribui seus dados apenas sob demanda?
+
+![](preview.png){fig-align="center" width="500"}
+
+------------------------------------------------------------------------
+
+Texto publicado no LinkedIn. Faça login para discutir!
