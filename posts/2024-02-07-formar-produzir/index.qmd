@@ -1,0 +1,38 @@
+---
+title: "Formar ou produzir? o paradoxo do orientador"
+description: ""
+author:
+  - name: Emerson Del Ponte
+    url: https://emersondelponte.netlify.app
+    orcid: 0000-0003-4398-409X
+    affiliation: Universidade Federal de Viçosa
+date: 02-7-2025
+image: preview.png
+categories: [Português, Academia] 
+draft: false 
+include-after-body: ../ai_use_declaration.html
+---
+
+Quando iniciei minhas atividades como docente, tinha uma visão superficial e incompleta de todos os desafios que enfrentaria para alcançar meus objetivos, o que é natural no começo da carreira. Esses desafios incluíam metas pessoais, mas também expectativas institucionais. Entre eles estavam: formar um grupo de pesquisa sólido em epidemiologia, captar recursos para financiar os trabalhos, atrair e orientar estudantes e desenvolver habilidades didáticas – muitas delas não contempladas de maneira consistente em minha formação no doutorado e pós-doutorado.
+
+Não é um caminho fácil, especialmente porque o docente precisa, desde cedo, lidar com múltiplas demandas enquanto busca equilibrar pesquisa, ensino e extensão – além de funções administrativas. Em instituições de ensino superior, há, de fato, uma expectativa de que o docente se associe a um programa de pós-graduação. Nesse ambiente, dispõe-se de certa liberdade para traçar uma trajetória acadêmica. Essa autonomia permite decidir quais linhas de pesquisa seguir, com quais grupos e colegas colaborar e como organizar as atividades.
+
+Essa liberdade, entretanto, vem acompanhada de responsabilidades. É essencial que o docente alinhe suas escolhas às demandas institucionais e aos seus objetivos acadêmicos. Na prática, o aprendizado ocorre no cotidiano do trabalho, com acertos, erros e nas conversas com colegas mais experientes. Ao participar de um programa de pós-graduação, o docente conta com apoio direto, especialmente com alunos de mestrado e doutorado. Na maioria dos casos dispõe de recursos financeiros limitados oferecidos pelo Programa. Para suprir essa deficiência, é necessário submeter propostas a editais de agências públicas de fomento ou buscar captação diretamente na iniciativa privada.
+
+Como não há almoço grátis, essa estrutura logo gera cobranças. As coordenações dos programas demandam produtividade dos orientadores, medindo-a por métricas como o número de artigos publicados. Quanto maior a nota do programa na avaliação da CAPES, em teoria, mais elevado é o sarrafo. Ou seja, quanto mais recursos um orientador recebe, maior é a pressão por resultados, reforçando a lógica produtivista que predomina em muitos programas de pós-graduação.
+
+A academia não deveria ser encarada como um campeonato de número de publicações, especialmente no contexto da formação de mestres e doutores. Escrever boas publicações com alunos leva tempo, comparável ao período de formação dos mesmos. O objetivo principal deveria ser construir conhecimento e formar profissionais competentes e críticos. Contudo, as métricas de produtividade ainda são importantes indicadores utilizados para avaliar programas ou pesquisadores (ex: bolsa de produtividade). Em alguns, exige-se a publicação de um artigo para que a defesa possa ser agendada, o que cria uma pressão por quantidade em detrimento da qualidade.
+
+Mas o que seria o ideal? que o orientador integrasse a produção acadêmica ao processo formativo, utilizando a escrita de artigos como ferramenta pedagógica para desenvolver habilidades analíticas, de escrita e de comunicação científica nos alunos. Isso exige planejamento, com projetos bem definidos e metas alinhadas ao cronograma da dissertação ou tese, garantindo que as publicações sejam úteis tanto para a formação do aluno quanto para o avanço da área. Assim, o orientador atende às demandas institucionais enquanto ajuda o aluno a construir um portfólio competitivo e uma base sólida para sua carreira. Em suma, o desafio é encontrar equilíbrio entre as diversas atividades.
+
+Os professores-orientadores são indivíduos com habilidades específicas, destacando-se em áreas onde têm maior desenvoltura. Por exemplo, há aquele excelentes na criação e venda de ideias, capazes de atrair grandes volumes de recursos financeiros para seus grupos de pesquisa. Outros se destacam na formação de alunos, equipando-os com pensamento crítico e transformando-os em bons cientistas. Alguns dedicam-se mais intensamente às atividades de sala de aula, enquanto outros priorizam a entrega de resultados em forma de artigos, assumindo protagonismo na produção acadêmica. Por fim, há aqueles que se envolvem em atividades de extensão, como palestras para o setor acadêmico ou industrial.
+
+Embora a colaboração entre diferentes perfis de docentes de um programa pudesse trazer inúmeros benefícios, muitas vezes ainda prevalece a lógica de pequenos feudos acadêmicos, o que limita o potencial coletivo e reforça barreiras que poderiam ser superadas com maior integração e cooperação. O "super-professor", aquele que é excelente em todas as áreas citadas acima, é uma figura utópica.
+
+Contudo, em um ambiente acadêmico onde somos constantemente cobrados por resultados proporcionais aos recursos que recebemos, é fundamental focar em entregas que promovam o bem coletivo de um programa de pós-graduação, deixando de lado abordagens individualistas. Essa perspectiva é válida tanto para docentes em início de carreira quanto para aqueles com trajetórias consolidadas. Alcançar um equilíbrio entre habilidades individuais, demandas institucionais e contribuição ao avanço científico é indispensável para o sucesso na carreira acadêmica e para formar novos pesquisadores capazes de impactar positivamente a ciência e a sociedade.
+
+![](preview.png){fig-align="center" width="500"}
+
+------------------------------------------------------------------------
+
+Texto publicado no LinkedIn. Faça login para discutir!
