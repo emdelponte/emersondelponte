@@ -1,0 +1,40 @@
+---
+title: "Os três idiomas do pesquisador na era da IA"
+description: ""
+author:
+  - name: Emerson Del Ponte
+    url: https://emersondelponte.netlify.app
+    orcid: 0000-0003-4398-409X
+    affiliation: Universidade Federal de Viçosa
+date: 02-7-2025
+image: preview.png
+categories: [Português, Academia] 
+draft: false 
+include-after-body: ../ai_use_declaration.html
+---
+
+Nas aulas que ministro na FIP 395 - “Introdução à Pesquisa Científica”, disciplina obrigatória no curso de graduação em Agronomia da UFV, bem como na disciplina FIP 606 - “Análise e visualização de dados em Fitopatologia”, sempre ressalto que o pesquisador moderno deve dominar três idiomas: sua língua materna, o inglês e uma linguagem de programação para ciência de dados. Essas três competências são indispensáveis para que o pesquisador possa desempenhar seu trabalho com excelência.
+
+O domínio da língua materna é essencial para comunicar ideias de forma clara e precisa, seja na redação de projetos ou relatórios. É por meio dela que o pesquisador dialoga com a sociedade local, traduzindo a ciência em impacto prático e cumprindo seu papel na extensão universitária.
+
+O inglês, por sua vez, é a língua universal da ciência, indispensável para acessar literatura acadêmica, publicar em revistas, participar de eventos internacionais e colaborar com pesquisadores de diferentes países. 
+
+Além da necessidade de ler e compreender artigos científicos, a escrita acadêmica em inglês é um desafio para muitos pesquisadores. Neste contexto, a inteligência artificial (IA) tem se mostrado uma ferramenta útil. Modelos de IA podem auxiliar na estruturação de textos, na correção gramatical e na melhoria da clareza da escrita, permitindo que o pesquisador foque na qualidade do conteúdo e na precisão científica. Ainda assim, a IA não substitui a necessidade de um bom conhecimento da língua; o pesquisador deve ser capaz de revisar e interpretar criticamente o que está sendo gerado, garantindo que o texto reflita com precisão suas ideias.
+
+A terceira linguagem essencial para o pesquisador moderno é a programação. Com o aumento exponencial na geração e disponibilização de dados científicos, saber programar tornou-se uma habilidade estratégica. O domínio de linguagens como R ou Python permite organizar, limpar, analisar e visualizar dados com maior eficiência e independência. Embora essas funcionalidades já estivessem disponíveis em softwares tradicionais, como planilhas eletrônicas, programas de estatística e ferramentas de gráficos, elas estavam fragmentadas. Hoje, R e Python oferecem uma solução integrada, com vantagens adicionais como a geração automática de relatórios de análise e dashboards interativos.
+
+A partir de 2025, a disciplina de graduação FIP 395 passará a incorporar elementos práticos, com todas as aulas ministradas em laboratório computacional para turmas reduzidas. O objetivo é suprir a deficiência no domínio da programação, proporcionando aos estudantes um contato direto com a linguagem R. Ao longo da disciplina, os alunos desenvolverão competências para utilizar ferramentas computacionais em diversas etapas do processo científico, desde a escrita científica, com editores de texto e planilhas de dados em ambientes colaborativos, até a programação aplicada à análise estatística e interpretação de dados. A proposta busca integrar teoria e prática, capacitando os estudantes a resolver problemas reais de maneira eficiente e autônoma.
+
+A crescente adoção de IA na programação adiciona um novo desafio ao aprendizado. Ferramentas como ChatGPT, Copilot e DeepSeek são capazes de gerar código e sugerir soluções rapidamente, o que pode levar à falsa impressão de que aprender a programar se tornou dispensável. No entanto, compreender a lógica por trás do código continua sendo essencial. Sem esse conhecimento, o pesquisador corre o risco de utilizar soluções incorretas, ineficientes ou não replicáveis.
+
+Na disciplina, o uso de IA será abordado de forma estratégica. Os alunos serão incentivados a desenvolver suas próprias soluções antes de recorrer à IA, garantindo que construam um raciocínio lógico sólido. Também serão orientados a interpretar e validar os códigos gerados por essas ferramentas, assegurando que os resultados sejam confiáveis e adequados para suas análises. Em vez de substituir o aprendizado de programação, a IA será utilizada como um recurso complementar, potencializando a produtividade sem comprometer a autonomia intelectual dos estudantes.
+
+Mais do que ensinar ferramentas, a disciplina busca estimular o pensamento científico e preparar tecnicamente os alunos. Ser cientista não significa apenas executar análises e desenvolver ferramentas, mas compreender os fundamentos, questionar os resultados e interpretar os dados de forma crítica. Essa combinação de reflexão científica e domínio técnico diferencia um operador técnico de um pesquisador capaz de contribuir para o avanço do conhecimento e a solução de problemas relevantes para a sociedade.
+
+Ao fortalecer essas competências, espera-se preparar os futuros profissionais para os desafios do mercado de trabalho e da ciência contemporânea, além de identificar e estimular aqueles com vocação para a carreira acadêmica. O domínio dessas habilidades será fundamental para quem deseja construir uma trajetória sólida na pesquisa e na inovação científica.
+
+![](preview.png){fig-align="center" width="500"}
+
+------------------------------------------------------------------------
+
+Texto publicado no LinkedIn. Faça login para discutir!
