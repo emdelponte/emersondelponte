@@ -6,7 +6,7 @@ author:
     url: https://emersondelponte.netlify.app
     orcid: 0000-0003-4398-409X
     affiliation: Universidade Federal de Viçosa
-date: 02-7-2025
+date: 02-14-2025
 image: preview.png
 categories: [Português, Academia] 
 draft: false 
