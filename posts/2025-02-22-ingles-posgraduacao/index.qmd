@@ -1,0 +1,36 @@
+---
+title: "Aulas em inglês na Pós-Graduação: realidade e desafios"
+description: ""
+author:
+  - name: Emerson Del Ponte
+    url: https://emersondelponte.netlify.app
+    orcid: 0000-0003-4398-409X
+    affiliation: Universidade Federal de Viçosa
+date: 02-22-2025
+image: preview.png
+categories: [Português, Academia] 
+draft: false 
+include-after-body: ../ai_use_declaration.html
+---
+
+A oferta de disciplinas oferecidas no idioma inglês na pós-graduação brasileira é uma dentre várias ações importantes em uma estratégia de internacionalização. No entanto, na minha experiência, essa prática enfrenta obstáculos, mesmo em programas de excelência, como os de nota 7 na CAPES. A resistência de alunos e professores, somada a limitações estruturais, levanta o questionamento: estamos realmente promovendo a internacionalização ou apenas atendendo a métricas institucionais?
+
+Desde 2017, tenho oferecido a disciplina Epidemiologia de Doenças de Plantas, em inglês, com o objetivo de auxiliar na internacionalização do meu Programa. Além da minha disciplina, existe apenas outra no portfólio do Programa que é oferecida regularmente em inglês. Nos primeiros anos de oferecimento, a adesão foi baixa, o que reflete uma insegurança dos estudantes quanto ao domínio do idioma, já que a procura pela disciplina reduziu após essa mudança.
+
+Durante a pandemia de COVID-19, o formato online e a divulgação realizada pela Diretoria de Relações Internacionais, ampliaram o alcance da disciplina, atraindo alunos de diferentes países. No entanto, a adesão local continuou limitada. Em 2024, por exemplo, mais de 35 alunos de diversos países se inscreveram, mas apenas um era do programa, evidenciando o desafio da resistência local.
+
+Outro fator que possivelmente limita o impacto das disciplinas em inglês é a baixa presença de estudantes estrangeiros falantes do idioma. O número de alunos internacionais falantes nativos de inglês é muito baixo (com predomínio do espanhol). Mesmo com iniciativas de dupla diplomação com países de língua inglesa, não temos atraído estudantes de fora do Brasil, sendo que, em duas ocasiões, predominou o fluxo daqui para lá. Sem um público-alvo consistente, as disciplinas em inglês tornam-se subutilizadas e têm pouco impacto prático no processo de internacionalização.
+
+Para lidar com essas dificuldades e tornar a disciplina mais inclusiva, adotei uma estratégia híbrida: em anos ímpares, ofereço a disciplina presencialmente em português (com boa procura), enquanto nos anos pares ela é ministrada online em inglês, visando atender tanto ao público local quanto ao internacional. Apesar de funcionar em termos de planejamento, os desafios permanecem.
+
+Ainda assim, acredito que disciplinas em inglês continuam sendo um caminho importante para promover a internacionalização. Mais do que atender métricas, trata-se de preparar alunos para os desafios da ciência global e ampliar a rede de colaborações internacionais. Com estratégias bem planejadas e maior suporte e incentivo institucional, é possível transformar esses desafios em oportunidades.
+
+Algumas ações que poderiam contribuir incluem a criação de incentivos financeiros e acadêmicos para atrair estudantes estrangeiros, já que as bolsas podem ser alocadas para os mesmos, além de ampliar e fortalecer parcerias com universidades de países de língua inglesa. Também seria importante aumentar a exigência pelo domínio do inglês no ingresso ao curso, paralelamente à oferta de treinamentos específicos para capacitar os alunos e reduzir a resistência ao uso do idioma.
+
+No caso dos docentes, a exigência de que ofereçam disciplinas em inglês (após um período sabático em país falante de inglês - uma prática já adotada), combinada com o apoio institucional na forma de cursos voltados ao ensino em língua inglesa, poderia ser uma estratégia eficaz para superar barreiras. Com essas medidas articuladas a políticas institucionais, seria possível não apenas aumentar o impacto das disciplinas em inglês, mas também impulsionar a internacionalização de maneira mais consistente.
+
+![](preview.png){fig-align="center" width="500"}
+
+------------------------------------------------------------------------
+
+Texto publicado no LinkedIn. Faça login para discutir!
