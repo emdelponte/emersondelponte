@@ -1,0 +1,38 @@
+---
+title: "Livros online: importância no contexto acadêmico"
+description: ""
+author:
+  - name: Emerson Del Ponte
+    url: https://emersondelponte.netlify.app
+    orcid: 0000-0003-4398-409X
+    affiliation: Universidade Federal de Viçosa
+date: 02-28-2025
+image: preview.png
+categories: [Português, Academia] 
+draft: false 
+include-after-body: ../ai_use_declaration.html
+---
+
+O debate sobre livros técnicos interativos exclusivamente online (não estou falando de formato em PDF ou versão e-book de livros) e tradicionais é relevante, especialmente no contexto acadêmico. Livros impressos têm seu valor indiscutível, mas os digitais, especialmente em formato HTML (página da web) se destacam por sua acessibilidade, possibilidade de atualização constante e alcance global, especialmente se forem escritos em inglês.
+
+Criar e compartilhar livros online se assemelha ao desenvolvimento de softwares de código aberto, principalmente: ferramentas de autopublicação permitem que o autor tenha controle total sobre o conteúdo, desde a produção até a distribuição. Assim como os artigos científicos, que há tempos deixaram de depender do papel, os livros digitais têm potencial para se consolidar. O desafio, no entanto, é garantir que essas iniciativas sejam valorizadas e reconhecidas como legítimas pela comunidade acadêmica.
+
+Uma das grandes vantagens da publicação digital é a acessibilidade. Livros online podem alcançar públicos de diferentes regiões, sem custos de impressão ou logística, e reduzir barreiras financeiras. Além disso, permitem atualizações em tempo real, mantendo o conteúdo sempre relevante e alinhado às novas descobertas. O formato HTML possibilita a inclusão de recursos interativos, como gráficos dinâmicos e dashboards, que tornam a experiência de aprendizado mais prática e envolvente.
+
+Em outubro de 2023, publiquei meu livro "[R4PDE - R for Plant Disease Epidemiology](https://r4pde.net/)", no idioma inglês e no formato HTML. Escolhi não seguir o caminho tradicional da publicação impressa por vários motivos. Além de todas as vantagens do formato digital, utilizo ferramentas gratuitas, como a plataforma RStudio e a suíte Quarto, que facilitaram todo o processo de produção. Para o armazenamento e controle de versões, uso o GitHub, uma solução também gratuita que me permite gerenciar e registrar mudanças no conteúdo de forma organizada. Para a hospedagem, optei pelo Netlify, que garante fácil acesso ao material em uma plataforma estável. Essas ferramentas eliminam custos de produção, oferecem total controle sobre o material e permitem atualizações constantes. O único custo financeiro que eu tenho é o pagamento anual do domínio .net. Por esses motivos, e ancorado no princípio da educação aberta, decidi oferecer o livro gratuitamente.
+
+A agilidade no processo de publicação foi outro fator decisivo. Pude disponibilizar o livro rapidamente e sigo adaptando-o conforme necessário. Criei um pacote em R com o mesmo nome do livro, que oferece várias funções específicas para análise de dados em epidemiologia de doenças de plantas. Além disso, tenho desenvolvido diversos aplicativos em R Shiny que ilustram de maneira dinâmica conceitos e funcionalidades abordados no livro. Esses recursos ajudam a tornar a experiência do leitor mais prática e envolvente, conectando a breve teoria apresentada no texto a aplicações reais e interativas.
+
+Uma característica central desse livro é seu uso como base para a disciplina FIP 602 - Plant disease epidemiology, que ofereço anualmente na pós-graduação. Isso me dá a oportunidade de revisá-lo continuamente, incorporando novos conteúdos, ferramentas e exemplos práticos diretamente das aulas. Essa integração entre ensino e publicação ajuda a manter o conteúdo atualizado e alinhado com as demandas da área.
+
+Refletindo sobre a decisão de optar pelo formato digital, acredito que ela ampliou o impacto e a acessibilidade do livro, especialmente por se tratar de uma temática em evolução como programação de computador para análises epidemiológicas. No entanto, sei que a ausência de uma versão impressa pode limitar sua aceitação em contextos mais tradicionais da academia. Apesar disso, o retorno que tenho recebido tem sido extremamente positivo, incluindo feedbacks da comunidade e convites para palestras que reforçam a relevância do material e validam a escolha.
+
+Quanto às métricas de impacto, considero o número de acessos (aproximadamente 15 mil visitantes até Janeiro de 2025) um bom indicador. Além disso, o uso do livro em disciplinas, cursos e treinamentos demonstra seu papel no ensino e na disseminação do conhecimento. Feedbacks diretos, como comentários e interações em redes sociais, têm fornecido insights importantes sobre como o material é utilizado.
+
+A quantidade de [citações acadêmicas](https://scholar.google.com/scholar?as_ylo=2021&q=r4pde&hl=en&as_sdt=0,5&authuser=1) ajudará a avaliar sua relevância na literatura, e a análise da distribuição geográfica do público mostrará seu alcance global. Mais do que números, acredito que o verdadeiro impacto do livro digital está na forma como ele contribui para o avanço do conhecimento e para a formação de futuros profissionais na área de fitopatologia.
+
+![](preview.png){fig-align="center" width="500"}
+
+------------------------------------------------------------------------
+
+Texto publicado no LinkedIn. Faça login para discutir!
