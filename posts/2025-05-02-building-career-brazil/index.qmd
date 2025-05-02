@@ -1,0 +1,36 @@
+---
+title: "Different paths, same goal: Building a career where it matters most"
+description: ""
+author:
+  - name: Emerson Del Ponte
+    url: https://emersondelponte.netlify.app
+    orcid: 0000-0003-4398-409X
+    affiliation: Universidade Federal de Viçosa
+date: 05-02-2025
+image: preview.png
+categories: [English, Academia] 
+draft: false 
+include-after-body: ../ai_use_declaration.html
+---
+
+There has been growing discussion in the media about why some researchers choose to remain in their home countries rather than pursue careers abroad. In the current global context, especially with political uncertainties such as those experienced in the U.S., many foreign scholars have felt an increased sense of insecurity about their long-term prospects. These reflections resonate with my own decision to stay and build my career in Brazil.
+
+My academic journey started and matured in Brazil, where I received all my formal training in plant pathology. Throughout my education, from undergraduate to PhD, I benefited from free public education, a privilege that instilled in me a sense of responsibility to give back to the community that invested in my future. During my PhD, I was fortunate to spend a year at Cornell University, an experience funded by a Brazilian government program that broadened my academic and professional horizons. After completing my doctorate, and with few academic opportunities available in Brazil at the time, I returned to the United States for a postdoctoral position at Iowa State University.
+
+When a faculty position opened in southern Brazil, I made the decision to return and establish my career here. Although I have been tempted by opportunities abroad, I have never formally applied for a position outside Brazil. Choosing to stay was not just about professional opportunities. It was a personal decision rooted in the desire to contribute to Brazilian agriculture and build something meaningful where I felt most connected.
+
+After my initial appointment, I later accepted an offer to join the Federal University of Viçosa (UFV), home to one of the most highly ranked departments and graduate programs in plant pathology in Brazil. This move reinforced my commitment to advancing research and training future generations of scientists within the country.
+
+Several reasons have sustained this decision over the years. Brazil is home. Academically, the country provides exceptional opportunities to work with outstanding students, all supported by government-funded scholarships, helping sustain dynamic and productive research programs. Another key factor has been my successful record in securing competitive research funding through both state and federal grants, which has allowed me to maintain active, well-supported research projects over the years.
+
+Of course, building a scientific career in Brazil is not without its challenges. The low value of our currency makes it extremely difficult to afford open access publication fees charges. The cost of equipment and research supplies, often far higher than in other developing countries, adds another layer of difficulty. Despite these obstacles, the motivation to contribute locally and the strength of collaborative networks have continued to outweigh the frustrations.
+
+Despite not having had the opportunity to take a formal sabbatical in almost 20 years of my career, a path often taken by faculty to expand collaborations, I have remained consistently active in international collaboration. I have been fortunate to travel extensively abroad, establishing professional ties with colleagues. Many of these connections have resulted in valuable opportunities for my students, who often pursue part of their PhD studies (sandwich programs) in leading laboratories, mainly in the U.S.
+
+Would I make the same decision if I had to choose today? It is hard to say. Such decisions are strongly shaped by personal and family contexts at a particular moment in time. I have seen several of my students build successful and fulfilling careers abroad, and my sense is that they are quite happy, both professionally and personally. I always encourage them to pursue what makes them happy, knowing that there are many valid paths to success, and I fully support their decisions. Staying in Brazil has allowed me to align my professional ambitions with my personal values, while maintaining a vibrant international network that enriches both my research and my students’ careers.
+
+![](preview.png){fig-align="center" width="500"}
+
+------------------------------------------------------------------------
+
+Texto publicado no LinkedIn. Faça login para discutir!
