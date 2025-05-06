@@ -30,9 +30,9 @@ To use the system, visit <https://fitopatologiaufv.shinyapps.io/brusone>/. An in
 
 ![](../../figs/brusone_app.png)
 
-## How to assess risk across the entire Cerrado wheat-producing region?
+## What about the risk across the entire Cerrado wheat-producing region?
 
-Starting late April, we will generate risk maps for areas above 700m altitude around municipalities with reported wheat production and adjacent areas. The maps will be [shared here](https://emersondelponte.netlify.app/brusone) in this website.
+Starting late April, using the same approach of the shiny app, we will generate risk maps for areas above 700m altitude around municipalities with reported wheat production and adjacent areas. The maps will be [shared here](https://emersondelponte.netlify.app/brusone) in this website.
 
 For instance, the first generated map shows average wheat blast risk for heading occurring between April 29 and May 5, 2025. The risk is predominantly high across all wheat-producing regions where heading occurred during the considered week. Farmers should consult an agronomist for optimal fungicide control recommendations.
 
