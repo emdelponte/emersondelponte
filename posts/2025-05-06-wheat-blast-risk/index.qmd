@@ -1,0 +1,44 @@
+---
+title: "Wheat blast - why worry and how to predict?"
+editor: visual
+author: 
+  - Emerson Del Ponte
+  - Monalisa De Cól
+  - Igor Ehardt
+date: 05-06-2025
+image: preview.png
+categories: [English, Academia] 
+draft: false 
+---
+
+Wheat blast is one of the most significant diseases affecting wheat cultivation in the Brazilian Cerrado. There are numerous reasons why it remains a primary concern for wheat growers in this region. Despite the use of fungicides and less susceptible cultivars, the disease can still significantly impact yield, as these methods are not fully effective. From an environmental perspective, rainfed wheat is planted at the end of summer (late February to mid/end of March), when higher temperatures combined with high humidity (summer rains) ensure the presence of inoculum in various grass species. These grasses can host a fraction of the pathogen population specific to wheat (the Triticum lineage) and other lineages specific to grasses (non-infective to wheat). If high humidity and temperature persist, wheat blast can appear during the vegetative stage, initially infecting leaves. This leaf infection guarantees that inoculum present in the crop can later infect wheat spikes.
+
+![](../../figs/brusone_foto.jpg)
+
+
+However, these factors alone do not guarantee spike infection. High humidity and temperature must continue around the wheat heading stage. In such scenarios, climate-based predictive models can help farmers by alerting them to environmental conditions indicating a potential risk of epidemics, enabling more informed fungicide application decisions.
+
+## How to determine if environmental conditions are favorable for wheat blast?
+
+We have been conducted several studies have been conducted to understand the epidemiology of wheat blast in the Cerrado during the last eight years. In collaboration with EPAMIG, a [published study](https://apsjournals.apsnet.org/doi/10.1094/PDIS-11-23-2513-RE) developed a risk model considering weather conditions around the wheat heading period - a critical time for disease occurrence. Spike infection is favored by high daily average relative humidity in the two weeks before heading and accumulated rainfall in the week following heading, whereas daily average temperatures below 22°C in the two weeks before heading reduce infection risk.
+
+The model is available via an interactive online dashboard. This system uses nearly real-time daily weather data from the NASA POWER project (<https://power.larc.nasa.gov>/) combined with 7-day weather forecasts provided by Open-Meteo (<https://open-meteo.com>/). While the system can estimate risk anywhere globally, it is particularly suited for the Brazilian Cerrado, where most data used to develop and validate the model was collected.
+
+## How to access the system?
+
+To use the system, visit <https://fitopatologiaufv.shinyapps.io/brusone>/. An interactive map will appear, allowing users to select the farm location by clicking directly on the map or entering latitude and longitude for greater precision. Next, select the date when 50% of wheat spikes emerged. Click on “update graph” to run the model and view a time series graph displaying the probability value for 10 days before and after the selected date. By default, the most recent date with available weather data (10 days before consultation) is shown. In the simulation below, for heading dates between April 12 and May 2 near Uberaba, the estimated risk was high (probability above 0.68, red zone on the graph).
+
+![](../../figs/brusone_app.png)
+
+## How to assess risk across the entire Cerrado wheat-producing region?
+
+Starting late April, we will generate risk maps for areas above 700m altitude around municipalities with reported wheat production and adjacent areas. The maps will be [shared here](https://emersondelponte.netlify.app/brusone) in this website.
+
+For instance, the first generated map shows average wheat blast risk for heading occurring between April 29 and May 5, 2025. The risk is predominantly high across all wheat-producing regions where heading occurred during the considered week. Farmers should consult an agronomist for optimal fungicide control recommendations.
+
+![](../../figs/brusone_map_2025_1.jpeg){fig-align="center"}
+
+## Reference
+
+De Cól, M., Coelho, M., & Del Ponte, E. M. (2024). Weather-based logistic regression models for predicting wheat head blast epidemics. Plant Disease, 108(7), 2206-2213.
+
