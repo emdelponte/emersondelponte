@@ -33,4 +33,6 @@ Para utilizar o sistema, o usuário deve acessar <https://fitopatologiaufv.shiny
 
 A partir do final de abril, estaremos gerando mapas de risco considerando as áreas acima de 700m de altitude no entorno dos municípios com relatos de produção de trigo e adjacentes. No primeiro mapa gerado, calculou-se a média do risco da brusone para espigamento ocorrendo no período semanal de 29 de abril a 5 de maio de 2025. Percebe-se que o risco está na sua maioria alto para todas as regiões produtoras onde o espigamento ocorreu na semana considerada. O produtor deve consultar o engenheiro agrônomo para saber sobre as melhores opções de fungicidas para o controle da doença.
 
+## 29 de abril a 5 de maio
+
 ![](figs/brusone_map_2025_1.jpeg){fig-align="center"}
