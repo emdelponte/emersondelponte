@@ -417,7 +417,7 @@
     "href": "brusone.html",
     "title": "Brusone do trigo: mapas de risco",
     "section": "",
-    "text": "A partir do final de abril de 2025, serão gerados mapas de risco considerando as áreas acima de 700m de altitude no entorno dos municípios com relatos de produção de trigo e adjacentes. Para gerar o mapa, calcula-se a média do risco da brusone para espigamento ocorrendo em um período de sete dias. Em caso de risco alto, consultar um agrônomo para saber as melhores opções de fungicidas para o controle da doença."
+    "text": "A partir do final de abril de 2025, serão gerados mapas de risco da brusone do trigo considerando as áreas no Cerrado Brasileiro acima de 700m de altitude englobando municípios com relatos de produção de trigo bem como municípios adjacentes. Nessa região, os plantios de trigo sequeiro normalmente tem início no final de fevereiro até o início de abril. Detalhes sobre o modelo podem ser encontrados nesta postagem.\nPara gerar o mapa, calculamos a média do risco da brusone considerando a ocorrência da fase de espigamento (50% de espigas emergidas) em um período de quatro a sete dias consecutivos. Em caso de risco alto, consultar um agrônomo para saber as melhores opções de fungicidas para o controle da doença, os quais devem ser aplicados durante o florescimento da cultura."
   },
   {
     "objectID": "brusone.html#de-abril-a-5-de-maio",
@@ -481,5 +481,47 @@
     "title": "Wheat blast - why worry and how to predict?",
     "section": "What about the risk across the entire Cerrado wheat-producing region?",
     "text": "What about the risk across the entire Cerrado wheat-producing region?\nStarting late April, using the same approach of the shiny app, we will generate risk maps for areas above 700m altitude around municipalities with reported wheat production and adjacent areas. The maps will be shared here in this website.\nFor instance, the first generated map shows average wheat blast risk for heading occurring between April 29 and May 5, 2025. The risk is predominantly high across all wheat-producing regions where heading occurred during the considered week. Farmers should consult an agronomist for optimal fungicide control recommendations."
+  },
+  {
+    "objectID": "brusone.html#a-8-de-maio-de-2025",
+    "href": "brusone.html#a-8-de-maio-de-2025",
+    "title": "Brusone do trigo: mapas de risco",
+    "section": "5 a 8 de maio de 2025",
+    "text": "5 a 8 de maio de 2025\n\nClasse de risco:\nRisco alto = probabilidade &gt; 0.68\nRisco moderado = probabilidade 0.58 &lt; 0.68\nRisco baixo = probabilidade &lt; 0.58\n\n\n\n\n\n\n\nProbabilidade de epidemia = risco (0 a 1)"
+  },
+  {
+    "objectID": "brusone.html#de-abril-a-5-de-maio-de-2025",
+    "href": "brusone.html#de-abril-a-5-de-maio-de-2025",
+    "title": "Brusone do trigo: mapas de risco",
+    "section": "29 de abril a 5 de maio de 2025",
+    "text": "29 de abril a 5 de maio de 2025"
+  },
+  {
+    "objectID": "brusone.html#espigamento-de-5-a-8-de-maio-de-2025",
+    "href": "brusone.html#espigamento-de-5-a-8-de-maio-de-2025",
+    "title": "Brusone do trigo: mapas de risco",
+    "section": "Espigamento de 5 a 8 de maio de 2025",
+    "text": "Espigamento de 5 a 8 de maio de 2025\n\nClasse de risco:\nRisco alto = probabilidade &gt; 0.68\nRisco moderado = probabilidade &gt; 0.58 &lt; 0.68\nRisco baixo = probabilidade &lt; 0.58\n\n\n\n\n\n\n\nProbabilidade de epidemia = risco (0 a 1)"
+  },
+  {
+    "objectID": "brusone.html#espigamento-de-29-de-abril-a-5-de-maio-de-2025",
+    "href": "brusone.html#espigamento-de-29-de-abril-a-5-de-maio-de-2025",
+    "title": "Brusone do trigo: mapas de risco",
+    "section": "Espigamento de 29 de abril a 5 de maio de 2025",
+    "text": "Espigamento de 29 de abril a 5 de maio de 2025\n\nClasse de risco:\nRisco alto = probabilidade &gt; 0.68\nRisco moderado = probabilidade &gt; 0.58 &lt; 0.68\nRisco baixo = probabilidade &lt; 0.58\n\n\n\n\n\n\n\nProbabilidade de epidemia = risco (0 a 1)"
+  },
+  {
+    "objectID": "brusone.html#classes-de-risco-de-epidemia",
+    "href": "brusone.html#classes-de-risco-de-epidemia",
+    "title": "Brusone do trigo: mapas de risco",
+    "section": "Classes de risco de epidemia",
+    "text": "Classes de risco de epidemia\nRisco alto = probabilidade &gt; 0.68\nRisco moderado = probabilidade &gt; 0.58 &lt; 0.68\nRisco baixo = probabilidade &lt; 0.58"
+  },
+  {
+    "objectID": "brusone.html#probabilidade-de-epidemia",
+    "href": "brusone.html#probabilidade-de-epidemia",
+    "title": "Brusone do trigo: mapas de risco",
+    "section": "Probabilidade de epidemia",
+    "text": "Probabilidade de epidemia"
   }
 ]
