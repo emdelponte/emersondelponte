@@ -19,10 +19,12 @@ Risco baixo = probabilidade \< 0.58
 
 |  |  |
 |-----------------------------------|------------------------------------|
+| ![](figs/brusone_map_2025_3.png){width="400"} |  |
 | ![](figs/brusone_map_2025_21.png){fig-align="center" width="400"} | ![](figs/brusone_map_2025_1.png){fig-align="center" width="400"} |
 
 ## Probabilidade de epidemia
 
 |  |  |
 |-----------------------------------|------------------------------------|
+| ![](figs/brusone_map_2025_31.png){width="400"} |  |
 | ![](figs/brusone_map_2025_2.png){fig-align="center" width="400"} | ![](figs/brusone_map_2025_11.png){fig-align="center" width="400"} |
