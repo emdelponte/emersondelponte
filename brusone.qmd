@@ -1,5 +1,5 @@
 ---
-title: "Brusone do trigo: mapas de risco"
+title: "Brusone do trigo"
 editor: visual
 author: 
   - Emerson Del Ponte

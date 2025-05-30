@@ -415,7 +415,7 @@
   {
     "objectID": "brusone.html",
     "href": "brusone.html",
-    "title": "Brusone do trigo: mapas de risco",
+    "title": "Brusone do trigo",
     "section": "",
     "text": "A partir do final de abril de 2025, serão gerados mapas de risco da brusone do trigo considerando as áreas no Cerrado Brasileiro acima de 700m de altitude englobando municípios com relatos de produção de trigo bem como municípios adjacentes. Nessa região, os plantios de trigo sequeiro normalmente tem início no final de fevereiro até o início de abril. Detalhes sobre o modelo podem ser encontrados nesta postagem.\nPara gerar o mapa, calculamos a média do risco da brusone considerando a ocorrência da fase de espigamento (50% de espigas emergidas) em um período de quatro a sete dias consecutivos. Em caso de risco alto, consultar um agrônomo para saber as melhores opções de fungicidas para o controle da doença, os quais devem ser aplicados durante o florescimento da cultura."
   },
@@ -513,14 +513,14 @@
   {
     "objectID": "brusone.html#classes-de-risco-de-epidemia",
     "href": "brusone.html#classes-de-risco-de-epidemia",
-    "title": "Brusone do trigo: mapas de risco",
+    "title": "Brusone do trigo",
     "section": "Classes de risco de epidemia",
     "text": "Classes de risco de epidemia\nRisco alto = probabilidade &gt; 0.68\nRisco moderado = probabilidade &gt; 0.58 &lt; 0.68\nRisco baixo = probabilidade &lt; 0.58"
   },
   {
     "objectID": "brusone.html#probabilidade-de-epidemia",
     "href": "brusone.html#probabilidade-de-epidemia",
-    "title": "Brusone do trigo: mapas de risco",
+    "title": "Brusone do trigo",
     "section": "Probabilidade de epidemia",
     "text": "Probabilidade de epidemia"
   }
