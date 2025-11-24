@@ -7,7 +7,7 @@ author:
 
 A partir da safra 2025/26, o Laboratório de Epidemiologia da UFV, em parceria com a [Rede Fitossanidade Tropical](https://www.fitossanidadetropical.org.br/), estará gerando mapas de risco da ferrugem da soja considerando as áreas Centro Sul do Brasil (RS, SC, PR, MS e SP) onde a doença ocorre de maneira mais frequente.
 
-Os mapas são gerados utilizando-se um modelo climático que considera a interação em umidade relativa do ar e temperatura para predizer um valor diário de favorabilidade à infecção (Reis et al. 2004). O modelo foi adaptado para somar os valores nos 7 dias anteriores à data da geração do mapa. Os dados meteorológicos são obtidos da base do projeto NASA POWER. Os mapas servem para orientar para o monitoramento mais intensivo e alerta nas áreas conforme as classes de risco.
+Os mapas são gerados utilizando-se um modelo climático que considera a interação em umidade relativa do ar e temperatura para predizer um valor diário de favorabilidade à infecção (Reis et al. 2004). O modelo foi adaptado para somar os valores nos 7 dias anteriores à data da geração do mapa. Os dados meteorológicos são obtidos da base do projeto NASA POWER. Os mapas servem para orientar para o monitoramento mais intensivo e alerta nas áreas conforme as classes de risco. Consultar o website do [Consórcio Antiferrugem](http://www.consorcioantiferrugem.net/#/main) para saber se a doença/inóculo está presente na sua região.
 
 ::: callout-warning
 ## Importante
@@ -22,6 +22,6 @@ O Laboratório, a Universidade e a Rede Fitossanidade Tropical se isentam de qua
 
 # 
 
-Referências
+### Referências
 
-**REIS, E.M.; SARTORI, A.F.; CAMARA, R.K. (2004)** : Modelo climático para a previsão da ferrugem da soja. *Summa Phytopathologica, 30:290–292* .
+REIS, E.M.; SARTORI, A.F.; CAMARA, R.K. (2004) Modelo climático para a previsão da ferrugem da soja. *Summa Phytopathologica, 30:290–292* .
