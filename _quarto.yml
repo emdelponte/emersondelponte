@@ -18,23 +18,36 @@ website:
     collapse-below: lg
     search: true
     left:
-      - icon: house 
+      - icon: house
         href: index.qmd
         text: Home
+
       - icon: people
         href: about.qmd
         text: About me
+
       - icon: people
         href: lab.qmd
         text: The lab
+
       - icon: tools
         href: apps.qmd
         text: Resources
+
       - icon: pen
         href: posts.qmd
-      - icon: map
-        href: brusone.qmd
-     
+        text: Posts
+
+      - text: Risk maps
+        icon: map
+        menu:
+          - text: Brusone do trigo
+            href: brusone.qmd
+            icon: map
+          - text: Ferrugem da soja
+            href: ferrugemsoja.qmd
+            icon: map
+
 
     right:
       - text: "{{< iconify simple-icons bluesky >}}"
