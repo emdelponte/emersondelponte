@@ -17,6 +17,8 @@ Os mapas servem para **orientar para o monitoramento mais intensivo e alerta nas
 O Laboratório, a Universidade e a Rede Fitossanidade Tropical se isentam de qualquer responsabilidade pelo uso das informações geradas. A interpretação e as decisões de manejo cabem exclusivamente ao usuário.
 :::
 
+![](figs/maps_ferrugem/ferrugem_2025_26_dec9.png){width="600"}
+
 ![](figs/maps_ferrugem/ferrugem_2025_26_dec2.png){width="600"}
 
 ![](figs/maps_ferrugem/ferrugem_2025_26_nov29.png){width="600"}
