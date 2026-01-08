@@ -5,9 +5,6 @@ about:
   template: jolla
   image: figs/delponte.jpeg
   links:
-    - text: "{{< iconify simple-icons bluesky label = Bluesky >}}"
-      href: https://bsky.app/profile/edelponte.bsky.social
-      aria-label: Bluesky
     - icon: github
       href: https://github.com/emdelponte
     - icon: linkedin
