@@ -3,7 +3,7 @@ title: "Emerson Del Ponte"
 about:
   id: hero-heading
   template: jolla
-  image: figs/delponte6.jpg
+  image: figs/delponte.jpeg
   links:
     - text: "{{< iconify simple-icons bluesky label = Bluesky >}}"
       href: https://bsky.app/profile/edelponte.bsky.social
@@ -21,8 +21,8 @@ body {
 }
 </style>
 ```
-My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. I teach plant pathology/epidemiology and data science, conduct scientific research in the field of plant pathology and prepare future professionals and leaders.
 
+My name is Emerson Medeiros Del Ponte, a professor from the Federal University of Viçosa, Brazil. I teach plant pathology/epidemiology and data science, conduct scientific research in the field of plant pathology and prepare future professionals and leaders.
 
 ```{=html}
 <!-- Calendly link widget begin -->
@@ -31,4 +31,3 @@ My name is Emerson Medeiros Del Ponte, a professor from the Federal University o
 <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/delponte-ufv/meeting-availability'});return false;">Schedule a meeting with me</a>
 <!-- Calendly link widget end -->
 ```
-
