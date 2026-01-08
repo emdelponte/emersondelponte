@@ -50,9 +50,6 @@ website:
 
 
     right:
-      - text: "{{< iconify simple-icons bluesky >}}"
-        href: https://bsky.app/profile/edelponte.bsky.social
-        aria-label: My bluesky
       - icon: github
         href: https://github.com/emdelponte
         aria-label: My GitHub
@@ -64,7 +61,6 @@ format:
   html:
     theme: 
       light: flatly
-      dark: darkly
     css: styles.css
     toc: true
     
