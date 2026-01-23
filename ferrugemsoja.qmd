@@ -11,31 +11,13 @@ Os mapas são gerados utilizando-se um modelo climático que considera a intera�
 
 Os mapas servem para **orientar para o monitoramento mais intensivo e alerta nas áreas conforme as classes de risco**. Consultar o website do [Consórcio Antiferrugem](http://www.consorcioantiferrugem.net/#/main) para saber se a doença/inóculo está presente na sua região.
 
+### [Clique aqui para acessar os mapas](https://emdelponte.github.io/mapas-ferrugem/)
+
 ::: callout-warning
 ## Importante
 
 O Laboratório, a Universidade e a Rede Fitossanidade Tropical se isentam de qualquer responsabilidade pelo uso das informações geradas. A interpretação e as decisões de manejo cabem exclusivamente ao usuário.
 :::
-
-![](figs/maps_ferrugem/ferrugem_2025_26_jan06.png){width="600"}
-
-![](figs/maps_ferrugem/ferrugem_25_25_dec24.png){width="600"}
-
-![](figs/maps_ferrugem/ferrugem_2025_26_dec21.png){width="600"}
-
-![](figs/maps_ferrugem/ferrugem_2025_26_dec15.png){width="600"}
-
-![](figs/maps_ferrugem/ferrugem_2025_26_dec12.png){width="600"}
-
-![](figs/maps_ferrugem/ferrugem_2025_26_dec9.png){width="600"}
-
-![](figs/maps_ferrugem/ferrugem_2025_26_dec2.png){width="600"}
-
-![](figs/maps_ferrugem/ferrugem_2025_26_nov29.png){width="600"}
-
-![](figs/maps_ferrugem/ferrugem_2025_26_nov26.png){width="600"}
-
-![](figs/maps_ferrugem/ferrugem_2025_26_nov24.png){width="600"}
 
 ### Referências
 
