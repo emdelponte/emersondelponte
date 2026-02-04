@@ -8,6 +8,7 @@ var app = new Framework7({
   routes: [
     { path: '/', pageName: 'home' },
     { path: '/about/', pageName: 'about' },
+    { path: '/lab/', pageName: 'lab' },
     { path: '/resources/', pageName: 'resources' },
     { path: '/posts/', pageName: 'posts' },
   ],
@@ -15,6 +16,7 @@ var app = new Framework7({
 
 var homeView = app.views.create('#view-home', { url: '/' });
 var aboutView = app.views.create('#view-about', { url: '/about/' });
+var labView = app.views.create('#view-lab', { url: '/lab/' });
 var resourcesView = app.views.create('#view-resources', { url: '/resources/' });
 var postsView = app.views.create('#view-posts', { url: '/posts/' });
 
