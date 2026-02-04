@@ -267,6 +267,8 @@ a:hover {
     max-width: 100%;
     height: auto;
     border-radius: 20px;
+    margin-top: 20px;
+    /* Space from navbar */
     margin-bottom: 25px;
     display: block;
     object-fit: contain;
