@@ -25,10 +25,12 @@ function loadPosts() {
   const listEl = document.querySelector('#posts-list ul');
   if (!listEl || typeof postsData === 'undefined') return;
 
-  listEl.innerHTML = postsData.map((post, index) => `
+  listEl.innerHTML = postsData.map((post, index) => {
+    const thumb = post.image ? `posts/${post.folder}/${post.image}` : 'figs/splash.png';
+    return `
     <li>
       <a href="#" class="item-link item-content" onclick="openPost(${index})">
-        <div class="item-media"><img src="${post.thumbnail}" width="80" style="border-radius: 8px"/></div>
+        <div class="item-media"><img src="${thumb}" width="80" height="60" style="object-fit: cover; border-radius: 8px"/></div>
         <div class="item-inner">
           <div class="item-title-row">
             <div class="item-title">${post.title}</div>
@@ -37,7 +39,7 @@ function loadPosts() {
         </div>
       </a>
     </li>
-  `).join('');
+  `}).join('');
 }
 
 // Function to open post in popup
