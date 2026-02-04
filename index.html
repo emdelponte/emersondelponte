@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html class="ios device-pixel-ratio-2 device-desktop support-position-sticky">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#ffffff">
+    <title>Emerson Del Ponte</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/framework7@8/framework7-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/framework7-icons@5/css/framework7-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/material-icons@1.13.12/iconfont/material-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        .post-content {
+            line-height: 1.8;
+            color: #111;
+            font-size: 1em;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            /* Meio termo: volta ao 400 mas mantemos o contraste alto */
+        }
+
+        .post-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin: 25px 0;
+            display: block;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .post-content h2 {
+            margin-top: 40px;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+            color: #000;
+            font-weight: 700;
+            /* Reduzido de 800 para 700 */
+        }
+
+        .post-content p {
+            margin-bottom: 20px;
+        }
+
+        .post-content blockquote {
+            border-left: 4px solid #3B5F8F;
+            margin: 0;
+            padding-left: 20px;
+            color: #222;
+            font-style: italic;
+            font-weight: 400;
+        }
+
+        .post-date {
+            color: #555;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+            font-weight: 600;
+            /* Reduzido de 700 para 600 */
+        }
+
+        #post-display-title {
+            font-size: 1.5em;
+            font-weight: 700;
+            /* Reduzido de 800 para 700 */
+            color: #000;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #posts-list .item-title {
+            line-height: 1.3;
+            margin-bottom: 4px;
+            font-size: 1em;
+            color: #000;
+            white-space: normal;
+            font-weight: 600;
+            /* Reduzido de 700 para 600 */
+        }
+
+        #posts-list .item-subtitle {
+            font-weight: 400;
+        }
+
+        #posts-list .item-media img {
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-logo {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            color: #fff;
+            padding-left: 10px;
+        }
+
+        .navbar-logo svg {
+            height: 24px;
+            width: auto;
+            margin-right: 8px;
+        }
+
+        .navbar-logo span {
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Container centralizador para Desktop */
+        #posts-list,
+        #post-display-body,
+        #popup-header,
+        .profile-header {
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .profile-name {
+            font-family: 'Alex Brush', cursive !important;
+            font-size: 3rem !important;
+            font-weight: 400 !important;
+            margin: 15px 0 5px 0 !important;
+            color: #1a2a3a !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div class="views tabs safe-areas">
+
+            <!-- Tab 1: Home -->
+            <div id="view-home" class="view view-main view-init tab tab-active" data-url="/">
+                <div class="page" data-name="home">
+                    <div class="navbar">
+                        <div class="navbar-bg"></div>
+                        <div class="navbar-inner">
+                            <div class="left">
+                                <div class="navbar-logo">
+                                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22 15V80H90" stroke="white" stroke-width="10" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path d="M45 12C85 12 95 45 95 50C95 55 85 88 45 88" stroke="white"
+                                            stroke-width="10" stroke-linecap="round"></path>
+                                        <path d="M35 68C48 45 78 30 92 25C78 40 48 75 28 75Z" fill="white"></path>
+                                    </svg>
+                                    <span>E. M. Del Ponte</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-content">
+
+                        <div class="profile-header">
+                            <img src="figs/delponte.jpeg" alt="Emerson Del Ponte" class="profile-image">
+                            <h1 class="profile-name">Emerson Del Ponte</h1>
+                            <p class="profile-role">Professor at UFV | Plant Pathologist | Data Scientist</p>
+
+                            <div class="profile-social">
+                                <a href="https://github.com/emdelponte" class="external link"><i
+                                        class="fa-brands fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/emerson-m-del-ponte-61678ba1/"
+                                    class="external link"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="mailto:delponte@ufv.br" class="external link"><i
+                                        class="fa-solid fa-envelope"></i></a>
+                                <a href="https://scholar.google.com.br/citations?user=LgNDabAAAAAJ&hl=en"
+                                    class="external link"><i class="fa-solid fa-graduation-cap"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="text-container" style="text-align: center;">
+                            <p style="font-size: 1.1em;">
+                                My name is Emerson M. Del Ponte, a professor from the <a href="#"
+                                    class="external">Federal University of Viçosa</a>, Brazil. I teach plant pathology,
+                                epidemiology, and data science, conduct scientific research, and mentor future
+                                professionals.
+                            </p>
+
+                            <div style="margin-top: 30px;">
+                                <a href="#view-about" class="tab-link button button-fill button-round color-theme"
+                                    style="display:inline-flex; width:auto; text-transform:none; font-weight:600; padding:0 30px; background-color: #3B5F8F;">
+                                    More about me
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab 2: About -->
+            <div id="view-about" class="view tab" data-url="/about/">
+                <div class="page" data-name="about">
+                    <div class="navbar">
+                        <div class="navbar-bg"></div>
+                        <div class="navbar-inner">
+                            <div class="left">
+                                <div class="navbar-logo">
+                                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22 15V80H90" stroke="white" stroke-width="10" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path d="M45 12C85 12 95 45 95 50C95 55 85 88 45 88" stroke="white"
+                                            stroke-width="10" stroke-linecap="round"></path>
+                                        <path d="M35 68C48 45 78 30 92 25C78 40 48 75 28 75Z" fill="white"></path>
+                                    </svg>
+                                    <span>E. M. Del Ponte</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-content">
+                        <div class="text-container">
+
+                            <h2>Resumé</h2>
+                            <p>I hold a DSc in Plant Pathology from Universidade Federal de Pelotas (2004) and had the
+                                privilege of a one-year visit to Cornell University at the Bergstrom Lab. Following
+                                that, I spent two years as a postdoctoral associate working on a project related to
+                                disease risk assessment and prediction at the Yang Lab, Iowa State University.
+                                From June 2006 to February 2014, I served as an assistant professor at the <a
+                                    href="https://www.ufrgs.br" class="external">Federal University of Rio Grande do
+                                    Sul</a> (UFRGS). Currently, I am a Full Professor at the Universidade Federal de
+                                Viçosa
+                                (UFV), where I am
+                                involved in both teaching and student <a href="#" class="external">mentoring</a>
+                                (masters and doctorate) responsibilities. You can get access to my peer-reviewed
+                                <strong>publications</strong> in my academic profile websites: <a
+                                    href="https://orcid.org/0000-0003-4398-409X" class="external">ORCID</a>, <a
+                                    href="https://publons.com/researcher/2740078/emerson-m-del-ponte/"
+                                    class="external">publons</a>, <a
+                                    href="https://scholar.google.com.br/citations?user=LgNDabAAAAAJ&hl=en"
+                                    class="external">Google Scholar</a>, <a
+                                    href="https://www.researchgate.net/profile/Emerson-Del-Ponte/research"
+                                    class="external">ResearchGate</a>, or <a
+                                    href="http://lattes.cnpq.br/9460309107496381" class="external">Lattes</a>.
+                            </p>
+
+                            <h2>Services</h2>
+                            <p>I've been involved in scholarly peer-review since early in my career. I've served as
+                                associate editor for several journals, including <em>Plant Disease</em>. Currently, I am
+                                Editor-In-Chief for <a href="http://www.sbfitopatologia.org.br/tpp"
+                                    class="external">Tropical
+                                    Plant Pathology</a>, the journal of the <a href="http://www.sbfitopatologia.org.br"
+                                    class="external">Brazilian Phytopathological Society</a>. I am also the
+                                Editor-In-Chief of the peer-reviewed technical series <a
+                                    href="https://periodicos.ufv.br/stft" class="external">Series Técnicas Fitossanidade
+                                    Tropical</a>. Since 2022, I am also
+                                serving as associate editor for the <a
+                                    href="https://cabiagbio.biomedcentral.com/about/editorial-board"
+                                    class="external">CABI Agriculture & Bioscience</a> (Plant Pathology Section) and the
+                                <a href="https://www.springer.com/journal/10658/editors" class="external">European
+                                    Journal of Plant Pathology</a> journals. Additionally, I am frequently invited as a
+                                consultant for thesis evaluations and faculty promotions worldwide.
+                            </p>
+
+                            <h2>Open Science</h2>
+                            <p>I strongly advocate for an open and reproducible research model and culture that may
+                                ultimately contribute to a more accessible, transparent and reliable science. This led
+                                me to co-found <a href="http://www.openplantpathology.org/" class="external">Open Plant
+                                    Pathology</a> initiative together with <a href="https://adamhsparks.netlify.app/"
+                                    class="external">Adam Sparks</a>. In my Lab, we make use of <a
+                                    href="https://www.r-project.org/" class="external">R language</a> for all
+                                statistical and data science related activities. All data and computational codes
+                                produced during our research are made available ahead of peer-review. You can find our
+                                code on <a href="https://github.com/emdelponte" class="external">GitHub</a>. The
+                                research outcomes are organized and shared as a <a
+                                    href="https://research-compendium.science/" class="external">research compendium</a>
+                                and <a href="https://publicationethics.org/resources/discussion-documents/preprints"
+                                    class="external">preprints</a> of manuscripts are now archived in the CABI <a
+                                    href="https://agrirxiv.org/" class="external">AgriRxiv</a> preprint server.</p>
+
+                            <h2>Talks and videos</h2>
+                            <p>Slides of some of my talks are hosted in my <a href="https://speakerdeck.com/emdelponte"
+                                    class="external">Speakerdeck</a> account and full videos of talks and lectures can
+                                be found on my <a href="https://www.youtube.com/channel/UC3fmW_hoXOY_YR23EtlYvZg"
+                                    class="external">YouTube</a> channel.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab 3: Resources -->
+            <div id="view-resources" class="view tab" data-url="/resources/">
+                <div class="page" data-name="resources">
+                    <div class="navbar">
+                        <div class="navbar-bg"></div>
+                        <div class="navbar-inner">
+                            <div class="left">
+                                <div class="navbar-logo">
+                                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22 15V80H90" stroke="white" stroke-width="10" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path d="M45 12C85 12 95 45 95 50C95 55 85 88 45 88" stroke="white"
+                                            stroke-width="10" stroke-linecap="round"></path>
+                                        <path d="M35 68C48 45 78 30 92 25C78 40 48 75 28 75Z" fill="white"></path>
+                                    </svg>
+                                    <span>E. M. Del Ponte</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-content">
+                        <div class="text-container">
+
+                            <h2>Book</h2>
+                            <div style="margin-bottom: 30px;">
+                                <div style="text-align: center; margin-bottom: 20px;">
+                                    <a href="https://r4pde.netlify.app/" class="external">
+                                        <img src="https://r4pde.netlify.app/cover.png"
+                                            style="width: 140px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+                                    </a>
+                                </div>
+                                <h3 style="margin-bottom: 10px; margin-top:0;"><a href="https://r4pde.netlify.app/"
+                                        class="external">R for Plant Disease Epidemiology (R4PDE)</a></h3>
+                                <p><strong>R for Plant Disease Epidemiology</strong> (<a
+                                        href="https://r4pde.netlify.app/" class="external">R4PDE</a>) is a dynamic
+                                    online book rooted on the teaching notes of my graduate course, FIP 602 - Plant
+                                    Disease Epidemiology, which is offered every year for students in the <a
+                                        href="http://www.dfp.ufv.br/grad/" class="external">Graduate Program in Plant
+                                        Pathology</a> of the Universidade Federal de Viçosa. This book is for those
+                                    interested in studying and modelling plant disease epidemics using R. It provides
+                                    context and showcases various methods for describing, visualizing and analyzing
+                                    epidemic data collected over time and/or space. Users should have have a
+                                    foundational knowledge of R to run the examples.</p>
+                            </div>
+
+                            <h2>Apps</h2>
+                            <p>I have developed, myself or in collaboration with students, web applications to support
+                                research and teaching. These are made with R + Shiny.</p>
+
+                            <div class="list media-list no-hairlines clean-list">
+                                <ul>
+                                    <li>
+                                        <a href="https://edelponte.shinyapps.io/trainer"
+                                            class="item-link item-content external">
+                                            <div class="item-media"><img src="figs/app_trainer.png" /></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">Trainer</div>
+                                                </div>
+                                                <div class="item-subtitle">A training tool for increasing the accuracy
+                                                    of visual assessments of plant disease severity.</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://edelponte.shinyapps.io/sadbank"
+                                            class="item-link item-content external">
+                                            <div class="item-media"><img src="figs/app_sadbank.png" /></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">SADBank</div>
+                                                </div>
+                                                <div class="item-subtitle">A curated database of Standard Area Diagrams
+                                                    (SADs) for aiding visual assessments.</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://edelponte.shinyapps.io/ephembrazil/"
+                                            class="item-link item-content external">
+                                            <div class="item-media"><img src="figs/app_ephembrazil.png" /></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">EphemBrazil</div>
+                                                </div>
+                                                <div class="item-subtitle">Database of distribution and basic taxonomic
+                                                    information on species of Ephemeroptera.</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://edelponte.shinyapps.io/fgscdb"
+                                            class="item-link item-content external">
+                                            <div class="item-media"><img src="figs/app_fgscdb.png" /></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">FGSC database</div>
+                                                </div>
+                                                <div class="item-subtitle">A georeferenced database of isolates of the
+                                                    Fusarium graminearum clade.</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://delponte.shinyapps.io/traineR2/"
+                                            class="item-link item-content external">
+                                            <div class="item-media"><img src="figs/app_trainer2.png" /></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">TraineR2</div>
+                                                </div>
+                                                <div class="item-subtitle">A training tool to increase the accuracy of
+                                                    severity estimates using photos.</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://epidemiologiaufv.shinyapps.io/ferrugemsoja/"
+                                            class="item-link item-content external">
+                                            <div class="item-media"><img src="figs/app_ferrugem_soja.png" /></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">Soybean rust risk</div>
+                                                </div>
+                                                <div class="item-subtitle">Risk prediction map of soybean rust based on
+                                                    hourly weather conditions.</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://fitopatologiaufv.shinyapps.io/brusone/"
+                                            class="item-link item-content external">
+                                            <div class="item-media"><img src="figs/app_brusone.png" /></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">Wheat blast risk</div>
+                                                </div>
+                                                <div class="item-subtitle">Platform for assessing the risk of wheat
+                                                    blast epidemics in near real time.</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://epidemiologiaufv.shinyapps.io/warning-systems/"
+                                            class="item-link item-content external">
+                                            <div class="item-media"><img src="figs/apps_warning_systems.png" /></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">Warning systems</div>
+                                                </div>
+                                                <div class="item-subtitle">Calculation of severity values for Wallin and
+                                                    FAST warning systems.</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://fitopatologiaufv.shinyapps.io/giberela/"
+                                            class="item-link item-content external">
+                                            <div class="item-media"><img src="figs/apps_giberela.png" /></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">FHB risk</div>
+                                                </div>
+                                                <div class="item-subtitle">Risk assessment of Fusarium head blight
+                                                    epidemics for municipalities in RS.</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://entomologiaufv.shinyapps.io/EPTDoce/"
+                                            class="item-link item-content external">
+                                            <div class="item-media"><img src="figs/app_eptdoce.png" /></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">EPTDoce</div>
+                                                </div>
+                                                <div class="item-subtitle">Inventory of Ephemeroptera, Plecoptera, and
+                                                    Trichoptera species in Rio Doce.</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab 4: Posts -->
+            <div id="view-posts" class="view tab" data-url="/posts/">
+                <div class="page" data-name="posts">
+                    <div class="navbar">
+                        <div class="navbar-bg"></div>
+                        <div class="navbar-inner">
+                            <div class="left">
+                                <div class="navbar-logo">
+                                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22 15V80H90" stroke="white" stroke-width="10" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path d="M45 12C85 12 95 45 95 50C95 55 85 88 45 88" stroke="white"
+                                            stroke-width="10" stroke-linecap="round"></path>
+                                        <path d="M35 68C48 45 78 30 92 25C78 40 48 75 28 75Z" fill="white"></path>
+                                    </svg>
+                                    <span>E. M. Del Ponte</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-content">
+                        <div class="list media-list no-hairlines clean-list" id="posts-list">
+                            <ul>
+                                <!-- Posts will be loaded here -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabbar Bottom -->
+            <div class="toolbar tabbar tabbar-labels toolbar-bottom">
+                <div class="toolbar-inner">
+                    <a href="#view-home" class="tab-link tab-link-active">
+                        <i class="icon f7-icons if-not-md">house_fill</i>
+                        <i class="icon material-icons if-md">home</i>
+                        <span class="tabbar-label">Home</span>
+                    </a>
+                    <a href="#view-about" class="tab-link">
+                        <i class="icon f7-icons if-not-md">person_fill</i>
+                        <i class="icon material-icons if-md">person</i>
+                        <span class="tabbar-label">About</span>
+                    </a>
+                    <a href="#view-resources" class="tab-link">
+                        <i class="icon f7-icons if-not-md">square_stack_3d_up_fill</i>
+                        <i class="icon material-icons if-md">layers</i>
+                        <span class="tabbar-label">Resources</span>
+                    </a>
+                    <a href="#view-posts" class="tab-link">
+                        <i class="icon f7-icons if-not-md">doc_text_fill</i>
+                        <i class="icon material-icons if-md">article</i>
+                        <span class="tabbar-label">Posts</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Post Detail Popup -->
+    <div class="popup popup-tablet-fullscreen" id="post-popup">
+        <div class="view">
+            <div class="page">
+                <div class="navbar">
+                    <div class="navbar-bg"></div>
+                    <div class="navbar-inner">
+                        <div class="left">
+                            <a href="#" class="link popup-close">
+                                <i class="icon icon-back"></i>
+                                <span class="if-not-md">Back</span>
+                            </a>
+                        </div>
+                        <div class="right">
+                            <div class="navbar-logo" style="padding-right: 15px;">
+                                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22 15V80H90" stroke="white" stroke-width="10" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M45 12C85 12 95 45 95 50C95 55 85 88 45 88" stroke="white"
+                                        stroke-width="10" stroke-linecap="round"></path>
+                                    <path d="M35 68C48 45 78 30 92 25C78 40 48 75 28 75Z" fill="white"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-content">
+                    <div class="block">
+                        <div id="popup-header" style="margin-bottom: 30px;">
+                            <h1 id="post-display-title" style="margin-bottom: 10px; line-height: 1.2;"></h1>
+                            <div id="post-display-date" style="color: #888; font-weight: 500;"></div>
+                        </div>
+                        <div class="post-content" id="post-display-body"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/framework7@8/framework7-bundle.min.js"></script>
+    <script src="js/posts_data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

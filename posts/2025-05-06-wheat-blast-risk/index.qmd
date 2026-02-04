@@ -36,7 +36,7 @@ Starting late April, using the same approach of the shiny app, we will generate 
 
 For instance, the first generated map shows average wheat blast risk for heading occurring between April 29 and May 5, 2025. The risk is predominantly high across all wheat-producing regions where heading occurred during the considered week. Farmers should consult an agronomist for optimal fungicide control recommendations.
 
-![](../../figs/brusone_map_2025_1.jpeg){fig-align="center"}
+![](../../figs/brusone_map_2025_1.png){fig-align="center"}
 
 ## Reference
 

@@ -1,0 +1,4 @@
+[1,"==> quarto preview methods.qmd --to docx --no-watch-inputs --no-browse\n\n"]
+[1,"pandoc \n  to: docx\n  output-file: methods.docx\n  default-image-extension: png\n  variables: {}\n  \nmetadata\n  title: Statistical Modeling Methods for Wheat Blast Risk Analysis\n  fontsize: 11pt\n  \n"]
+[1,"Output created: methods.docx\n\nWatching files for changes\n"]
+[1,"Browse at http://localhost:3951/\n"]

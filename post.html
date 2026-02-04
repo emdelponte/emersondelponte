@@ -1,0 +1,53 @@
+<template>
+    <div class="page" data-name="post-detail">
+        <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+                <div class="left">
+                    <a href="#" class="link back">
+                        <i class="icon icon-back"></i>
+                        <span class="if-not-md">Back</span>
+                    </a>
+                </div>
+                <div class="title">{{post.title}}</div>
+            </div>
+        </div>
+        <div class="page-content">
+            <div class="block">
+                <h1 style="margin-bottom: 5px;">{{post.title}}</h1>
+                <div class="post-date">{{post.date}}</div>
+                <div class="post-content" id="post-body">
+                    <!-- Content will be injected here -->
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+<script>
+    export default (props, { $f7, $on, $update }) => {
+        const post = props.post;
+
+        $on('pageInit', () => {
+            fetch(`posts/${post.folder}/index.qmd`)
+                .then(res => res.text())
+                .then(text => {
+                    // Remove YAML frontmatter
+                    const content = text.replace(/^---\s*\n[\s\S]*?\n---\s*/, '');
+                    // Fix image paths and handle Quarto attributes: ![](preview.png){width=500}
+                    let fixedContent = content.replace(/!\[(.*?)\]\((.*?)\)(\{.*?\})?/g, (match, alt, src, attr) => {
+                        if (!src.startsWith('http') && !src.startsWith('/')) {
+                            return `![${alt}](posts/${post.folder}/${src})`;
+                        }
+                        return match;
+                    });
+                    // Remove remaining Quarto shorthand for figures if any
+                    fixedContent = fixedContent.replace(/\{#fig-.*?\}/g, '');
+                    document.getElementById('post-body').innerHTML = marked.parse(fixedContent);
+                });
+        });
+
+        return {
+            post
+        };
+    }
+</script>

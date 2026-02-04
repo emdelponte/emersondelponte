@@ -1,0 +1,1079 @@
+library(shiny)
+library(shinyMobile)
+library(data.table)
+library(lubridate)
+library(httr)
+library(jsonlite)
+library(dplyr)
+library(leaflet)
+library(leaflet.extras)
+library(leaflet.providers)
+library(highcharter)
+library(zoo)
+library(tidyr) # Added for pivot_wider
+
+library(sf)
+library(ggplot2)
+library(rnaturalearth)
+library(rnaturalearthdata)
+library(tmap)
+
+# Set tmap mode globally to view (interactive)
+tmap_mode("view")
+
+# Stadia Maps API Key
+STADIA_API_KEY <- "ec4f178b-f413-4b27-be4a-c5f578893752"
+
+# UI definition
+ui <- f7Page(
+  title = "Monitor Brusone",
+  options = list(
+    theme = "ios",
+    dark = FALSE,
+    color = "#2E7D32"
+  ),
+  f7TabLayout(
+    navbar = f7Navbar(
+      title = "Monitor climático: Brusone em Trigo Sequeiro",
+      hairline = TRUE,
+      shadow = TRUE,
+      leftPanel = FALSE
+    ),
+
+    # Menu de abas no rodapé
+    f7Tabs(
+      id = "tabs",
+      animated = TRUE,
+      swipeable = FALSE,
+
+      # Aba 1: Risco regional (INICIAL)
+      f7Tab(
+        title = "Risco regional",
+        tabName = "tab_regional",
+        icon = f7Icon("map_fill"),
+        active = TRUE,
+        tags$style(HTML("
+          /* Map heights */
+          #map_regional, #map { height: calc(100vh - 110px) !important; width: 100%; }
+          
+          /* Weather tab specific styling */
+          #tab_clima .page-content { overflow: hidden !important; }
+          #weather_plot_temp, #weather_plot_rh, #weather_plot_rain {
+             height: calc(100vh - 170px) !important;
+             width: 100%;
+          }
+
+          /* Floating buttons and panels */
+          .floating-panel {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            width: 90%;
+            max-width: 400px;
+          }
+          .settings-btn, .help-btn, .play-btn {
+            position: absolute;
+            right: 20px;
+            z-index: 3000;
+            border-radius: 12px;
+            width: 70px;
+            height: auto;
+            padding: 8px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            text-align: center;
+          }
+          .help-btn { bottom: 90px; background: #D8E2DC; }
+          .settings-btn { bottom: 175px; background: #A9DEF9; }
+          .play-btn { bottom: 260px; background: #B5EAD7; }
+          
+          .btn-label {
+            font-size: 9px;
+            color: #5D6D7E;
+            margin-top: 4px;
+            line-height: 1.1;
+            font-weight: 600;
+            max-width: 65px;
+            word-wrap: break-word;
+          }
+
+          .settings-btn .button, .help-btn .button, .play-btn .button {
+            background: none !important;
+            box-shadow: none !important;
+            height: 30px !important;
+            width: 30px !important;
+            padding: 0 !important;
+            min-height: 30px !important;
+          }
+
+          /* Fixed Center Pin */
+          .center-pin {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -100%);
+            z-index: 2000;
+            pointer-events: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          .pin-drop {
+            width: 32px;
+            height: 32px;
+            background: #F08080; /* Pastel Coral/Salmon */
+            border-radius: 50% 50% 50% 0;
+            transform: rotate(-45deg);
+            border: 2px solid white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+          }
+          .pin-drop::after {
+            content: '';
+            width: 12px;
+            height: 12px;
+            background: white;
+            position: absolute;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+
+          /* Premium App Colors (Ocre/Ferrugem-ish) */
+          .navbar, .navbar-bg, .toolbar, .toolbar-inner {
+            background-color: #2E7D32 !important;
+            background-image: none !important;
+            backdrop-filter: none !important;
+            -webkit-backdrop-filter: none !important;
+            color: white !important;
+          }
+          .navbar-inner .title, .navbar-inner .left, .navbar-inner .right {
+            color: white !important;
+          }
+          .toolbar-inner a {
+            color: rgba(255,255,255,0.7) !important;
+          }
+          .toolbar-inner a.tab-link-active {
+            color: white !important;
+          }
+          .navbar::after, .toolbar::before {
+             display: none !important;
+          }
+
+          /* Lift the Leaflet legend */
+          .leaflet-bottomleft {
+            margin-bottom: 30px !important;
+          }
+        ")),
+        tmapOutput("map_regional", height = "calc(100vh - 110px)")
+      ),
+
+      # Aba 2: Selecionar local
+      f7Tab(
+        title = "Selecionar local e data",
+        tabName = "tab_mapa",
+        icon = f7Icon("map"),
+        active = FALSE,
+        # Overlay do Pin Fixo
+        tags$div(
+          class = "center-pin",
+          tags$div(class = "pin-drop")
+        ),
+
+        # Mapa full-screen
+        leafletOutput("map"),
+
+        # Botão de ajuda
+        tags$div(
+          class = "help-btn",
+          f7Button(inputId = "help_btn", label = "", icon = f7Icon("question_circle_fill", style = "color: #5D6D7E;"), fill = FALSE),
+          tags$span(class = "btn-label", "Ajuda")
+        ),
+
+        # Botão flutuante de configurações (engrenagem)
+        tags$div(
+          class = "settings-btn",
+          f7Button(inputId = "open_settings", label = "", icon = f7Icon("gear_alt_fill", style = "color: #5D6D7E;"), fill = FALSE),
+          tags$span(class = "btn-label", "Data de espigamento")
+        ),
+
+        # Botão de rodar (play) flutuante
+        tags$div(
+          class = "play-btn",
+          f7Button(inputId = "btn", label = "", icon = f7Icon("play_fill", style = "color: #5D6D7E;"), fill = FALSE),
+          tags$span(class = "btn-label", "Rodar")
+        )
+      ),
+
+      # Aba 3: Risco pra local
+      f7Tab(
+        title = "Ver risco local",
+        tabName = "tab_risco",
+        icon = f7Icon("chart_bar"),
+        highchartOutput("barplot", height = "100%")
+      ),
+
+      # Aba 4: Dados meteorológicos
+      f7Tab(
+        title = "Meteorologia do local",
+        tabName = "tab_clima",
+        icon = f7Icon("cloud"),
+        f7Tabs(
+          id = "subtabs_clima",
+          style = "strong",
+          animated = FALSE,
+          swipeable = TRUE,
+          f7Tab(
+            title = "Temperatura",
+            tabName = "subtab_temp",
+            highchartOutput("weather_plot_temp", height = "100%")
+          ),
+          f7Tab(
+            title = "Umidade",
+            tabName = "subtab_rh",
+            highchartOutput("weather_plot_rh", height = "100%")
+          ),
+          f7Tab(
+            title = "Chuva",
+            tabName = "subtab_rain",
+            highchartOutput("weather_plot_rain", height = "100%")
+          )
+        )
+      ),
+
+      # Aba 5: Sobre
+      f7Tab(
+        title = "Sobre",
+        tabName = "tab_sobre",
+        icon = f7Icon("info_circle"),
+        f7Block(
+          f7BlockTitle("Informações do Projeto", size = "large"),
+          f7Card(
+            tags$div(
+              style = "font-size: 14px; line-height: 1.5; color: #34495E;",
+              tags$h2("Monitor da Brusone do Trigo"),
+              tags$p("Esta ferramenta interativa ajuda a avaliar o risco de infecção por brusone do trigo com base nas condições climáticas durante a fase de espigamento. Utiliza um modelo logístico (De Cól et al., 2024 – Modelo 3) calibrado com dados de campo do Cerrado Brasileiro e integra dados históricos do ERA5 (via Open-Meteo) e previsões de 15 dias."),
+              tags$h4("Como usar:"),
+              tags$ol(
+                tags$li("Selecione um local clicando no mapa ou arrestando o pino."),
+                tags$li("Configure a data de espigamento nas configurações."),
+                tags$li("Clique no botão 'Play' para calcular o risco.")
+              ),
+              tags$hr(style = "border-color: #DCDDE1;"),
+              tags$p(
+                tags$strong("Contatos: "),
+                tags$a(href = "mailto:delponte@ufv.br", "delponte@ufv.br", style = "color:#3498DB;")
+              ),
+              tags$p("Desenvolvido pelo Laboratório de Epidemiologia do Departamento de Fitopatologia da UFV.")
+            )
+          )
+        )
+      )
+    ),
+
+    # Folha de configurações (escondida por padrão)
+    f7Sheet(
+      id = "settings_sheet",
+      label = "Configurações",
+      orientation = "bottom",
+      swipeToClose = TRUE,
+      backdrop = TRUE,
+      f7Block(
+        f7BlockTitle("Ajustes de Data e Local", size = "medium"),
+        f7DatePicker("heading_date", "Data do Espigamento", value = Sys.Date() - 14, maxDate = Sys.Date() + 30),
+        br(),
+        f7Button("close_settings", "Fechar", color = "#81A1C1", fill = TRUE)
+      )
+    )
+  )
+)
+
+server <- function(input, output, session) {
+  # Valores reativos para armazenar coordenadas e zoom (valores iniciais diferentes do app.R se quiser)
+  coords <- reactiveValues(lat = -20.0, lon = -46.0, zoom = 6)
+
+  # Load shapefile (using tryCatch to avoid crashing if file is missing/corrupted)
+  regions <- tryCatch(
+    {
+      st_read("shp/MunIBGE_AreaPlantada_simplified.gpkg", quiet = TRUE) %>%
+        st_transform(crs = 4326)
+    },
+    error = function(e) {
+      warning("Could not load shapefile: ", e$message)
+      NULL
+    }
+  )
+
+  data_ready <- reactiveVal(FALSE)
+
+  # Abrir/Fechar folha de configurações
+  observeEvent(input$open_settings, {
+    updateF7Sheet(id = "settings_sheet")
+  })
+  observeEvent(input$close_settings, {
+    updateF7Sheet(id = "settings_sheet")
+  })
+
+  # Mostrar instruções de ajuda
+  observeEvent(input$help_btn, {
+    f7Dialog(
+      title = "Instruções Rápidas",
+      text = "Arraste o mapa para selecionar o local, ajuste a data de espigamento nas configurações e clique no botão de play.",
+      type = "alert"
+    )
+  })
+
+  # --- Logic from original app_blast.R ---
+
+  datetime_to_timestamp <- function(date) {
+    # Ensure input is Date or coercible
+    date <- as.Date(date)
+    as.numeric(as.POSIXct(date)) * 1000
+  }
+
+  power_data <- eventReactive(input$run_model_trigger, {
+    req(coords$lat, coords$lon, input$heading_date)
+
+    heading_date <- ymd(input$heading_date)
+    start_date <- heading_date - 21
+    end_date <- heading_date + 7
+
+    # --- 1. Fetch Historical Data from Open-Meteo Archive (ERA5) ---
+    url_hist <- paste0(
+      "https://archive-api.open-meteo.com/v1/archive?",
+      "latitude=", coords$lat,
+      "&longitude=", coords$lon,
+      "&start_date=", start_date,
+      "&end_date=", min(end_date, Sys.Date()),
+      "&daily=temperature_2m_max,temperature_2m_min,relative_humidity_2m_mean,precipitation_sum",
+      "&timezone=America/Sao_Paulo"
+    )
+
+    res_hist <- try(GET(url_hist, timeout(120)), silent = TRUE)
+    if (inherits(res_hist, "try-error")) {
+      return(NULL)
+    }
+
+    data_hist <- content(res_hist, as = "parsed", type = "application/json")
+
+    if (!is.null(data_hist$daily)) {
+      dates_hist <- as.Date(unlist(data_hist$daily$time))
+      n_hist <- length(dates_hist)
+
+      df_hist <- data.frame(
+        day = dates_hist,
+        T2M_MIN = as.numeric(unlist(data_hist$daily$temperature_2m_min))[1:n_hist],
+        T2M_MAX = as.numeric(unlist(data_hist$daily$temperature_2m_max))[1:n_hist],
+        RH2M = as.numeric(unlist(data_hist$daily$relative_humidity_2m_mean))[1:n_hist],
+        PRECTOTCORR = as.numeric(unlist(data_hist$daily$precipitation_sum))[1:n_hist]
+      ) %>% mutate(source = "OpenMeteo-ERA5")
+    } else {
+      df_hist <- data.frame()
+    }
+
+    # --- 2. Fetch Forecast Data from Open-Meteo Forecast API ---
+    url_fore <- paste0(
+      "https://api.open-meteo.com/v1/forecast?",
+      "latitude=", coords$lat,
+      "&longitude=", coords$lon,
+      "&daily=temperature_2m_min,temperature_2m_max,relative_humidity_2m_mean,precipitation_sum",
+      "&forecast_days=16",
+      "&past_days=2",
+      "&timezone=America/Sao_Paulo"
+    )
+
+    res_fore <- try(GET(url_fore, timeout(120)), silent = TRUE)
+    if (inherits(res_fore, "try-error")) {
+      return(NULL)
+    }
+
+    data_fore <- content(res_fore, as = "parsed", type = "application/json")
+
+    if (!is.null(data_fore$daily)) {
+      dates_fore <- as.Date(unlist(data_fore$daily$time))
+      n_fore <- length(dates_fore)
+
+      df_fore <- data.frame(
+        day = dates_fore,
+        T2M_MIN = as.numeric(unlist(data_fore$daily$temperature_2m_min))[1:n_fore],
+        T2M_MAX = as.numeric(unlist(data_fore$daily$temperature_2m_max))[1:n_fore],
+        RH2M = as.numeric(unlist(data_fore$daily$relative_humidity_2m_mean))[1:n_fore],
+        PRECTOTCORR = as.numeric(unlist(data_fore$daily$precipitation_sum))[1:n_fore]
+      ) %>% mutate(source = "OpenMeteo-Forecast")
+    } else {
+      df_fore <- data.frame()
+    }
+
+    # Merge and interpolate
+    all_data <- bind_rows(df_hist, df_fore) %>%
+      distinct(day, .keep_all = TRUE) %>%
+      complete(day = seq.Date(start_date, end_date, by = "day")) %>%
+      arrange(day) %>%
+      mutate(
+        T2M_MIN = na.approx(T2M_MIN, day, na.rm = FALSE),
+        T2M_MAX = na.approx(T2M_MAX, day, na.rm = FALSE),
+        RH2M = na.approx(RH2M, day, na.rm = FALSE),
+        PRECTOTCORR = na.approx(PRECTOTCORR, day, na.rm = FALSE),
+        T2M = (T2M_MIN + T2M_MAX) / 2
+      ) %>%
+      rename(YYYYMMDD = day)
+
+    if (nrow(all_data) == 0) {
+      data_ready(FALSE)
+      return(NULL)
+    } else {
+      data_ready(TRUE)
+      return(all_data)
+    }
+  })
+
+  wheat_blast <- function(data, date_str) {
+    heading <- ymd(date_str)
+    data <- data %>% mutate(YYYYMMDD = ymd(YYYYMMDD))
+
+    data2 <- data %>%
+      mutate(
+        days = as.numeric(-(heading - YYYYMMDD)),
+        single_week = case_when(
+          days >= -14 & days < -7 ~ "wb2",
+          days >= -7 & days <= 0 ~ "wb1",
+          days > 0 & days <= 7 ~ "wa1",
+          TRUE ~ "NO"
+        )
+      ) %>%
+      filter(single_week != "NO") %>%
+      mutate(
+        RH90t = as.integer(RH2M >= 90),
+        ND.TMEAN.S22 = as.integer(T2M < 22),
+        RAINSUM = PRECTOTCORR,
+        TMEAN = T2M
+      ) %>%
+      group_by(single_week) %>%
+      summarise(
+        RHM = mean(RH2M),
+        RH90N = sum(RH90t),
+        TMEAN = mean(TMEAN),
+        ND.TMEAN.S22 = sum(ND.TMEAN.S22),
+        RAINSUM = sum(RAINSUM),
+        INT4 = mean(TMEAN) * mean(RH2M),
+        .groups = "drop"
+      ) %>%
+      pivot_wider(
+        names_from = single_week,
+        values_from = c(RHM, RH90N, TMEAN, ND.TMEAN.S22, RAINSUM, INT4),
+        values_fill = 0
+      )
+
+    expected_vars <- c("RHM_wb2", "ND.TMEAN.S22_wb2", "RAINSUM_wa1")
+    for (var in expected_vars) {
+      if (!var %in% names(data2)) {
+        data2[[var]] <- 0
+      }
+    }
+
+    linpred20 <- -10.846 +
+      0.164 * data2$RHM_wb2 -
+      0.326 * data2$ND.TMEAN.S22_wb2 +
+      0.069 * data2$RAINSUM_wa1
+
+    prob20 <- exp(linpred20) / (1 + exp(linpred20))
+    return(prob20)
+  }
+
+  observeEvent(input$btn, {
+    # Captura coordenadas do mapa antes de rodar
+    center <- input$map_center
+    zoom <- input$map_zoom
+    if (!is.null(center)) {
+      coords$lat <- center$lat
+      coords$lon <- center$lng
+    }
+    if (!is.null(zoom)) {
+      coords$zoom <- zoom
+    }
+
+    # Trigger model run
+    # Usamos um input reativo auxiliar ou chamamos uma função
+    # Como power_data é eventReactive, vamos adicionar um valor auxiliar para disparar
+    # Uma forma limpa é usar um reactiveVal
+
+    # Mas aqui power_data depende de input$run_model_trigger. Vamos setar isso.
+    # Precisamos criar esse input virtual
+  })
+
+  # Vamos usar um reactiveVal para disparar o run
+  run_trigger <- reactiveVal(0)
+
+  observeEvent(input$btn, {
+    center <- input$map_center
+    if (!is.null(center)) {
+      coords$lat <- center$lat
+      coords$lon <- center$lng
+    }
+    run_trigger(run_trigger() + 1)
+  })
+
+  # Redefinir power_data para ouvir run_trigger
+  power_data <- eventReactive(run_trigger(), {
+    req(coords$lat, coords$lon, input$heading_date)
+    req(run_trigger() > 0) # Only run after button press
+
+    # Mesma lógica de fetch data...
+    heading_date <- ymd(input$heading_date)
+    start_date <- heading_date - 21
+    end_date <- heading_date + 7
+
+    url_hist <- paste0(
+      "https://archive-api.open-meteo.com/v1/archive?",
+      "latitude=", coords$lat,
+      "&longitude=", coords$lon,
+      "&start_date=", start_date,
+      "&end_date=", min(end_date, Sys.Date()),
+      "&daily=temperature_2m_max,temperature_2m_min,relative_humidity_2m_mean,precipitation_sum",
+      "&timezone=America/Sao_Paulo"
+    )
+
+    res_hist <- try(GET(url_hist, timeout(120)), silent = TRUE)
+    if (inherits(res_hist, "try-error")) {
+      f7Toast(text = "Erro ao baixar dados históricos.", position = "bottom", closeTimeout = 3000)
+      return(NULL)
+    }
+    data_hist <- content(res_hist, as = "parsed", type = "application/json")
+
+    if (!is.null(data_hist$daily)) {
+      dates_hist <- as.Date(unlist(data_hist$daily$time))
+      n_hist <- length(dates_hist)
+
+      df_hist <- data.frame(
+        day = dates_hist,
+        T2M_MIN = as.numeric(unlist(data_hist$daily$temperature_2m_min))[1:n_hist],
+        T2M_MAX = as.numeric(unlist(data_hist$daily$temperature_2m_max))[1:n_hist],
+        RH2M = as.numeric(unlist(data_hist$daily$relative_humidity_2m_mean))[1:n_hist],
+        PRECTOTCORR = as.numeric(unlist(data_hist$daily$precipitation_sum))[1:n_hist]
+      ) %>% mutate(source = "OpenMeteo-ERA5")
+    } else {
+      df_hist <- data.frame()
+    }
+
+    # --- 2. Fetch Forecast Data from Open-Meteo Forecast API ---
+    # Only fetch if the simulation end date is close to today or in the future
+    # Using Sys.Date() - 5 to account for potential ERA5 lag
+    df_fore <- data.frame()
+
+    if (end_date >= (Sys.Date() - 5)) {
+      url_fore <- paste0(
+        "https://api.open-meteo.com/v1/forecast?",
+        "latitude=", coords$lat,
+        "&longitude=", coords$lon,
+        "&daily=temperature_2m_min,temperature_2m_max,relative_humidity_2m_mean,precipitation_sum",
+        "&forecast_days=16",
+        "&past_days=2",
+        "&timezone=America/Sao_Paulo"
+      )
+
+      res_fore <- try(GET(url_fore, timeout(120)), silent = TRUE)
+      if (!inherits(res_fore, "try-error")) {
+        data_fore <- content(res_fore, as = "parsed", type = "application/json")
+
+        if (!is.null(data_fore$daily)) {
+          dates_fore <- as.Date(unlist(data_fore$daily$time))
+          n_fore <- length(dates_fore)
+
+          df_fore <- data.frame(
+            day = dates_fore,
+            T2M_MIN = as.numeric(unlist(data_fore$daily$temperature_2m_min))[1:n_fore],
+            T2M_MAX = as.numeric(unlist(data_fore$daily$temperature_2m_max))[1:n_fore],
+            RH2M = as.numeric(unlist(data_fore$daily$relative_humidity_2m_mean))[1:n_fore],
+            PRECTOTCORR = as.numeric(unlist(data_fore$daily$precipitation_sum))[1:n_fore]
+          ) %>% mutate(source = "OpenMeteo-Forecast")
+        }
+      }
+    }
+
+    if (nrow(df_hist) == 0 && nrow(df_fore) == 0) {
+      f7Toast(text = "Sem dados disponíveis.", position = "bottom", closeTimeout = 3000)
+      return(NULL)
+    }
+
+    all_data <- bind_rows(df_hist, df_fore) %>%
+      distinct(day, .keep_all = TRUE) %>%
+      complete(day = seq.Date(start_date, end_date, by = "day")) %>%
+      arrange(day) %>%
+      mutate(
+        T2M_MIN = na.approx(T2M_MIN, day, na.rm = FALSE),
+        T2M_MAX = na.approx(T2M_MAX, day, na.rm = FALSE),
+        RH2M = na.approx(RH2M, day, na.rm = FALSE),
+        PRECTOTCORR = na.approx(PRECTOTCORR, day, na.rm = FALSE),
+        T2M = (T2M_MIN + T2M_MAX) / 2
+      ) %>%
+      filter(!is.na(T2M)) %>%
+      filter(day >= start_date & day <= end_date) %>% # Ensure strict period filtering
+      rename(YYYYMMDD = day)
+
+    data_ready(TRUE)
+    return(all_data)
+  })
+
+  observeEvent(power_data(), {
+    # Quando os dados estiverem prontos, vai para a aba de risco
+    updateF7Tabs(id = "tabs", selected = "tab_risco", session = session)
+  })
+
+  output$barplot <- renderHighchart({
+    req(data_ready(), power_data())
+    weather_data <- power_data()
+    heading_date <- ymd(input$heading_date)
+
+    heading_dates <- seq(heading_date - 10, heading_date + 20, by = "day")
+
+    # Calculate risk for a range of dates around the heading date
+    risks <- sapply(as.character(heading_dates), function(date) {
+      if (ymd(date) > max(weather_data$YYYYMMDD) || ymd(date) < min(weather_data$YYYYMMDD)) {
+        return(NA)
+      }
+      # We need to subset weather_data relevant to the specific simulation date inside wheat_blast?
+      # Actually wheat_blast takes the whole dataset and filters relative to 'date_str' (heading)
+      wheat_blast(weather_data, date)
+    })
+
+    df <- data.frame(
+      Date = heading_dates,
+      Risk = risks,
+      Forecast = heading_dates > Sys.Date()
+    ) %>% filter(!is.na(Risk))
+
+    if (nrow(df) == 0) {
+      return(NULL)
+    }
+
+    today_ts <- datetime_to_timestamp(Sys.Date())
+
+    highchart() %>%
+      hc_chart(type = "line", backgroundColor = "transparent") %>%
+      hc_xAxis(
+        type = "datetime",
+        plotLines = list(
+          list(
+            value = today_ts,
+            color = "#FF6347",
+            width = 2,
+            dashStyle = "Dash",
+            label = list(text = "Hoje", style = list(color = "#FF6347"))
+          )
+        ),
+        title = list(text = "Data")
+      ) %>%
+      hc_yAxis(
+        min = 0, max = 1,
+        plotBands = list(
+          list(from = 0, to = 0.68, color = "rgba(0,100,0,0.1)"), # Greenish
+          list(from = 0.68, to = 1, color = "rgba(139,0,0,0.1)") # Reddish
+        ),
+        plotLines = list(list(value = 0.68, color = "#FF6347", width = 2, dashStyle = "ShortDash", label = list(text = "Limite Crítico"))),
+        title = list(text = "Probabilidade de Risco")
+      ) %>%
+      hc_add_series(
+        name = "Risco",
+        data = list_parse2(data.frame(
+          x = datetime_to_timestamp(df$Date),
+          y = df$Risk
+        )),
+        color = "darkorange",
+        marker = list(symbol = "circle")
+      ) %>%
+      hc_tooltip(shared = TRUE, valueDecimals = 2) %>%
+      hc_add_theme(hc_theme_smpl())
+  })
+
+  # Weather Plots
+  output$weather_plot_temp <- renderHighchart({
+    req(power_data())
+    df <- power_data()
+
+    highchart() %>%
+      hc_chart(type = "line", backgroundColor = "transparent") %>%
+      hc_title(text = "Temperatura Diária (°C)") %>%
+      hc_xAxis(categories = format(df$YYYYMMDD, "%d/%b")) %>%
+      hc_yAxis(title = list(text = "°C")) %>%
+      hc_add_series(name = "Média", data = df$T2M, color = "orange") %>%
+      hc_add_series(name = "Mín", data = df$T2M_MIN, color = "skyblue") %>%
+      hc_add_series(name = "Máx", data = df$T2M_MAX, color = "tomato") %>%
+      hc_add_theme(hc_theme_smpl())
+  })
+
+  output$weather_plot_rh <- renderHighchart({
+    req(power_data())
+    df <- power_data()
+
+    highchart() %>%
+      hc_chart(type = "line", backgroundColor = "transparent") %>%
+      hc_title(text = "Umidade Relativa (%)") %>%
+      hc_xAxis(categories = format(df$YYYYMMDD, "%d/%b")) %>%
+      hc_yAxis(title = list(text = "%")) %>%
+      hc_add_series(name = "UR", data = df$RH2M, color = "deepskyblue") %>%
+      hc_add_theme(hc_theme_smpl())
+  })
+
+  output$weather_plot_rain <- renderHighchart({
+    req(power_data())
+    df <- power_data()
+
+    highchart() %>%
+      hc_chart(type = "column", backgroundColor = "transparent") %>%
+      hc_title(text = "Precipitação Diária (mm)") %>%
+      hc_xAxis(categories = format(df$YYYYMMDD, "%d/%b")) %>%
+      hc_yAxis(title = list(text = "mm")) %>%
+      hc_add_series(name = "Chuva", data = df$PRECTOTCORR, color = "dodgerblue") %>%
+      hc_add_theme(hc_theme_smpl())
+  })
+
+  output$map <- renderLeaflet({
+    # Usamos isolate para os valores para evitar que o mapa RE-RENDERIZE enquanto movemos
+    # Mas se o Shiny decidir re-renderizar (ex: troca de abas no mobile), ele usará o último estado
+    m <- leaflet() %>%
+      addProviderTiles("Stadia.Outdoors", options = providerTileOptions(apikey = STADIA_API_KEY)) %>%
+      setView(lng = isolate(coords$lon), lat = isolate(coords$lat), zoom = isolate(coords$zoom)) %>%
+      addSearchOSM(options = searchOptions(autoCollapse = TRUE, minLength = 2, hideMarkerOnCollapse = TRUE))
+
+    if (!is.null(regions)) {
+      # Data cleanup: Convert Area.colh to numeric (it was character)
+      regions$Área.colh <- as.numeric(as.character(regions$Área.colh))
+
+      # Create color palette based on Area.colh
+      max_val <- max(regions$Área.colh, na.rm = TRUE)
+
+      # Ensure max_val is finite, valid
+      if (!is.finite(max_val)) max_val <- 0
+
+      pal <- colorNumeric("Greens", domain = c(0, max_val), na.color = "transparent")
+
+      m <- m %>%
+        addPolygons(
+          data = regions,
+          color = "#444444",
+          weight = 1,
+          smoothFactor = 0.5,
+          opacity = 1.0,
+          fillOpacity = 0.7,
+          fillColor = ~ pal(regions$Área.colh),
+          label = ~ paste0(NM_MUN, ": ", round(regions$Área.colh, 1), " ha"),
+          highlightOptions = highlightOptions(
+            color = "white",
+            weight = 2,
+            bringToFront = FALSE
+          )
+        ) %>%
+        addLegend(
+          position = "bottomleft",
+          pal = pal,
+          values = regions$Área.colh,
+          title = "Área Colhida (ha)",
+          opacity = 0.7
+        )
+    }
+
+    m
+  })
+  # Monitoramento em segundo plano sem debounce
+  observe({
+    center <- input$map_center
+    zoom <- input$map_zoom
+
+    if (!is.null(center)) {
+      coords$lat <- center$lat
+      coords$lon <- center$lng
+    }
+    if (!is.null(zoom)) {
+      coords$zoom <- zoom
+    }
+  })
+
+  # Restore map view when switching tabs
+  observeEvent(input$tabs,
+    {
+      if (input$tabs == "tab_mapa") {
+        leafletProxy("map") %>%
+          setView(lng = coords$lon, lat = coords$lat, zoom = coords$zoom)
+      }
+    },
+    ignoreInit = TRUE
+  )
+
+  # --- Regional Model Logic ---
+
+  # Reactive to store regional results
+  regional_results <- reactiveVal(NULL)
+
+  # Wheat Blast Model Function (Regional Version)
+  wheat_blast_regional <- function(df, heading_date) {
+    # Expecting df with columns: day, T2M, RH2M, PRECTOTCORR
+    # Filter relative to heading_date
+    heading <- ymd(heading_date)
+
+    # Check data coverage
+    if (min(df$day) > (heading - 21) || max(df$day) < (heading + 7)) {
+      return(NA) # Insufficient data
+    }
+
+    data2 <- df %>%
+      mutate(
+        days = as.numeric(-(heading - day)),
+        single_week = case_when(
+          days >= -14 & days < -7 ~ "wb2",
+          days >= -7 & days <= 0 ~ "wb1",
+          days > 0 & days <= 7 ~ "wa1",
+          TRUE ~ "NO"
+        )
+      ) %>%
+      filter(single_week != "NO") %>%
+      mutate(
+        RH90t = as.integer(RH2M >= 90),
+        ND.TMEAN.S22 = as.integer(T2M < 22),
+        RAINSUM = PRECTOTCORR,
+        TMEAN = T2M
+      ) %>%
+      group_by(single_week) %>%
+      summarise(
+        RHM = mean(RH2M, na.rm = TRUE),
+        RH90N = sum(RH90t, na.rm = TRUE),
+        TMEAN = mean(TMEAN, na.rm = TRUE),
+        ND.TMEAN.S22 = sum(ND.TMEAN.S22, na.rm = TRUE),
+        RAINSUM = sum(RAINSUM, na.rm = TRUE),
+        .groups = "drop"
+      ) %>%
+      pivot_wider(
+        names_from = single_week,
+        values_from = c(RHM, RH90N, TMEAN, ND.TMEAN.S22, RAINSUM),
+        values_fill = 0
+      )
+
+    # Variables needed: RHM_wb2, ND.TMEAN.S22_wb2, RAINSUM_wa1
+    # Check if columns exist
+    if (!"RHM_wb2" %in% names(data2)) data2$RHM_wb2 <- 0
+    if (!"ND.TMEAN.S22_wb2" %in% names(data2)) data2$ND.TMEAN.S22_wb2 <- 0
+    if (!"RAINSUM_wa1" %in% names(data2)) data2$RAINSUM_wa1 <- 0
+
+    linpred20 <- -10.846 +
+      0.164 * data2$RHM_wb2 -
+      0.326 * data2$ND.TMEAN.S22_wb2 +
+      0.069 * data2$RAINSUM_wa1
+
+    prob20 <- exp(linpred20) / (1 + exp(linpred20))
+    return(prob20)
+  }
+
+  observeEvent(input$heading_date, {
+    req(regions, input$heading_date)
+    f7Toast("Atualizando mapa regional...", position = "center")
+
+    # 1. Generate Grid
+    # Finer resolution (0.25 deg) for better coverage
+    grid <- st_make_grid(regions, cellsize = 0.25, what = "centers")
+    inter <- st_intersects(grid, regions)
+
+    # Filter points that are inside at least one region
+    valid_indices <- lengths(inter) > 0
+    pts_sf <- grid[valid_indices] %>% st_sf()
+    coords_mat <- st_coordinates(pts_sf)
+
+    # Get the region index for each point (taking the first match if multiple)
+    region_idx <- sapply(inter[valid_indices], function(x) x[1])
+
+    # Create DF of points with region_id
+    sites <- data.frame(
+      id = 1:nrow(coords_mat),
+      lat = coords_mat[, 2],
+      lon = coords_mat[, 1],
+      region_index = region_idx
+    )
+
+    print(paste("Points to process:", nrow(sites)))
+
+    # 2. Fetch Data (Batch)
+    heading_date <- ymd(input$heading_date)
+    start_date <- heading_date - 25
+    end_date <- heading_date + 10
+
+    lats_str <- paste(sites$lat, collapse = ",")
+    lons_str <- paste(sites$lon, collapse = ",")
+
+    url <- paste0(
+      "https://archive-api.open-meteo.com/v1/archive?",
+      "latitude=", lats_str,
+      "&longitude=", lons_str,
+      "&start_date=", start_date,
+      "&end_date=", min(end_date, Sys.Date()),
+      "&daily=temperature_2m_max,temperature_2m_min,relative_humidity_2m_mean,precipitation_sum",
+      "&timezone=America/Sao_Paulo"
+    )
+
+    print(paste("Fetching URL:", url))
+
+    res <- try(GET(url, timeout(300)), silent = TRUE)
+
+    results <- list()
+
+    if (!inherits(res, "try-error")) {
+      data_json <- content(res, as = "parsed", type = "application/json")
+
+      if (!is.null(data_json$error)) {
+        f7Toast(paste("API Error:", data_json$reason), position = "center")
+        return()
+      }
+
+      if (!is.null(data_json$latitude)) {
+        items <- list(data_json)
+      } else {
+        items <- data_json
+      }
+
+      # Process each site
+      for (i in seq_along(items)) {
+        item <- items[[i]]
+        if (!is.null(item$daily)) {
+          d <- item$daily
+          df_site <- data.frame(
+            day = as.Date(unlist(d$time)),
+            T2M_MIN = as.numeric(unlist(d$temperature_2m_min)),
+            T2M_MAX = as.numeric(unlist(d$temperature_2m_max)),
+            RH2M = as.numeric(unlist(d$relative_humidity_2m_mean)),
+            PRECTOTCORR = as.numeric(unlist(d$precipitation_sum))
+          ) %>%
+            mutate(T2M = (T2M_MIN + T2M_MAX) / 2)
+
+          results[[i]] <- wheat_blast_regional(df_site, heading_date)
+        } else {
+          results[[i]] <- NA
+        }
+      }
+
+      # Assign risks to points
+      sites$risk <- unlist(results)
+
+      # 3. Aggregate by Region
+      agg_risk <- sites %>%
+        group_by(region_index) %>%
+        summarise(mean_risk = mean(risk, na.rm = TRUE), .groups = "drop")
+
+      # Join back to regions sf
+      regions_with_risk <- regions
+      regions_with_risk$risk <- NA
+      regions_with_risk$risk[agg_risk$region_index] <- agg_risk$mean_risk
+
+      # --- IMPUTATION LOGIC ---
+      # Fill NA values with mean of 3 nearest valid neighbors
+      na_indices <- which(is.na(regions_with_risk$risk))
+      valid_indices <- which(!is.na(regions_with_risk$risk))
+
+      if (length(na_indices) > 0 && length(valid_indices) > 0) {
+        print(paste("Imputing", length(na_indices), "regions with missing data..."))
+
+        # Get centroids for distance calculation
+        # suppress warnings about planar coordinates
+        suppressWarnings({
+          centroids <- st_centroid(regions_with_risk)
+        })
+
+        valid_cents <- centroids[valid_indices, ]
+        missing_cents <- centroids[na_indices, ]
+
+        # Calculate distance matrix (rows = missing, cols = valid)
+        dists <- st_distance(missing_cents, valid_cents)
+
+        for (i in 1:length(na_indices)) {
+          # Get distances for this missing region
+          d <- dists[i, ]
+
+          # Find indices of k nearest valid regions
+          # k = min(3, number of valid regions)
+          k <- min(3, length(valid_indices))
+          nearest_valid_idx <- order(d)[1:k]
+
+          # Calculate mean risk of neighbors
+          neighbor_risks <- regions_with_risk$risk[valid_indices[nearest_valid_idx]]
+          imputed_val <- mean(neighbor_risks, na.rm = TRUE)
+
+          # Assign back
+          regions_with_risk$risk[na_indices[i]] <- imputed_val
+        }
+        print("Imputation complete.")
+      }
+      # ------------------------
+
+      # --- CLASSIFICATION LOGIC ---
+      # Risco alto = probabilidade > 0.68
+      # Risco moderado = probabilidade > 0.58 < 0.68
+      # Risco baixo = probabilidade < 0.58
+
+      regions_with_risk <- regions_with_risk %>%
+        mutate(
+          risk_class = case_when(
+            risk > 0.68 ~ "Alto",
+            risk >= 0.58 ~ "Moderado",
+            TRUE ~ "Baixo"
+          ),
+          risk_class = factor(risk_class, levels = c("Baixo", "Moderado", "Alto"))
+        )
+      # ----------------------------
+
+      regional_results(regions_with_risk)
+
+      f7Toast("Cálculo concluído! Mapa atualizado.", position = "center")
+    } else {
+      f7Toast("Erro no download dos dados.", position = "center")
+    }
+  })
+
+  # Render tmap Map Regional
+  output$map_regional <- renderTmap({
+    print("Rendering tmap Regional...")
+    
+    # Dynamic title string
+    map_title <- paste("Data de Espigamento:", format(as.Date(input$heading_date), "%d/%m/%Y"))
+
+    # Check if we have results
+    res_data <- regional_results()
+
+    if (is.null(res_data)) {
+      # Initial State: Show regions in gray
+      if (!is.null(regions)) {
+        tm_basemap(paste0("https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png?api_key=", STADIA_API_KEY)) +
+        tm_shape(regions) +
+          tm_polygons(
+            col = "#D3D3D3",
+            alpha = 0.5,
+            border.col = "white",
+            lwd = 0.5,
+            id = "NM_MUN",
+            title = "Município"
+          ) +
+          tm_layout(main.title = map_title, main.title.size = 1.0, main.title.position = "center")
+      } else {
+        # Fallback empty map if regions not loaded
+        tm_shape(st_as_sf(data.frame(x = 0, y = 0), coords = c("x", "y"), crs = 4326)) + tm_dots(alpha = 0)
+      }
+    } else {
+      # Results State: Show Risk Choropleth
+      tm_basemap(paste0("https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png?api_key=", STADIA_API_KEY)) +
+      tm_shape(res_data) +
+        tm_polygons(
+          col = "risk_class",
+          alpha = 0.7,
+          palette = c("Baixo" = "forestgreen", "Moderado" = "gold", "Alto" = "red"),
+          title = "Risco",
+          id = "NM_MUN",
+          popup.vars = c("Município" = "NM_MUN", "Risco (Prob)" = "risk"),
+          border.col = "white",
+          lwd = 0.5
+        ) +
+        tm_layout(main.title = map_title, main.title.size = 1.0, main.title.position = "center", legend.outside = TRUE)
+    }
+  })
+}
+
+shinyApp(ui, server)

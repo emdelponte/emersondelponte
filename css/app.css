@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Light Theme & Clean Academic Aesthetics */
+:root {
+    --f7-theme-color: #3B5F8F;
+    /* Steel Blue */
+    --f7-theme-color-rgb: 59, 95, 143;
+    --f7-theme-color-shade: #2B4C6F;
+    --f7-theme-color-tint: #5C7CA3;
+
+    /* App Bar Colors */
+    --f7-bars-bg-color: #3B5F8F;
+    --f7-bars-bg-color-rgb: 59, 95, 143;
+    --f7-bars-text-color: #ffffff;
+
+    /* Backgrounds */
+    --bg-color: #f4f6f9;
+    --text-primary: #000000;
+    /* Pure Black for maximum contrast */
+    --text-secondary: #222222;
+    /* Very Dark Grey */
+    --divider-color: #cbd5e1;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+/* Enhancing Heading Contrast */
+h1,
+h2,
+h3,
+.title,
+.item-title {
+    color: #000000;
+    letter-spacing: -0.01em;
+}
+
+/* Background Pattern/Image */
+.page-content {
+    background-color: #f0f4f8;
+    /* Alice Blue / Light Grey-Blue - very clean and calming */
+    background-image: none;
+    padding-bottom: 80px !important;
+}
+
+/* Navbar (Top) & Toolbar (Bottom) Styling */
+.navbar {
+    background: #3B5F8F;
+    /* Steel Blue */
+    color: #ffffff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar .title {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.toolbar.tabbar {
+    background: #3B5F8F;
+    /* Steel Blue */
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.toolbar .tab-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.toolbar .tab-link-active {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+    /* Highlight active tab */
+}
+
+.navbar:after {
+    background-color: transparent !important;
+    /* Remove hairlines */
+}
+
+.tabbar .tab-link-active {
+    color: var(--f7-theme-color);
+    background: rgba(0, 0, 0, 0.03);
+}
+
+.tabbar-label {
+    font-weight: 600;
+    font-size: 11px;
+}
+
+/* Typography */
+h1 {
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.2em;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-top: 2em;
+    margin-bottom: 1em;
+    border-bottom: 2px solid var(--f7-theme-color);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+p {
+    color: var(--text-secondary);
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.2em;
+    font-weight: 400;
+}
+
+a {
+    color: #3498db;
+    /* Hyperlink Blue */
+    text-decoration: none;
+}
+
+/* Profile Section (Quarto Style) */
+.profile-header {
+    text-align: center;
+    padding: 40px 20px 20px;
+    background: transparent;
+    border: none;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-name {
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+.profile-role {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    opacity: 0.8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Social Icons Row */
+.profile-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.profile-social a {
+    color: var(--text-secondary);
+    font-size: 24px;
+    transition: color 0.2s;
+}
+
+.profile-social a:hover {
+    color: var(--f7-theme-color);
+}
+
+
+/* Clean Lists (No Cards) */
+.clean-list {
+    list-style: none;
+    padding: 0;
+}
+
+.clean-list-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid var(--divider-color);
+    background: #fff;
+    transition: background 0.2s;
+}
+
+.clean-list-item:last-child {
+    border-bottom: none;
+}
+
+.clean-list-item:hover {
+    background: var(--bg-color-alt);
+}
+
+.item-media img {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    margin-right: 15px;
+    object-fit: cover;
+    border: 1px solid #eee;
+}
+
+.item-inner {
+    flex: 1;
+}
+
+.item-title {
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 15px;
+    margin: 0;
+}
+
+.item-subtitle {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin: 2px 0 0;
+}
+
+/* Text Block Container */
+.text-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Hide Scrollbar but allow scroll */
+.page-content::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
