@@ -261,26 +261,37 @@ a:hover {
     margin-top: 20px;
 }
 
-/* Floating Image for About Page */
-.about-profile-img {
-    float: right;
-    width: 140px;
-    height: 140px;
+/* Full Width Image for About Page */
+.about-profile-img-full {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
     border-radius: 20px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    border: none;
-    box-shadow: none;
-    object-fit: cover;
+    margin-bottom: 25px;
+    display: block;
+    object-fit: contain;
+    filter: grayscale(100%) brightness(0.8);
 }
 
-@media (max-width: 630px) {
-    .about-profile-img {
+/* Floating Portrait for About Page bottom */
+.portrait-floating-img {
+    float: right;
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    filter: grayscale(100%) brightness(0.8);
+}
+
+@media (max-width: 480px) {
+    .portrait-floating-img {
         float: none;
         display: block;
-        margin: 0 auto 20px;
-        width: 150px;
-        height: 150px;
+        margin: 0 auto 15px;
+        width: 140px;
+        height: 140px;
     }
 }
 
