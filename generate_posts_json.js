@@ -25,7 +25,19 @@ function extractMetaAndContent(filePath) {
 
     const folder = path.basename(path.dirname(filePath));
     meta.folder = folder;
-    meta.content = body; // Store the markdown content
+
+    // Fix image paths in markdown:
+    // 1. Remove ../../ (usually pointing to figs from within posts/folder/)
+    let processedBody = body.replace(/\.\.\/\.\.\//g, '');
+
+    // 2. Fix local images (those not starting with http, / or figs/)
+    processedBody = processedBody.replace(/(!\[.*?\]\()(?!(http|\/|figs\/))(.*?)(\))/g,
+        (match, p1, p2, p3, p4) => `${p1}posts/${folder}/${p3}${p4}`);
+
+    // 3. Remove Quarto/Pandoc attributes like {fig-align="center" width="500"}
+    processedBody = processedBody.replace(/(\!\[.*?\]\(.*?\))\{.*?\}/g, '$1');
+
+    meta.content = processedBody;
     return meta;
 }
 
