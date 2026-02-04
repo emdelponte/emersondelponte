@@ -35,7 +35,7 @@ function loadPosts() {
           <div class="item-title-row">
             <div class="item-title" style="white-space: normal; font-weight: bold;">${post.title}</div>
           </div>
-          <div class="item-subtitle" style="font-size: 0.85em; color: #666;">${post.date}</div>
+          <div class="item-subtitle" style="font-size: 0.85em;">${post.date}</div>
         </div>
       </a>
     </li>
@@ -66,11 +66,32 @@ window.openPost = function (index) {
   app.popup.open('#post-popup');
 };
 
+// Function to randomize splash screen background
+function setRandomSplash() {
+  const splashEl = document.querySelector('.splash-page');
+  if (!splashEl) return;
+
+  const images = [
+    'figs/splash.png',          // Wheat
+    'figs/splash_soybean.png',  // Soybean (canopy dark)
+    'figs/splash_corn.png',     // Corn (dawn dramatic)
+    'figs/splash_orange.png',   // Orange Orchard
+    'figs/splash_banana.png'    // Banana Plantation (dawn dramatic)
+  ];
+
+  const randomImage = images[Math.floor(Math.random() * images.length)];
+  splashEl.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.45)), url('${randomImage}')`;
+}
+
 // Initial load
 if (document.readyState === 'complete' || document.readyState === 'interactive') {
   loadPosts();
+  setRandomSplash();
 } else {
-  document.addEventListener('DOMContentLoaded', loadPosts);
+  document.addEventListener('DOMContentLoaded', () => {
+    loadPosts();
+    setRandomSplash();
+  });
 }
 
 // Load posts when tab is clicked

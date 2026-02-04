@@ -137,34 +137,16 @@
     <div id="app">
         <div class="views tabs safe-areas">
 
-            <!-- Tab 1: Home -->
+            <!-- Tab 1: Home (Splash Screen) -->
             <div id="view-home" class="view view-main view-init tab tab-active" data-url="/">
-                <div class="page" data-name="home">
-                    <div class="navbar">
-                        <div class="navbar-bg"></div>
-                        <div class="navbar-inner">
-                            <div class="left">
-                                <div class="navbar-logo">
-                                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M22 15V80H90" stroke="white" stroke-width="10" stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
-                                        <path d="M45 12C85 12 95 45 95 50C95 55 85 88 45 88" stroke="white"
-                                            stroke-width="10" stroke-linecap="round"></path>
-                                        <path d="M35 68C48 45 78 30 92 25C78 40 48 75 28 75Z" fill="white"></path>
-                                    </svg>
-                                    <span>E. M. Del Ponte</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="page-content">
+                <div class="page home-page-splash" data-name="home">
+                    <div class="page-content splash-page">
 
-                        <div class="profile-header">
-                            <img src="figs/delponte.jpeg" alt="Emerson Del Ponte" class="profile-image">
-                            <h1 class="profile-name">Emerson Del Ponte</h1>
-                            <p class="profile-role">Professor at UFV | Plant Pathologist | Data Scientist</p>
+                        <div class="splash-content">
+                            <h1 class="splash-name">Emerson Del Ponte</h1>
+                            <p class="splash-role">Professor | Pathologist | Data Scientist</p>
 
-                            <div class="profile-social">
+                            <div class="splash-social">
                                 <a href="https://github.com/emdelponte" class="external link"><i
                                         class="fa-brands fa-github"></i></a>
                                 <a href="https://www.linkedin.com/in/emerson-m-del-ponte-61678ba1/"
@@ -174,22 +156,7 @@
                                 <a href="https://scholar.google.com.br/citations?user=LgNDabAAAAAJ&hl=en"
                                     class="external link"><i class="fa-solid fa-graduation-cap"></i></a>
                             </div>
-                        </div>
 
-                        <div class="text-container" style="text-align: center;">
-                            <p style="font-size: 1.1em;">
-                                My name is Emerson M. Del Ponte, a professor from the <a href="#"
-                                    class="external">Federal University of Viçosa</a>, Brazil. I teach plant pathology,
-                                epidemiology, and data science, conduct scientific research, and mentor future
-                                professionals.
-                            </p>
-
-                            <div style="margin-top: 30px;">
-                                <a href="#view-about" class="tab-link button button-fill button-round color-theme"
-                                    style="display:inline-flex; width:auto; text-transform:none; font-weight:600; padding:0 30px; background-color: #3B5F8F;">
-                                    More about me
-                                </a>
-                            </div>
                         </div>
 
                     </div>
@@ -203,7 +170,7 @@
                         <div class="navbar-bg"></div>
                         <div class="navbar-inner">
                             <div class="left">
-                                <div class="navbar-logo">
+                                <a href="#view-home" class="tab-link navbar-logo home-link">
                                     <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M22 15V80H90" stroke="white" stroke-width="10" stroke-linecap="round"
                                             stroke-linejoin="round"></path>
@@ -212,7 +179,7 @@
                                         <path d="M35 68C48 45 78 30 92 25C78 40 48 75 28 75Z" fill="white"></path>
                                     </svg>
                                     <span>E. M. Del Ponte</span>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -220,7 +187,9 @@
                         <div class="text-container">
 
                             <h2>Resumé</h2>
-                            <p>I hold a DSc in Plant Pathology from Universidade Federal de Pelotas (2004) and had the
+                            <p><img src="figs/delponte.jpeg" alt="Emerson Del Ponte" class="about-profile-img">I hold a
+                                DSc in Plant Pathology from Universidade Federal de Pelotas (2004)
+                                and had the
                                 privilege of a one-year visit to Cornell University at the Bergstrom Lab. Following
                                 that, I spent two years as a postdoctoral associate working on a project related to
                                 disease risk assessment and prediction at the Yang Lab, Iowa State University.
@@ -294,7 +263,7 @@
                         <div class="navbar-bg"></div>
                         <div class="navbar-inner">
                             <div class="left">
-                                <div class="navbar-logo">
+                                <a href="#view-home" class="tab-link navbar-logo home-link">
                                     <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M22 15V80H90" stroke="white" stroke-width="10" stroke-linecap="round"
                                             stroke-linejoin="round"></path>
@@ -303,7 +272,7 @@
                                         <path d="M35 68C48 45 78 30 92 25C78 40 48 75 28 75Z" fill="white"></path>
                                     </svg>
                                     <span>E. M. Del Ponte</span>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -432,7 +401,7 @@
                         <div class="navbar-bg"></div>
                         <div class="navbar-inner">
                             <div class="left">
-                                <div class="navbar-logo">
+                                <a href="#view-home" class="tab-link navbar-logo home-link">
                                     <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M22 15V80H90" stroke="white" stroke-width="10" stroke-linecap="round"
                                             stroke-linejoin="round"></path>
@@ -441,33 +410,49 @@
                                         <path d="M35 68C48 45 78 30 92 25C78 40 48 75 28 75Z" fill="white"></path>
                                     </svg>
                                     <span>E. M. Del Ponte</span>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="page-content">
                         <div class="text-container">
 
-                            <h2>Book</h2>
+
+                            <h2>Books</h2>
                             <div style="margin-bottom: 30px;">
-                                <div style="text-align: center; margin-bottom: 20px;">
-                                    <a href="https://r4pde.netlify.app/" class="external">
-                                        <img src="https://r4pde.netlify.app/cover.png"
-                                            style="width: 140px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-                                    </a>
-                                </div>
                                 <h3 style="margin-bottom: 10px; margin-top:0;"><a href="https://r4pde.netlify.app/"
                                         class="external">R for Plant Disease Epidemiology (R4PDE)</a></h3>
-                                <p><strong>R for Plant Disease Epidemiology</strong> (<a
-                                        href="https://r4pde.netlify.app/" class="external">R4PDE</a>) is a dynamic
+                                <p>
+                                    <a href="https://r4pde.netlify.app/" class="external">
+                                        <img src="https://r4pde.netlify.app/cover.png" class="book-cover-img">
+                                    </a>
+                                    <strong>R4PDE</strong> is a dynamic
                                     online book rooted on the teaching notes of my graduate course, FIP 602 - Plant
                                     Disease Epidemiology, which is offered every year for students in the <a
                                         href="http://www.dfp.ufv.br/grad/" class="external">Graduate Program in Plant
-                                        Pathology</a> of the Universidade Federal de Viçosa. This book is for those
-                                    interested in studying and modelling plant disease epidemics using R. It provides
+                                        Pathology</a> of the Universidade Federal de Viçosa. This book provides
                                     context and showcases various methods for describing, visualizing and analyzing
-                                    epidemic data collected over time and/or space. Users should have have a
-                                    foundational knowledge of R to run the examples.</p>
+                                    epidemic data collected over time and/or space using R.
+                                </p>
+                            </div>
+
+                            <div style="margin-bottom: 30px; clear: both;">
+                                <h3 style="margin-bottom: 10px; margin-top:0;"><a
+                                        href="https://www.sciencedirect.com/book/edited-volume/9780128224298/agrios-plant-pathology"
+                                        class="external">Agrios' Plant Pathology (6th Ed)</a></h3>
+                                <p>
+                                    <a href="https://www.sciencedirect.com/book/edited-volume/9780128224298/agrios-plant-pathology"
+                                        class="external">
+                                        <img src="figs/agrios.png" class="book-cover-img">
+                                    </a>
+                                    The 6th edition of <strong>Agrios' Plant Pathology</strong> (2024) is the
+                                    long-awaited update to the quintessential reference in the field. Restructured for a
+                                    new generation of scientists, this edition features contributions from
+                                    world-renowned experts. I had the privilege to serve as one of the
+                                    <strong>co-editors</strong> for this edition and I am the <strong>author of three
+                                        chapters</strong> specifically focused on Plant Disease Epidemiology, including
+                                    epidemic modeling, disease progress analysis, and warning systems.
+                                </p>
                             </div>
 
                             <h2>Apps</h2>
@@ -621,7 +606,7 @@
                         <div class="navbar-bg"></div>
                         <div class="navbar-inner">
                             <div class="left">
-                                <div class="navbar-logo">
+                                <a href="#view-home" class="tab-link navbar-logo home-link">
                                     <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M22 15V80H90" stroke="white" stroke-width="10" stroke-linecap="round"
                                             stroke-linejoin="round"></path>
@@ -630,7 +615,7 @@
                                         <path d="M35 68C48 45 78 30 92 25C78 40 48 75 28 75Z" fill="white"></path>
                                     </svg>
                                     <span>E. M. Del Ponte</span>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -692,7 +677,8 @@
                             </a>
                         </div>
                         <div class="right">
-                            <div class="navbar-logo" style="padding-right: 15px;">
+                            <a href="#view-home" class="tab-link navbar-logo home-link popup-close"
+                                style="padding-right: 15px;">
                                 <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M22 15V80H90" stroke="white" stroke-width="10" stroke-linecap="round"
                                         stroke-linejoin="round"></path>
@@ -700,7 +686,7 @@
                                         stroke-width="10" stroke-linecap="round"></path>
                                     <path d="M35 68C48 45 78 30 92 25C78 40 48 75 28 75Z" fill="white"></path>
                                 </svg>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
