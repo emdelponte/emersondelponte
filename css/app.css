@@ -557,8 +557,12 @@ a:hover {
 .timeline-item {
     position: relative;
     padding-left: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     border-left: 2px solid #444;
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 15px;
+    align-items: baseline;
 }
 
 .timeline-item:last-child {
@@ -566,13 +570,14 @@ a:hover {
 }
 
 .timeline-date {
-    display: block;
     font-size: 0.85rem;
     font-weight: 700;
     color: #fff;
-    margin-bottom: 5px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    opacity: 0.95;
+    line-height: 1.6;
 }
 
 .timeline-content {
@@ -585,10 +590,24 @@ a:hover {
     content: '';
     position: absolute;
     left: -7px;
-    top: 2px;
+    top: 8px;
+    /* Perfectly centered with the first text line */
     width: 12px;
     height: 12px;
     background: #fff;
     border-radius: 50%;
     box-shadow: 0 0 0 4px #1a1a1a;
+}
+
+@media (max-width: 650px) {
+    .timeline-item {
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    .timeline-date {
+        display: block;
+        margin-bottom: 4px;
+        white-space: normal;
+    }
 }
