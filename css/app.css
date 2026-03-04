@@ -546,3 +546,49 @@ a:hover {
     padding-top: 0 !important;
     overflow: hidden;
 }
+
+/* Services Timeline */
+.timeline-list {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 30px;
+    border-left: 2px solid #444;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-date {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.timeline-content {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -7px;
+    top: 2px;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px #1a1a1a;
+}
