@@ -611,3 +611,175 @@ a:hover {
         white-space: normal;
     }
 }
+/* ---------- CV page ---------- */
+.cv-content {
+    padding: 30px 0 40px;
+}
+
+.cv-content h1 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0 0 10px;
+}
+
+.cv-content > p:first-of-type strong {
+    color: #fff;
+    font-weight: 600;
+}
+
+.cv-content h2 {
+    display: block;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 2.8em;
+}
+
+.cv-content h3 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #999;
+    margin: 2em 0 1em;
+}
+
+.cv-content ul {
+    padding-left: 20px;
+}
+
+.cv-content li {
+    color: var(--text-secondary);
+    font-size: 15px;
+    line-height: 1.65;
+}
+
+.cv-content strong {
+    color: #fff;
+}
+
+.cv-content .timeline-list {
+    padding-left: 6px;
+    margin: 20px 0;
+}
+
+.cv-content .timeline-item {
+    overflow: visible;
+    grid-template-columns: 130px 1fr;
+    margin-bottom: 18px;
+}
+
+.cv-content .timeline-content {
+    font-size: 15px;
+}
+
+/* Metric cards */
+.cv-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 12px;
+    margin: 30px 0 8px;
+}
+
+.cv-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 16px 8px;
+    background: #242424;
+    border: 1px solid #333;
+    border-radius: 12px;
+}
+
+.cv-stat-value {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.cv-stat-label {
+    font-size: 12px;
+    color: #ddd;
+    margin-top: 4px;
+}
+
+.cv-stat-source {
+    font-size: 11px;
+    color: #888;
+}
+
+.cv-stats + p em {
+    font-size: 12px;
+    color: #888;
+}
+
+/* Research-area chips */
+.cv-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: -0.5em 0 1.5em;
+}
+
+.cv-chip {
+    font-size: 12px;
+    padding: 4px 12px;
+    border: 1px solid #555;
+    border-radius: 999px;
+    color: #ddd;
+}
+
+/* Publications grouped by year */
+.cv-year {
+    border-bottom: 1px solid #333;
+}
+
+.cv-year summary {
+    cursor: pointer;
+    padding: 12px 0;
+    font-weight: 600;
+    color: #fff;
+    list-style: none;
+}
+
+.cv-year summary::-webkit-details-marker {
+    display: none;
+}
+
+.cv-year summary::before {
+    content: '+';
+    display: inline-block;
+    width: 22px;
+    color: #888;
+}
+
+.cv-year[open] summary::before {
+    content: '–';
+}
+
+.cv-content li:has(> .cv-num) {
+    list-style: none;
+    position: relative;
+    margin-left: -20px;
+    padding-left: 48px;
+}
+
+.cv-num {
+    position: absolute;
+    left: 0;
+    top: 3px;
+    min-width: 36px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #888;
+    text-align: right;
+}
+
+@media (max-width: 600px) {
+    .cv-content h1 {
+        font-size: 2.4rem;
+    }
+}
