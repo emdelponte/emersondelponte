@@ -10,7 +10,7 @@ date: "October 2026"
 
 Departamento de Fitopatologia, Universidade Federal de Viçosa (UFV) · Viçosa, MG, Brazil
 
-[delponte@ufv.br](mailto:delponte@ufv.br) · +55 31 3612-4830 · [emersondelponte.com](https://emersondelponte.com) · [ORCID 0000-0003-4398-409X](https://orcid.org/0000-0003-4398-409X) · [Google Scholar](https://scholar.google.com.br/citations?hl=en&user=a1rPnI0AAAAJ) · [GitHub](https://github.com/emdelponte) · [LinkedIn](https://www.linkedin.com/in/emerson-m-del-ponte-61678ba1/)
+[delponte@ufv.br](mailto:delponte@ufv.br) · +55 31 3612-4830 · [emersondelponte.com](https://emersondelponte.com) · [ORCID 0000-0003-4398-409X](https://orcid.org/0000-0003-4398-409X) · [Google Scholar](https://scholar.google.com.br/citations?user=LgNDabAAAAAJ&hl=en) · [GitHub](https://github.com/emdelponte) · [LinkedIn](https://www.linkedin.com/in/emerson-m-del-ponte-61678ba1/)
 
 <div class="cv-stats">
 <div class="cv-stat"><span class="cv-stat-value">170+</span><span class="cv-stat-label">publications</span><span class="cv-stat-source">Scopus</span></div>
