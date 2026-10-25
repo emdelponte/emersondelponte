@@ -11,6 +11,7 @@ var app = new Framework7({
     { path: '/lab/', pageName: 'lab' },
     { path: '/resources/', pageName: 'resources' },
     { path: '/posts/', pageName: 'posts' },
+    { path: '/cv/', pageName: 'cv' },
   ],
 });
 
@@ -19,6 +20,7 @@ var aboutView = app.views.create('#view-about', { url: '/about/' });
 var labView = app.views.create('#view-lab', { url: '/lab/' });
 var resourcesView = app.views.create('#view-resources', { url: '/resources/' });
 var postsView = app.views.create('#view-posts', { url: '/posts/' });
+var cvView = app.views.create('#view-cv', { url: '/cv/' });
 
 // Function to render posts list
 function loadPosts() {
@@ -54,6 +56,45 @@ function openPost(index) {
   app.popup.open('#post-popup');
 }
 
+// Function to load the CV from cv.md
+function loadCV() {
+  const cvEl = document.getElementById('cv-body');
+  if (!cvEl || cvEl.dataset.loaded) return;
+  cvEl.dataset.loaded = 'true';
+
+  fetch('cv.md')
+    .then(res => res.text())
+    .then(text => {
+      // Remove YAML frontmatter
+      const content = text.replace(/^---\s*\n[\s\S]*?\n---\s*/, '');
+      cvEl.innerHTML = marked.parse(content);
+
+      // Dated entries ("- **2023 – present** text") become timeline rows
+      cvEl.querySelectorAll('li').forEach(li => {
+        const first = li.firstChild;
+        if (!first || first.nodeName !== 'STRONG' || !/^(Since |Current|\d{4})/.test(first.textContent)) return;
+        const body = document.createElement('div');
+        body.className = 'timeline-content';
+        while (first.nextSibling) body.appendChild(first.nextSibling);
+        first.className = 'timeline-date';
+        li.classList.add('timeline-item');
+        li.appendChild(body);
+        li.parentElement.classList.add('timeline-list');
+      });
+
+      // External links open in a new tab
+      cvEl.querySelectorAll('a[href^="http"], a[href^="mailto"]').forEach(a => {
+        a.classList.add('external');
+        a.target = '_blank';
+        a.rel = 'noopener';
+      });
+    })
+    .catch(() => {
+      delete cvEl.dataset.loaded;
+      cvEl.innerHTML = '<p>Could not load the CV.</p>';
+    });
+}
+
 // Add event listener for images in splash screen
 function setRandomSplash() {
   const splashPage = document.querySelector('.splash-page');
@@ -74,11 +115,13 @@ function setRandomSplash() {
 // Initialize on app load
 app.on('init', () => {
   loadPosts();
+  loadCV();
   setRandomSplash();
 });
 
 // For initial load if init already fired
 document.addEventListener('DOMContentLoaded', () => {
   loadPosts();
+  loadCV();
   setRandomSplash();
 });
