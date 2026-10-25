@@ -22,6 +22,13 @@ var resourcesView = app.views.create('#view-resources', { url: '/resources/' });
 var postsView = app.views.create('#view-posts', { url: '/posts/' });
 var cvView = app.views.create('#view-cv', { url: '/cv/' });
 
+// Keep the bottom tabbar in sync when a tab is opened from a link inside a page
+app.on('tabShow', (tabEl) => {
+  document.querySelectorAll('.toolbar .tab-link').forEach(link => {
+    link.classList.toggle('tab-link-active', link.getAttribute('href') === '#' + tabEl.id);
+  });
+});
+
 // Function to render posts list
 function loadPosts() {
   const listEl = document.querySelector('#posts-list ul');
