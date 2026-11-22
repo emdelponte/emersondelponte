@@ -116,12 +116,13 @@ Plant disease epidemiologist working at the interface of quantitative methods, d
 ## Teaching
 
 - **Since 2007** Plant Disease Epidemiology (FIP 602, graduate, 60 h). Since 2020 also offered as a free, online-only, English-language edition open to students worldwide.
-- **Since 2014** Data Analysis and Visualization in Plant Pathology (FIP 606, graduate, 60 h)
+- **Since 2014** Data Analysis and Visualization in Plant Pathology (FIP 606, graduate, 60 h). Course notes published as the open book *Análise e Visualização de Dados em Fitopatologia* (2026).
 - **Current** Introduction to Scientific Research (FIP 395, undergraduate, 30 h)
 - **Current** Colóquios em Fitopatologia (graduate seminar course)
 
 ## Software, Data & Open Science
 
+- **Análise e Visualização de Dados em Fitopatologia** — open book (in Portuguese) on data analysis and visualization with R for plant pathology research — [online](https://emdelponte.github.io/analise-dados-fitopatologia/)
 - **r4pde** R package ([CRAN](https://cran.r-project.org/package=r4pde)) and companion open book *R for Plant Disease Epidemiology* — [r4pde.net](https://r4pde.net)
 - **epifitter** R package for analysis and simulation of disease progress curves (Alves & Del Ponte, 2021, *Phytopathology Research*)
 - **Open Plant Pathology** — co-founder of a community initiative promoting open, reproducible research and education in plant pathology
@@ -513,6 +514,10 @@ Completed supervision of 7 doctoral dissertations, 18 M.Sc. theses and 4 Profess
 - <span class="cv-num">1</span> **Del Ponte E.M.**, Godoy C.V., Li X., Yang X.B. (2006). Predicting severity of Asian soybean rust epidemics with empirical rainfall models. Phytopathology, 96(7), 797-803. [doi:10.1094/PHYTO-96-0797](https://doi.org/10.1094/PHYTO-96-0797)
 
 </details>
+
+### Books (1)
+
+- <span class="cv-num">B1</span> **Del Ponte E.M.** (2026). *Análise e Visualização de Dados em Fitopatologia*. 1st ed. Viçosa, MG: Edição do autor. ISBN 978-65-02-48740-2. [doi:10.5281/zenodo.23889987](https://doi.org/10.5281/zenodo.23889987)
 
 ### Book Chapters (4)
 
